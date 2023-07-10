@@ -1,0 +1,27 @@
+{  "Changes":  [ 		
+	
+{"LogName": "firstChild Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+"Entries": {  
+"Tue": "720 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1010 ArchaeologyHouse 18 9 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:school.000\"/1400 Town 83 98 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.001\"/1620 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:samhouse.001\"",
+"Wed": "720 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1010 ArchaeologyHouse 11 11 0 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:school.004\"/1400 Town 83 98 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.001\"/1620 Town 16 90 2 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:afterschool.001\"/1740 AnimalShop 6 5 0",
+"Thu": "700 Forest 92 20 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:forest.001\"/1200 Town 54 69 2 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1530 Town 63 15 2 wave_arms ",
+"Sun": "740 Town 37 68 2 child_ball/1130 Town 54 69 2 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1530 Town 63 15 2 wave_arms",
+"summer_Thu": "630 Custom_KidsTreeHouse 7 5 0 child_twirl/1030 Beach 70 21 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:beach.002\"/1430 Beach 11 25 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:beach.001\"",
+"summer_Sun": "630 Custom_KidsTreeHouse 7 5 0 child_twirl/1030 Beach 70 21 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:beach.002\"/1430 Beach 11 25 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:beach.001\"",
+"fall_Mon": "700 Forest 92 20 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:forest.001\"/1200 Town 54 69 2 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1530 Town 63 15 2 wave_arms ",
+"fall_Thu": "630 Custom_KidsTreeHouse 7 5 0 child_twirl/1200 Town 54 69 2 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1530 Town 63 15 2 wave_arms ",
+"fall_Sun": "700 Forest 92 20 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:forest.001\"/1200 Town 54 69 2 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:town.003\"/1530 Town 63 15 2 wave_arms ",
+},},
+
+{"LogName": "firstChild Schedule CC done",
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+"Entries": { 
+"rain":"800 CommunityCenter 31 12 0 child_twirl/1200 CommunityCenter 8 9 3/1320 CommunityCenter 15 21 1 /1500 CommunityCenter 39 10 0",
+"22": "800 CommunityCenter 39 10 0/1200 CommunityCenter 8 9 3/1320 CommunityCenter 15 21 1 child_read",
+"winter_Mon": "700 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPCName}}:winter.001\"/1130 CommunityCenter 39 10 0"},
+  "When": {  "HasSeenEvent": "191393"}},
+	
+]}

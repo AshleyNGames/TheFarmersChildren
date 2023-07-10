@@ -1,0 +1,19 @@
+{
+  "Name": "NPC The Farmer's Children",
+  "Author": "xiddav",
+  "Description": "A LittleNPCs mod made by Xiddav. Was NPC Child for SVE.",
+  "Version": "4.1.3-beta",
+  "UniqueID": "xiddav.NPCChildren",
+  "UpdateKeys": [ "Nexus:5436 @ The Farmer's Children" ],
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+{"UniqueID": "Candidus42.LittleNPCs",
+	  "IsRequired": true, },
+{"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+   "IsRequired": false,}   ,
+{"UniqueID": "Rafseazz.RSVCP",
+   "IsRequired": false,}   ,
+{"UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": false,   },
+
+]}

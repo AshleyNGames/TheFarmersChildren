@@ -1,0 +1,20 @@
+{     "Changes": [
+	
+//Krobus kids looks
+{"LogName": "Child 2 Krobus Characters base",
+      "Action": "EditImage",
+	"Patchmode": "Replace",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Krobus/{{Season}}.png",},
+
+
+{"LogName": "Child 2 Krobus Portraits base",
+      "Action": "EditImage",
+	"Patchmode": "Replace",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Krobus/{{Season}}.png",},
+
+
+
+	
+]}

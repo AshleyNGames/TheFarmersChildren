@@ -1,0 +1,76 @@
+{     "Changes": [
+	
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Base{{Penny Skin2}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Base{{Penny Skin2}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/{{Penny Hair2}}.png", 
+		"When": { "HasFile:{{FromFile}}": true, },},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/PonyTail{{Penny Hair2}}.png",
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Long{{Penny Hair2}}.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Winter", "IsOutdoors": "false",},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Long{{Penny Hair2}}.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Festival": "WinterStar" ,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/TwinTails{{Penny Hair2}}.png",
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Spring, Fall"},},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/{{Penny Hair2}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true},},
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/PonyTail{{Penny Hair2}}.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"},}, 
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Long{{Penny Hair2}}.png",  
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Winter", "IsOutdoors": "false"},}, 
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/Long{{Penny Hair2}}.png",  
+		"When": { "HasFile:{{FromFile}}": true, "Festival": "WinterStar"},},
+
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Penny/TwinTails{{Penny Hair2}}.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Spring, Fall"},}, 
+ ]}

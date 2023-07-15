@@ -51,12 +51,22 @@
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 17 53 1",
-  "Delimiter": "/"  },
+  "Delimiter": "/"  },     
   {
   "Operation": "Append",
   "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 26 66 1",
-  "Delimiter": "/"  }, ], },
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 25 66 1",
+  "Delimiter": "/"  },
+  {
+   "Operation": "Append",
+    "Target": ["Fields", "mainEvent", 25],
+    "Value": "/faceDirection {{Candidus42.LittleNPCs/SecondLittleNPCName}} 0 true" ,
+			 },   
+  {
+   "Operation": "Append",
+    "Target": ["Fields", "mainEvent", 28],
+    "Value": "/faceDirection {{Candidus42.LittleNPCs/SecondLittleNPCName}} 1 true" ,
+			 },       ]    },  
 
 { "Action": "EditData",
   "Target": "Data/Festivals/spring24",

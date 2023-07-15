@@ -45,7 +45,6 @@
 "Entries": {
  "{{Candidus42.LittleNPCs/FirstLittleNPCName}}": "26 63 1",},  },
 
-
 { "Action": "EditData",
   "Target": "Data/Festivals/spring13",
   "TextOperations": [
@@ -57,16 +56,17 @@
   {
   "Operation": "Append",
   "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 25 69 1",
-  "Delimiter": "/"  }, ], },
-  	   
-{"Action": "EditData",
-        "Target": "Data/Festivals/spring13",
-        "TextOperations": [          {
-             "Operation": "Append",
-             "Target": ["Fields", "set-up", 5],
-             "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPCName}} false true 100 0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12",
-          },        ]    },
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 25 65 1",
+  "Delimiter": "/"  },
+  {
+   "Operation": "Append",
+    "Target": ["Fields", "set-up", 5],
+   "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPCName}} false true 100 0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12",  },
+  {
+   "Operation": "Append",
+    "Target": ["Fields", "mainEvent", 19],
+    "Value": "/Jump {{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+			 },      ]    },  
   
 { "Action": "EditData",
   "Target": "Data/Festivals/spring24",

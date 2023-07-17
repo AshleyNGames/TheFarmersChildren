@@ -1,4 +1,0 @@
-Optional .json you can add
-
-CommunityCenter       - "HasMod": "LemurKat.CommunityCenter.CP", "HasSeenEvent": "191393"
-Custom

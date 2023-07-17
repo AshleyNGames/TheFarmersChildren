@@ -1,0 +1,65 @@
+{ "Format": "1.24.0",
+ 
+ "ConfigSchema": 		{  
+	"Glasses1":			{	"Default": "False"},	
+	"Glasses2":			{	"Default": "False"},	
+	
+	"Shirt1": 		{	"Default": "Blue"},  
+	"Shirt2": 		{	"Default": "Red"},
+	"scrunchie1": 		{	"Default": "Pink"},
+	"scrunchie2": 		{	"Default": "Pink"},
+	"Overalls1": 	{	"Default": "Tan"},
+	"Overalls2":	{	"Default": "Tan"},
+	"Pants1": 		{	"Default": "Blue"},
+	"Pants2": 		{	"Default": "Blue"},
+	"Jacket1": 			{	"Default": "Purple"},	
+	"Jacket2": 			{	"Default": "Orange"},	
+	
+	"Hair1": 	{	"Default": "Black"},
+	"Hair2": 	{	"Default": "Black"},
+	"Skin1" : 	{	"Default": "1"	}, 	
+	"Skin2" : 	{	"Default": "1"	},		},
+    
+"Changes":  [ 	
+{"LogName": "Adoption 1",
+            "Action": "Include",
+            "FromFile": "loads/1st.json",},
+
+{"LogName": "Adoption 2",
+            "Action": "Include",
+            "FromFile": "loads/2nd.json",},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Glasses/{{Glasses1}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Glasses/{{Glasses2}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{"LogName": "Clothes",
+            "Action": "Include",
+            "FromFile": "loads/Clothes.json",},
+//Animation
+{"LogName": "Animations",
+      "Action": "EditData",
+	   "Target": "Data/animationdescriptions",
+      "Entries":  {	
+		"wave_arms": "16/16 17 18 19 18 17 16 16 17 16 16 17 18 19 18 17 16 16/16",
+	    "sit_down": "20 21 22/23/22 21 20",
+	    "child_sit": "20 21 22/23/23",
+	  	"child_fidget": "16/16 17 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 17 16 16 16/16",
+	    "child_twirl": "0/0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12/12",
+	    "child_ball": "26/26 25 24 25 26 27 29 28 25 24 26 28 30 32 34 35 33 31 28 25 24 25 26 25 24 25 27 29 31 30 28 26 25 24 25/26",
+	    "child_read": "20 21 22 23/36/23"	  },},
+
+//NPC Map Locations 
+{ "Action": "EditData",
+  "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+  "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPCName}}": {"MarkerCropOffset": 8},
+  				"{{Candidus42.LittleNPCs/SecondLittleNPCName}}": {"MarkerCropOffset": 7},  },},	
+ ]}

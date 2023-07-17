@@ -1,0 +1,20 @@
+{     "Changes": [
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/skin/{{Skin1}}.png",},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/skin/{{Skin1}}.png",},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/{{Hair1}}.png",},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/{{Hair1}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true},},
+ ]}

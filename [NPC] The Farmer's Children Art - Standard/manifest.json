@@ -2,7 +2,7 @@
   "Name": "NPC The Farmer's Children Art Standard Edition",
   "Author": "xiddav",
   "Description": "A LittleNPCs mod. The Art Part! Standard edition. Not seasonal. Do not take after parents.",
-  "Version": "4.1.2-beta.2",
+  "Version": "4.1.2-beta.3",
   "UniqueID": "xiddav.NPCChildrenART.Standard",
   "UpdateKeys": [ "Nexus:5436" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },

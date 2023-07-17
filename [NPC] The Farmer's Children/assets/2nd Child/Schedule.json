@@ -1,6 +1,6 @@
 {  "Changes":  [ 	 	
 	
-	//Second child schedual Dialogue edits
+//Schedual Dialogue 
 {"LogName": "Second Child Schedule_Dialogue",
 "Action": "EditData",
 "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",
@@ -16,8 +16,8 @@
   "2summerseed.000": "{{i18n:2summerseed.000}}",
   "2fallseed.000": "{{i18n:2fallseed.000}}",},},
 
-//Second child schedual edits Community Center not finished
-{"LogName": "Second Child Schedule edit",
+//Community Center not finished
+{
 "Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",
 "Entries": { 
@@ -44,7 +44,7 @@
 "winter_Thu": "730 ArchaeologyHouse 23 17 0/1300 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"/1700 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"", 
 "winter_Sun": "730 ArchaeologyHouse 11 9 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2school.001\"/1130 ArchaeologyHouse 15 9 0/1300 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"", },},
 
-//Second child schedual edits Community center done
+//Community center done
 {"LogName": "Second Child cc Schedule edit",
 "Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",

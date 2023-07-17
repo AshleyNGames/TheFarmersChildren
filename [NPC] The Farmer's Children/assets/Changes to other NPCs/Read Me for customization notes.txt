@@ -1,0 +1,9 @@
+Optional .json you can add
+
+Dialogue
+Schedule
+HeartEvents
+
+Dialogue {{spouse}}
+Schedule {{spouse}}
+HeartEvents {{spouse}}

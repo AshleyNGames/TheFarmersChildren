@@ -1,0 +1,8 @@
+Optional .json you can add
+
+HeartEvents
+Dialogue {{spouse}}           - replace {{spouse}} with the NPC spouse name
+Schedual {{spouse}}
+
+
+Movies in this folder is not implemented yet. I am still working on them.

@@ -1,10 +1,10 @@
 {
-  "Name": "NPC The Farmer's Children Art",
+  "Name": "NPC The Farmer's Children Art Delux",
   "Author": "xiddav",
-  "Description": "A LittleNPCs mod. The Art Part!",
-  "Version": "4.1.2-beta.3",
+  "Description": "A LittleNPCs mod. The Art Part! Seasonal and can look like Parent.",
+  "Version": "4.1.2-beta.4",
   "UniqueID": "xiddav.NPCChildrenART",
-  "UpdateKeys": [ "Nexus:5436" ],
+  "UpdateKeys": [ "Nexus:5436@Deluxe" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
   "Dependencies": [
 {"UniqueID": "Candidus42.LittleNPCs",

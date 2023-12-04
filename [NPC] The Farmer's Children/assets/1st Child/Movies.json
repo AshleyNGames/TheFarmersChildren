@@ -3,8 +3,8 @@
 {  "Action": "EditData",
   "Target": "Data/ConcessionTastes",
   "Entries": {
- "{{Candidus42.LittleNPCs/FirstLittleNPCName}}": {
-  "Name": "{{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+ "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+  "Name": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
   "LovedTags":   ["Candy", "Sweet", "Salty" ] ,
   "LikedTags":[ "Joja", "Gourmet"  ]  ,
   "DislikedTags":[ "Healthy"  ]  ,  },},},
@@ -12,13 +12,13 @@
 {  "Action": "EditData",
    "Target": "Strings/Characters",
    "Entries": { 
-  "MovieInvite_{{Candidus42.LittleNPCs/FirstLittleNPCName}}": "{{i18n:MovieInvite1}}"},},
+  "MovieInvite_{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:MovieInvite1}}"},},
 
 {"Action": "EditData",
  "Target": "Data/MoviesReactions",
      "Entries": {
-                "{{Candidus42.LittleNPCs/FirstLittleNPCName}}": {
-                    "NPCName": "{{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+                "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
                     "Reactions": [
                         {
                          "Tag": "spring_movie_0", 
@@ -156,10 +156,7 @@
                                     "Script": "",
                                     "Text": "{{i18n:movies.ZUZUce.kid1.after}}"  }   },
                             "ID": "reaction_7"                         },
-					],},},}
-
-
-						
+					],},},}						
 						
 //spring_movie_0 Brave Little Sapling - family, comedy
 //spring_movie_1 NAtural Wonders - documentary, family
@@ -168,6 +165,5 @@
 //fall_movie_0 Mysterium - horror, art
 //fall_movie_1 Howls in the rain - horror
 //winter_movie_0 Miracle at Coldstar Ranch - family, romance
-//winter_movie_1 Zuzu City Express - classic, romance
-	
+//winter_movie_1 Zuzu City Express - classic, romance	
 ]}

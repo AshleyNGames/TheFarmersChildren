@@ -15,14 +15,13 @@
  {  "Name": "FestivalException",	"Value": "true",				"When":	   {"DayEvent |contains= feast of the winter star, wedding": true,"LocationName |contains= Temp, town": true,	 }},
  {	"Name": "FestivalExceptionEVE", "Value": "false",	},
  {  "Name": "FestivalExceptionEVE",	"Value": "true",				"When":	   {"DayEvent |contains= spirit's eve": true, "LocationName |contains= Temp, town": true,	 }},
-  {	"Name": "FestivalDAY", "Value": "false",	},
- {  "Name": "FestivalDAY",	"Value": "true",				"When":	   {"DayEvent |contains= egg festival, flower dance, luau, dance of the moonlight jellies, spirit's eve, stardew valley fair, festival of ice, feast of the winter star": true,	 }},
-  
- ],
+  {	"Name": "FestivalDAY", 			"Value": "false",	},
+ {  "Name": "FestivalDAY",			"Value": "true",				"When":	   {"DayEvent |contains= egg festival, flower dance, luau, dance of the moonlight jellies, spirit's eve, stardew valley fair, festival of ice, feast of the winter star": true,	 }},
+  ],
  
  "ConfigSchema": 		{  
-	"LookLikeParent": 	{	"AllowValues": "true, false",  "Default": "false"},
- 	"LookLikeParent2": 	{	"AllowValues": "true, false",  "Default": "false"},	 
+	"LookLikeParent": 	{	"AllowValues": "true, false",  "Default": "true"},
+ 	"LookLikeParent2": 	{	"AllowValues": "true, false",  "Default": "true"},	 
 	
 	"Glasses1":			{	"Default": "False"},	
 	"Glasses2":			{	"Default": "False"},	
@@ -43,18 +42,18 @@
 	"Tanktop1": 		{	"Default": "Aqua"},
 	"Tanktop2": 		{	"Default": "Aqua"},
 	"SummerShirt1": 	{	"Default": "White"}, 
-	"SummerShirt2": 	{	"Default": "White"}, 
+	"SummerShirt2": 	{	"Default": "White"},
 	
 	"FallShirt1": 		{	"Default": "Red"},  
 	"FallShirt2": 		{	"Default": "Orange"},
 	"scrunchie1": 		{	"Default": "Pink"},
-	"scrunchie2": 		{	"Default": "Pink"},
+	"scrunchie2": 		{	"Default": "Blue"},
 	"FallOveralls1": 	{	"Default": "Tan"},
-	"FallOveralls2":	{	"Default": "Tan"},
+	"FallOveralls2":	{	"Default": "Blue"},
 	"FallPants1": 		{	"Default": "Blue"},
 	"FallPants2": 		{	"Default": "Blue"},
 	"Jacket1": 			{	"Default": "Orange"},	
-	"Jacket2": 			{	"Default": "Orange"},	
+	"Jacket2": 			{	"Default": "Purple"}, 
 	
 	"WinterDress1": 	{	"Default": "Red"},  
 	"WinterDress2": 	{	"Default": "Red"},  
@@ -71,15 +70,12 @@
 	"Earmuffs2":    	{	"Default": "Green"},
 	"Scarf2":			{	"Default": "Orange"},
 	"Coat2": 			{	"Default": "Green"},	
-	"Pants2": 			{	"Default": "Orange"},
+	"Pants2": 			{	"Default": "Orange"}, 	
 	
-	"crewmate1": 		{	"AllowValues": "true, false",  "Default": "false"},
-	"crewmate2": 		{	"AllowValues": "true, false",  "Default": "false"},	
-	
+	"Adoption Skin1": 	{	"Default": "1"},
+	"Adoption Skin2": 	{	"Default": "1"},
 	"Adoption Hair1": 	{	"Default": "Black"},
 	"Adoption Hair2": 	{	"Default": "Brown"},
-	"Adoption Skin1" : 	{	"Default": "1"	}, 	
-	"Adoption Skin2" : 	{	"Default": "1"	},	
 	
 	"Abigail Hair1": 	{	"Default": "Chestnut"},
 	"Abigail Hair2": 	{	"Default": "Chestnut"},
@@ -168,15 +164,15 @@
  		"When": { "HasFile:{{FromFile}}": true, "LookLikeParent2" : true,},},
 
 {      "Action": "editimage",
-      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
 		"Patchmode":"Overlay",
-	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Glasses/{{Glasses1}}.png", 
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Glasses/{{Glasses1}}.png", 
  		"When": { "HasFile:{{FromFile}}": true,},},
 
 {      "Action": "editimage",
-      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
 		"Patchmode":"Overlay",
-	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Glasses/{{Glasses2}}.png", 
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Glasses/{{Glasses2}}.png", 
  		"When": { "HasFile:{{FromFile}}": true,},},
 
 {"LogName": "Clothes",
@@ -205,6 +201,6 @@
 //NPC Map Locations 
 { "Action": "EditData",
   "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
-  "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPCName}}": {"MarkerCropOffset": 8},
-  				"{{Candidus42.LittleNPCs/SecondLittleNPCName}}": {"MarkerCropOffset": 7},  },},	
+  "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {"MarkerCropOffset": 8},
+  				"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {"MarkerCropOffset": 7},  },},	
  ]}

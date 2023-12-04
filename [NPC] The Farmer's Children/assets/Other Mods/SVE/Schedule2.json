@@ -2,16 +2,16 @@
 	
 {
 "Action": "EditData",
-"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
 "Entries": { 
-"Tue": "830 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2school.000\"/1410 Town 100 100 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2garden.000\"/1530 Town 22 63 0 child_ball",
-"Thu": "730 Town 26 30 1 child_ball/1200 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"/1500 Town 64 16 2 child_fidget",
-"Sat": "700 Custom_KidsTreeHouse 4 5 2/1200 Town 24 10 1 child_twirl/1500 Custom_TownEast 34 16 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2towneast.000\"",
-"Sun": "740 SeedShop 2 20 3/1100 SeedShop 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2springseed.000\"/1410 Town 26 30 1 child_ball/1730 Town 64 16 2 child_fidget", 	
-"summer_Mon": "610 Custom_KidsTreeHouse 4 5 2/1130 Beach 43 22 3 sit_down/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"",
+"Tue": "830 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1410 Town 100 100 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2garden.000\"/1530 Town 22 63 0 child_ball",
+"Thu": "730 Town 26 30 1 child_ball/1200 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1500 Town 64 16 2 child_fidget",
+"Sat": "700 Custom_KidsTreeHouse 4 5 2/1200 Town 24 10 1 child_twirl/1500 Custom_TownEast 34 16 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2towneast.000\"",
+"Sun": "740 SeedShop 2 20 3/1100 SeedShop 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2springseed.000\"/1410 Town 26 30 1 child_ball/1730 Town 64 16 2 child_fidget", 	
+"summer_Mon": "610 Custom_KidsTreeHouse 4 5 2/1130 Beach 43 22 3 sit_down/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
 "summer_Thu": "GOTO summer_Mon",	
-"fall_Mon": "730 Town 26 30 1 child_ball/1310 ArchaeologyHouse 23 17 0/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"",
-"fall_Thu": "730 Town 26 30 1 child_ball/1310 ArchaeologyHouse 23 17 0/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"",
-"winter_Mon": "630 Custom_KidsTreeHouse 4 5 2/1130 Custom_KidsTreeHouse 8 7 2 child_fidget/1410 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"",
-"winter_Thu": "730 ArchaeologyHouse 11 9 0/1130 ArchaeologyHouse 15 9 0/1300 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPCName}}:2gameing.000\"",}, },
+"fall_Mon": "730 Town 26 30 1 child_ball/1310 ArchaeologyHouse 23 17 0/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
+"fall_Thu": "730 Town 26 30 1 child_ball/1310 ArchaeologyHouse 23 17 0/1620 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
+"winter_Mon": "630 Custom_KidsTreeHouse 4 5 2/1130 Custom_KidsTreeHouse 8 7 2 child_fidget/1410 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
+"winter_Thu": "730 ArchaeologyHouse 11 9 0/1130 ArchaeologyHouse 15 9 0/1300 Saloon 34 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",}, },
 	]}

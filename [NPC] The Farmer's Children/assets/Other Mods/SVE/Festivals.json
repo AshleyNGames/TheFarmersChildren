@@ -5,11 +5,11 @@
   "TextOperations": [
   {"Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 22 53 0",
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 22 53 0",
   "Delimiter": "/"  },
   {"Operation": "Append",
   "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 26 66 1",
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 66 1",
   "Delimiter": "/"  }, ], },
 
 { "Action": "EditData",
@@ -17,7 +17,7 @@
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPCName}} 20 26 1",
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 20 26 1",
   "Delimiter": "/"  }], },
 	
 { "Action": "EditData",
@@ -25,6 +25,6 @@
   "TextOperations": [
  {"Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 43 37 up",
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 43 37 up",
   "Delimiter": "/"  }], },			
 ]}

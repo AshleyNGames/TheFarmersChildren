@@ -2,4 +2,4 @@ Optional .json you can add
 
 PPJA
 custom
-{{spouse}} - there is a Shane one already as an example
+{{spouse}} - just like the vanilla ones. any modded spouse name will work.

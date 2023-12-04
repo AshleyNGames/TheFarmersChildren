@@ -4,7 +4,7 @@
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [
       { "Operation": "Append",
-         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 1],
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
          "Value": "{{spacechase0.JsonAssets/ObjectId:Highland Ice Cream}} {{spacechase0.JsonAssets/ObjectId:Snowball Slurpee}}",
          "Delimiter": " "       },      ]  ,
    "When": {   "HasMod": "spacechase0.JsonAssets"},},	
@@ -14,7 +14,7 @@
    "TextOperations": [ 
       {
          "Operation": "Append",
-         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 1],
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],
          "Value": "{{spacechase0.JsonAssets/ObjectId:Highland Ice Cream}} {{spacechase0.JsonAssets/ObjectId:Snowball Slurpee}}",
          "Delimiter": " "       },    ]  ,
    "When": {   "HasMod": "spacechase0.JsonAssets"},},	

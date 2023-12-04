@@ -1,9 +1,11 @@
 Optional .json you can add
 
-Dialogue
-Schedule
-HeartEvents
+Dialogue/custom
+Schedule/custom
+HeartEvents/custom
 
-Dialogue {{spouse}}
-Schedule {{spouse}}
-HeartEvents {{spouse}}
+Dialogue/{{spouse}}
+Schedule/{{spouse}}
+HeartEvents/{{spouse}}
+
+{{spouse}} = name of spouse do not actually put {{spouse}}

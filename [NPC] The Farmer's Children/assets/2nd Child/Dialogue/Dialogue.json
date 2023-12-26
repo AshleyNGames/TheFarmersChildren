@@ -17,7 +17,7 @@
 		"fall_27_2" : "{{i18n:2fall272}}",
 		"fall_28_2" : "{{i18n:2fall282}}",
 		"winter_8_2" : "{{i18n:2winter82}}",
-		"winter_25_2" : "{{i18n:2winter252}}"	},},
+		"winter_25_2" : "{{i18n:2winter252}}{{Random:{{i18n:2wintergiftrandom}}}}"	},},
 
 //Rain
 {"LogName": "Rainy sister",

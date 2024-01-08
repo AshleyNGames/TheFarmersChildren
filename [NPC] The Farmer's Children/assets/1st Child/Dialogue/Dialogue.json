@@ -19,9 +19,7 @@
 		"winter_1_2" : "{{i18n:1winter12}}",
 		"winter_8_2" : "{{i18n:1winter82}}",
 		"winter_24_2" : "{{i18n:1winter242}}",
-		"winter_28_2" : "{{i18n:1winter282}}",
-		"Mon" : "{{i18n:1Mon}}{{Random: [169], [388][388][388][388][388], [709], [771][771], [330], [382], [101], [388][388]}}",
-		"Mon10" : "{{i18n:1Mon10}}{{Random: [169], [709][709], [223], [372], [372], [372][372], [394], [723], [723], [393], [116], [589], [392], [586], [152][152][152], [152]}}"	},},
+		"winter_28_2" : "{{i18n:1winter282}}",	},},
 	
 {"LogName": "Child 1 Dialogue edit boy",
 "Action": "EditData",
@@ -53,11 +51,12 @@
    "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
  	"Entries": { 
  		"spring_10_2": "{{Random:{{i18n:spring101.1}}, {{i18n:spring101.2}}, {{i18n:spring101.3}}, {{i18n:spring101.4}}}}", 	 
- 		"Tue": "{{Random:{{i18n:Tue1.1}}}}", 	 
- 		"Wed": "{{Random:{{i18n:Wed1.1}}}}", 
- 		"Thu": "{{i18n:Thu1.0}} {{Random:{{i18n:Thu1.1}}}}", 
+ 		"Mon": "{{i18n:Mon1.0}}#$b#{{Random:{{i18n:Mon1.1}},{{i18n:Mon1.2}},{{i18n:Mon1.1}},{{i18n:Mon1.1}}[169],{{i18n:Mon1.2}},{{i18n:Mon1.1}}[388][388][388][388][388],{{i18n:Mon1.1}}[709],{{i18n:Mon1.1}}[771][771],{{i18n:Mon1.2}},{{i18n:Mon1.1}}[330],{{i18n:Mon1.1}}[382],{{i18n:Mon1.2}},{{i18n:Mon1.1}}[388][388],{{i18n:Mon1.1}}[101],{{i18n:Mon1.2}}}}", 	 
+ 		"Tue": "{{Random:{{i18n:Tue1.1}}}}",
+ 		"Wed": "{{Random:{{i18n:Wed1.1}}}}",
+ 		"Thu": "{{i18n:Thu1.0}} {{Random:{{i18n:Thu1.1}}}}",
  		"Fri": "{{i18n:Fri1.0}} {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}?#$b#{{Random:{{i18n:Fri1.1}}}}", 
- 		"Sat": "{{i18n:Sat1.0}}{{Random:{{i18n:Sat1.1}}}}", 
+ 		"Sat": "{{i18n:Sat1.0}}{{Random:{{i18n:Sat1.1}}}}",
  		"Sun":  "{{i18n:Sun1.0}}{{Random:{{i18n:Sun1.game}}, {{i18n:Sun1.foreign}}, {{i18n:Sun1.noodle}}, {{i18n:Sun1.sweets}}, {{i18n:Sun1.fish}}, {{i18n:Sun1.meat}}}}",
  },},
 ]}

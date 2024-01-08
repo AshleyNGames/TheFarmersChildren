@@ -1,4 +1,4 @@
-{    
+{    	
 	"gift.love1g": "Thank you, thank you, thank you, thank you, thank you!#$b#I love it so much!",
     "gift.like1g": "Thank you Daddy.^Thank you Mommy.",
     "gift.dislike1g": "Ewwwwww...",
@@ -22,7 +22,7 @@
     "gift.dislike2m": "Why would you give me this?",
     "gift.hate2m": "...$3#$b#Am I in trouble?",
     "gift.neutral2m": "Thanks.$3",	
-			
+		
 	"1spring13": "I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.#$b#Just you watch.$1",
     "1spring24": "If I'm the best dancer, the flowers will make me their queen.$1",
     "1summer11": "I love this song!$1",
@@ -54,7 +54,7 @@
   "1school.000": "It's not fare.$3#$b#The weather is so nice.#$b#Why do we have to study when we could be playing?",	
   "1school.001": "I'm glad there's air conditioning here.#$b#Why don't we have that at home?",
   "1school.002": "is concentrating.",	
-  "1school.003": "It's so cold in here.#$b#Can you ask Gunther to turn the heat up?",
+  "1school.003": "It's so cold in here.#$b#Can you ask Mr.Gunther to turn the heat up?",
   "1school.004": "So sleep.$4",
   "1forest.001": "Vincent said chocolate milk comes from brown cows, but Jas said that's not true.",
   "1winter.001": "~~Oh Winter Tree~ ~Oh Winter Tree~~#$b#~~Your Starlight Is So Pretty~~$h",
@@ -76,21 +76,25 @@
   "2mountain.000": "I'm not doing anything.$2#$b#Those rocks were already on the tent, I swear.$2",
   "2school.000": "Not now Dad, I'm studying.^Not now Mom, I'm studying",	
   "2school.001": "What book should I read today?",	
-  "2school.002": "This story is about a princess fighting a lich., This book has a bunch of short stories.#$b#Most of them are fantasy., I'm reading the third book in the Adventure Boy series.",
-  "2towneast.000": "This would be a really great spot for a small house and garden.#$b#Maybe when I'm bigger, I can build a house of my own here.",
+  "2school.002": "This story is about a princess fighting a lich., This book has a bunch of short stories.#$b#Most of them are fantasy., I'm reading the third book in the Adventure Boy series., This book is actually a magic tomb.",
+  "2towneast.000": "This would be a really great spot for a small house and garden.#$b#Maybe when I'm bigger, I can build a wizard tower of my own here.",
   "2garden.000": "The community garden is looking great.",
   "2springseed.000": "Hmmm... potatoes or kale?",
   "2summerseed.000": "Corn crops live a lot longer then most other plants.",
-  "2fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",	
+  "2fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
 	
   "MovieInvite1": "This is going to be so much fun!$1#$b#I wounder what's playing.",
-  "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",	
+  "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",
 	
  "spring101.1": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's ice cream.",
  "spring101.2": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's pink cake.",
  "spring101.3": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's cupcakes.",
- "spring101.4": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's chocolate cake.",
-	   
+ "spring101.4": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's chocolate cake.",	 
+	
+ "Mon1.0":"Hi Daddy!$1^Hi Mommy!$1",
+	"Mon1.1": "I found this in the woods. You can have it. ",
+	"Mon1.2": "I love you!#$b#I also love the beach.",
+	
   "Tue1.1": "~Baa baa black sheep have you any wool?~#$b#~Yes sir yes sir three bags full~, ~Mary had a little lamb little lamb little lamb~#$b#~Mary had a little lamb whose fleece was white as snow.~#$e#~And everywhere that Mary went Mary went Mary went~#$b#~And everywhere that Mary went the lamb was sure to go., ~Old Ms. Marnie had a farm E I E I O. And on her farm she had a cow E I E I O~, ~The farmer's in his den. The farmer's in his den~, ~The sheep’s in the meadow. The cow’s in the corn.~",
 		
   "Wed1.1": "I saw an mouse wearing a hat., I saw a unicorn in the forest!$1, I saw a UFO last night!$1, I saw a mermaid on the beach!$1, I saw a dragon in the distance!$1, I saw a witch flying over the mountains!, I saw a leprechaun on a train!$1, I saw a fairy near the crops!$1, I saw a pink sheep!$1, I saw a doggy in town!$1, I saw something moving in the sewers!$2",	
@@ -109,6 +113,8 @@
     "Sun1.sweets": "That means chocolate cake!$1, I want milk and cookies!",
     "Sun1.fish": "Let's have... uhmmm... tacos?#$b#Yeah! Tacos! Fish tacos!, I want tuna noodle cassarole!#$b#I even got the tuna!$1.[130], I want fish and chips!, Do we have the stuff for surf and terf?, Let's have coconut shrimp!$1",
 	"Sun1.meat": "I want a cheeseburger and potato wedges!, So let's have breadcrumb porkchops!#$b#And I'll help., Big juicy steaks it is!, Let's grill up some BBQ ribs!, We're having fried chicken!",	
+	
+	 "2Introduction": "...Hi?$3",
 	
  	 "Mon2.1": "Hey Dad?^Hey Mom?#$b#How do you keep bees?",
  	 "Mon2.2": "Hey Dad?^Hey Mom?#$b#Can you teach me how to plant crops?",
@@ -146,8 +152,13 @@
 	"Thu2.2": "is being really loud.",
 	"Thu2.3": "wont leave me alone!$2",
 	
+	 "2Fri.0": "%How's school going?#$b#",
+ 	"2Fri.1": "Good. I actually like school., Fine I guess., I wish we could learn something about magic., The other kids can be very loud and annoying.",
+	
 	"Sat2.0": "I get to choose what we have for dinner?$3#$b#Ummm...",
 		"Sat2.1": "chicken nuggets?, curry?, meatloaf?, breakfast?, udon?, cheesey rice?, gyro?, roast beef?, orange chicken?, dim sum?, pineapple pizza?, tonkatsu?, potato soup?, chicken alfredo?, chilli?, pho?, crêpes?, cheese burgers?, hot dogs?, fried rice?, pancakes?",
+	
+	 "2Sun": "Hi Dad.^Hi Mom.#$e#I found this rock for you.",
 	
 	"Summer_112.1": "Can we add Starfruit to the pot this year?#$b#Normal quality is good but silver would be perfect.",
 	"Summer_112.2": "Can we add Blobfish to the pot this year?#$b#Normal quality is good but silver would be perfect.",
@@ -175,8 +186,6 @@
  "1winter82": "I wanna join the competition, but I don't have a fishing rod.$2",
  "1winter242": "Don't forget to leave out milk and cookies Daddy.^Don't forget to leave out milk and cookies Mommy.",
  "1winter282": "~For Auld Lang Syne, my dear. For Auld Lang Syne~#$b#~We'll take a cup of kindness yet, for the sake of Auld Lang Syne~",
- "1Mon": "Hi Daddy!$1^Hi Mommy!$1#$e#I found this in the woods. You can have it.",
- "1Mon10": "I love you so much Daddy!$1^I love you so much Mommy!$1#$b#I also love the beach.",
 	
  "1winter252": "He came! He came!$1#$b#I got",
 	"1girlwintergiftrandom": "a super soft frog pillow!$1, building blocks!$1, a doll as big as me!$1, an explorers kit!$1",
@@ -193,11 +202,7 @@
  "1wintergiftSam":"a drum., a skateboard.",
  "1wintergiftSebastian":"a new helmet., a guitar., a new board game.",
  "1wintergiftShane":"a baby blue chick.",	
-	
- "2Introduction": "...Hi?$3",
- "2Fri": "%How's school going?#$b#Good. I actually like school.",
- "2Sun": "Hi Dad.^Hi Mom.#$e#I found this rock for you.",
- "2Sun10": "Hi Dad.^Hi Mom.#$b#Love you.$1",
+		
  "2spring12": "All the snow melted away over night.$s",
  "2spring132": "What happens to all the eggs after the festival?#$e#Can I keep them?",
  "2spring242": "I don't want to dance with anyone.",
@@ -209,8 +214,7 @@
  "2winter82": "Good luck fishing out on the ice Dad.$3^Good luck fishing out on the ice Mom.$3#$b#I'll cheer you on from solid ground.",
  "2winter252": "Thank you Dad^Thank you Mom.#$b#",		
 	"2wintergiftrandom": "I love my new ball., I can't wait to play all my new games., The potion making set is perfect., The magic wand I got is so cool., The dragon plushie is awesome.",
-	
-	
+		
 //Movies Still being worked on	  I need to actually see the movies     I never built the movie theater
 	"movies.BLS.kid1.before": "",
 	"movies.BLS.kid1.during":"",

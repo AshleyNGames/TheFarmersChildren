@@ -1,4 +1,4 @@
-{ "Format": "1.24.0",
+{ "Format": "2.0",
  
  "ConfigSchema": 	{  
 	"Glasses1":		{	"Default": "False"},	

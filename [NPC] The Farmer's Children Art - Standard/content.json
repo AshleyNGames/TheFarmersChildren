@@ -1,0 +1,191 @@
+{ "Format": "2.0",
+ 
+ "ConfigSchema": 	{  
+	"Glasses1":		{	"Default": "False"},	
+	"Glasses2":		{	"Default": "False"},	
+	
+	"Shirt1": 		{	"Default": "Blue"},  
+	"Shirt2": 		{	"Default": "White"},
+	"scrunchie1": 	{	"Default": "Pink"},
+	"scrunchie2": 	{	"Default": "Yellow"},
+	"Overalls1": 	{	"Default": "Blue"},
+	"Overalls2":	{	"Default": "Tan"},
+	"Pants1": 		{	"Default": "Blue"},
+	"Pants2": 		{	"Default": "Khaki"},
+	"Jacket1": 		{	"Default": "Orange"},	
+	"Jacket2": 		{	"Default": "Blue"},	
+	
+	"Hair1": 	{	"Default": "Light Brown"},
+	"Hair2": 	{	"Default": "Light Brown"},
+	"Skin1" : 	{	"Default": "1"	}, 	
+	"Skin2" : 	{	"Default": "1"	},		},
+    
+"Changes":  [ 	
+//Portraits
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}/skin/{{Skin1}}.png",},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}/skin/{{Skin1}}.png",},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}/{{Hair1}}.png",},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}/{{Hair1}}.png",},
+
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}/skin/{{Skin2}}.png",},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}/skin/{{Skin2}}.png",},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}/{{Hair2}}.png",},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}/{{Hair2}}.png",},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Glasses/{{Glasses1}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Glasses/{{Glasses2}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Hair Accessories/{{scrunchie1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,}},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Hair Accessories/{{scrunchie2}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,}},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Shirt/{{Shirt1}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Shirt/{{Shirt2}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Overalls/{{Overalls1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Overalls/{{Overalls2}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Jacket/{{Jacket1}}.png",
+	"When": {  "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Jacket/{{Jacket2}}.png",
+	"When": { "HasFile:{{FromFile}}": true},},
+
+//Characters 
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Hair Accessories/{{scrunchie1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,}},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Hair Accessories/{{scrunchie2}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true}},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Shirt/{{Shirt1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Shirt/{{Shirt2}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Overalls/{{Overalls1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Overalls/{{Overalls2}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Pants/{{Pants1}}.png",
+ 		"When": {  "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Pants/{{Pants2}}.png",
+ 		"When": { "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}} Clothes/Jacket/{{Jacket1}}.png",
+	"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Jacket/{{Jacket2}}.png",
+	"When": { "HasFile:{{FromFile}}": true},},
+
+//NPC Map Locations 
+{ "Action": "EditData",
+  "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+  "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {"MarkerCropOffset": 8},
+  				"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {"MarkerCropOffset": 7},  },},	
+ ]}

@@ -1,0 +1,18 @@
+{     "Changes": [
+		
+{ "Action": "EditData",
+"Target": "data/festivals/fall27",
+"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Monsters}}"},
+  "When": { "IsOddYear": false,},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+	"When":{"SVE":false},
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 24 63 2",
+  "Delimiter": "/"  }], },	
+
+
+]}

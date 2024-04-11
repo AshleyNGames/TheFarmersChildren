@@ -1,0 +1,14 @@
+{     "Changes": [
+
+{"Action": "EditData",
+"Target": "Data/Festivals/winter25",
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2winter25}}"},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/winter25",
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 37 60 3",
+  "Delimiter": "/"  }], },	
+]}

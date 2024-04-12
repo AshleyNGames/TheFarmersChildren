@@ -184,12 +184,5 @@
             "Action": "Include",
             "FromFile": "loads/Clothes Festivals.json",
 			"When": {"FestivalDAY": true},}, 
-
-
-
-//NPC Map Locations 
-{ "Action": "EditData",
-  "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
-  "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {"MarkerCropOffset": 8},
-  				"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {"MarkerCropOffset": 7},  },},	
+	
  ]}

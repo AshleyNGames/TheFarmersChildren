@@ -6,9 +6,28 @@
 
 { "Action": "EditData",
   "Target": "Data/Festivals/winter25",
+	"When":{"IsOddYear": true},
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 37 60 3",
   "Delimiter": "/"  }], },	
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/winter25",
+	"When":{"IsOddYear": false},
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 38 60 1",
+  "Delimiter": "/"  }], },	
+
+	{"Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+	"When":{"IsOddYear": false},
+        "TextOperations": [          {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up_y2", 5],
+             "Value": "/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true 1 18800 0 1 -10 0 0 3 2 54000 1 100 3 0 0 -5 7 0 0 1 2 100 1 35000",
+          },        ]    },	
 ]}

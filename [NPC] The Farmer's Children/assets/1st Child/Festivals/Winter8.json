@@ -5,11 +5,55 @@
 "Target": "Data/Festivals/winter8",
 "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1winter8}}"},},
 
+{ 
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter8",
+	"When":{"IsOddYear": true},
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 75 36 2",
+  "Delimiter": "/"  },  
+  {
+"Operation": "Append",
+ "Target": ["Entries", "Main-Event_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 76 33 3",
+  "Delimiter": "/"  } ], },
+
     {"Action": "EditData",
         "Target": "Data/Festivals/winter8",
+	"When":{"IsOddYear": true},
         "TextOperations": [          {
              "Operation": "Append",
              "Target": ["Fields", "set-up", 5],
              "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 16 17 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 17 16 16 16",
           },        ]    },	
+	
+	
+	{ 
+  "Action": "EditData",
+  "Target": "Data/Festivals/winter8",
+	"When":{"IsOddYear": false},
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 76 39 0",
+  "Delimiter": "/"  },  
+  {
+"Operation": "Append",
+ "Target": ["Entries", "Main-Event_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPCName}} 76 33 3",
+  "Delimiter": "/"  } ], },
+	
+	{"Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+	"When":{"IsOddYear": false},
+        "TextOperations": [          {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up_y2", 5],
+             "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} true 4 2000 3 100 -4 0 3 5000 4 0 1 100 4 2000",
+          },        ]    },	
+	
 ]}

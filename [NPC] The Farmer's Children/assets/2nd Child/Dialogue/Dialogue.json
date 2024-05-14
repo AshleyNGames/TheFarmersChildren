@@ -1,0 +1,49 @@
+{  "Changes":  [ 	 
+	
+{"LogName": "Child 2 Dialogue",
+"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+	"Entries": {  
+		"Introduction":	"{{i18n:2Introduction}}", 
+		"Fri" : "{{i18n:2Fri.0}} {{Random:{{i18n:2Fri.1}}}}",
+		"Sun" : "{{i18n:2Sun}}{{Random: [390], [535][535], [536], [537], [535], [390][390][390][390][390],[535], [535], [536], [537], [749], [390][390][390][390][390][390][390], [390][390][390][390][390][390][390][390][390], [535], [390][390][390][390][390][390][390][390][390][390][390]}}", 
+		"Sun10" : "{{i18n:2Sun10}}{{Random: [535][535], [536][536], [537][537], [749], [80][80], [64], [66], [577], [70][70], 60], [82]}}", 
+		"spring_1_2" : "{{i18n:2spring12}}",
+		"spring_13_2" : "{{i18n:2spring132}}",
+		"spring_24_2" : "{{i18n:2spring242}}",
+		"summer_14_2" : "{{i18n:2summer142}}", 
+		"summer_28_2" : "{{i18n:2summer282}}",
+		"fall_16_2" : "{{i18n:2fall162}}",
+		"fall_27_2" : "{{i18n:2fall272}}",
+		"fall_28_2" : "{{i18n:2fall282}}",
+		"winter_8_2" : "{{i18n:2winter82}}",
+		"winter_25_2" : "{{i18n:2winter252}}{{Random:{{i18n:2wintergiftrandom}}}}"	},},
+
+//Rain
+{"LogName": "Rainy sister",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/rainy",
+  "Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:2rainsis}}",},
+ "When": { "Weather": "Rain",
+ "Candidus42.LittleNPCs/FirstLittleNPC:Gender": "Female"},},
+
+{"LogName": "Rainy brother",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/rainy",
+  "Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:2rainbro}}"},
+ "When": { "Weather": "Rain",
+ "Candidus42.LittleNPCs/FirstLittleNPC:Gender": "Male"},},
+
+//Dialouge Randoms
+{"LogName": "Random dialogue days second child!",
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+ "Entries": { 
+ "Mon": "{{Random:{{i18n:Mon2.1}}, {{i18n:Mon2.2}}, {{i18n:Mon2.3}}, {{i18n:Mon2.4}}, {{i18n:Mon2.5}}, {{i18n:Mon2.6}}, {{i18n:Mon2.7}}, {{i18n:Mon2.8}}, {{i18n:Mon2.9}}, {{i18n:Mon2.10}}, {{i18n:Mon2.11}}, {{i18n:Mon2.12}}, {{i18n:Mon2.13}}, {{i18n:Mon2.14}}}}",
+ "Tue": "{{Random:{{i18n:Tue2.1}}, {{i18n:Tue2.2}}, {{i18n:Tue2.3}}, {{i18n:Tue2.4}}, {{i18n:Tue2.5}}, {{i18n:Tue2.6}}, {{i18n:Tue2.7}}, {{i18n:Tue2.8}}, {{i18n:Tue2.9}}, {{i18n:Tue2.10}}}}",
+ "Wed": "{{Random:{{i18n:Wed2.1}}, {{i18n:Wed2.2}}, {{i18n:Wed2.3}}, {{i18n:Wed2.4}}}}",
+ "Thu": "{{Random:{{i18n:Thu2.1.1}} {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:Thu2.1.2}}, {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:Thu2.2}}, {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:Thu2.3}}}}",
+ "Sat": "{{i18n:Sat2.0}} {{Random:{{i18n:Sat2.1}}}}",
+ "summer_11_2": "{{Random:{{i18n:Summer_112.1}}, {{i18n:Summer_112.2}}, {{i18n:Summer_112.3}}, {{i18n:Summer_112.4}}, {{i18n:Summer_112.5}}}}",
+ },},	
+]}

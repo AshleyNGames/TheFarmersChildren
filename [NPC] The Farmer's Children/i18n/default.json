@@ -30,17 +30,16 @@
     "1fall16": "I spent all my allowence on the fishing game.$3#$b#Good thing the petting zoo is free, and the piggies are cute.$1",   
 		"1fall16y2": "I'm going to pet all the animals.$1#$b#The fish tent is next.",    
     "1fall27": "Here kitty kitty. I got ham for you.",
+		"1fall27y2": "The maze is really confusing.$3",
     "1winter8": "So many fishies!#$b#I want to catch them all!$1",    
     "1winter25": "I love all the thing you got me, but a secret gift giver is so exciting.#$b#I wonder who it is?",
 	
 	"2spring13": "Why does Mr. Pierre not sell strawberry seeds in his shop?$3#$b#I asked, but he said it's a trade secret.$5",
-	"2spring13abigail": "Grandpa told me why he only sells strawberry seeds today.#$b#He also said it's a secret just between us, and I can't tell anyone.#$b#Not even you.$1",
-    "2spring24": "It's so jiggly.$h",
+	 "2spring24": "It's so jiggly.$h",
 	    "2spring24Mom": "Don't forget to ask Mom to dance.",	
 	    "2spring24Dad": "Don't forget to ask Dad to dance.",
     "2summer11": "Ms. Marnie said I'm too little to help with the soup.$5",
-    "2summer11Shane": "Aunt Marnie said when I'm bigger, she'll let me stir the potion.#$b#I mean soup.$3",
-    "2summer28": "The jellies are so cool.#$b#They travel the whole ocean, but can still find their way here every year, never late or getting lost." ,
+      "2summer28": "The jellies are so cool.#$b#They travel the whole ocean, but can still find their way here every year, never late or getting lost." ,
     "2fall16": "Ms. Welwick told me my future.#$b#",
 	"2fall16.2": "She said I'm going to be a farmer., She said I'm going to be an alchemist., She said I'm going to be a wizard., She said I'm going to be an archaeologist., She said I'm going to raise dinosaurs on a tropical island with a volcano.",
     	"2fall16y2": "I ate so many ribs.$4#$b#My belly hurts, but I want more.$2",
@@ -48,7 +47,7 @@
 	"Monsters": "...Monsters.$s",
     "2winter8": "We're building a snowman.#$b#I made the head.#$e#I wonder how far I can throw it.",
     	"2winter8y2": "The ice mermaid is so cool.#$e#How do they do it?$3",
-    "2winter25": "It's so cold!#$b#Is there any hot coco?$3",	
+    "2winter25": "It's so cold!#$b#Is there any hot coco?$3",
 			
 	"1storm.1": "EEK!#$b#I don't like lightning!$s, The storm is so loud.$s, Yoba sounds angry.$s",	
 	"1rain.1": "~It's raining it's pouring the old man is snoring~#$b#~He bumped his head then went to bed and didn't get up til morning~$0, ~Rain rain go away~$0#$b#~Come again another day~, ~Doo-doo-doot doo~#$b#~Just singin' in the rain~, ~The itsy bitsy spider went up the waterspout~#$b#~Down came the rain and washed the spider out~#$e#~Out came the sun and dried up all the rain~#$b#~And the itsy bitsy spider climbed up the spout again~",	
@@ -106,7 +105,7 @@
   "Thu1.0": "When I grow up, I'm going to be an explorer!$1#$b#",
   	"Thu1.1": "I'll see all the great wonders of the world., I'll climb to the top of every mountains., I'll dive to the bottom of every ocean., I'll find an ancient city in the jungle., I'll find never before seen animals!, I'll fly across the entire globe., I'll even go into space!",
   "Fri1.0": "%What did you do at school this week",
-	 "Fri1.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three." ,
+	 "Fri1.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpols." ,
 		
  "Sat1.0": "Saturday morning cartoons are the best.#$b#",
 	"Sat1.1": "I really like the ones where adults from other cartoons are kids., My favorite shows are when kids team up with monsters to fight the bad guys.$1, The ones when animals act like people are really funny.$1, The superhero ones are okay I guess.$3",
@@ -162,8 +161,9 @@
 	
 	"Sat2.0": "I get to choose what we have for dinner?$3#$b#Ummm...",
 		"Sat2.1": "chicken nuggets?, curry?, meatloaf?, breakfast?, udon?, cheesey rice?, gyro?, roast beef?, orange chicken?, dim sum?, pineapple pizza?, tonkatsu?, potato soup?, chicken alfredo?, chilli?, pho?, crêpes?, cheese burgers?, hot dogs?, fried rice?, pancakes?",
-	
+		
 	 "2Sun": "Hi Dad.^Hi Mom.#$e#I found this rock for you.",
+	 "2Sun10": "I found these really cool looking rocks.#$e#I guess you can have them.",
 	
 	"Summer_112.1": "Can we add Starfruit to the pot this year?#$b#Normal quality is good but silver would be perfect.",
 	"Summer_112.2": "Can we add Blobfish to the pot this year?#$b#Normal quality is good but silver would be perfect.",
@@ -194,19 +194,7 @@
 	
  "1winter252": "He came! He came!$1#$b#I got",
 	"1girlwintergiftrandom": "a super soft frog pillow!$1, building blocks!$1, a doll as big as me!$1, an explorers kit!$1",
-	"1boywintergiftrandom": "a monster truck!$1, building blocks!$1, a train set!$1, an explorers kit!$1",	
- "1wintergiftAbigail":"a wooden sword., a video game.",
- "1wintergiftAlex":"a baseball bat., a football.",
- "1wintergiftElliott":"a story about a little explorer.",
- "1wintergiftEmily":"healing crystals.",
- "1wintergiftHaley":"my own camera., new clothes.",
- "1wintergiftHarvey":"a model plane., a doctor playset.",
- "1wintergiftLeah":"a coloring book., a bunch of paints and a canvas.",
- "1wintergiftMaru":"a little robot.",
- "1wintergiftPenny":"a book.",
- "1wintergiftSam":"a drum., a skateboard.",
- "1wintergiftSebastian":"a new helmet., a guitar., a new board game.",
- "1wintergiftShane":"a baby blue chick.",	
+	"1boywintergiftrandom": "a monster truck!$1, building blocks!$1, a train set!$1, an explorers kit!$1",
 		
  "2spring12": "All the snow melted away over night.$s",
  "2spring132": "What happens to all the eggs after the festival?$3#$e#Can I keep them?$1",
@@ -270,4 +258,173 @@
 	"movies.ZUZUce.kid2.before":"",
 	"movies.ZUZUce.kid2.during":"",
 	"movies.ZUZUce.kid2.after":"",
+	
+	//Alex	
+	"kid.1.Alex":"",
+	"kid.2.Alex":"",	
+	
+	"1spring13Alex":"",
+	"2spring13Alex":"",
+	"1spring24Alex":"",
+	"2spring24Alex":"",
+	"1summer11Alex":"",
+	"2summer11Alex":"",
+	"1summer28Alex":"",
+	"2summer28Alex":"",	
+ "1wintergiftAlex":"a baseball bat., a football.",
+	
+	//Elliott
+	"kid.1.Elliott":"",	
+	"kid.2.Elliott":"",	
+	
+	"1spring13Elliott":"",	
+	"2spring13Elliott":"",
+	"1spring24Elliott":"",
+	"2spring24Elliott":"",
+	"1summer11Elliott":"",
+	"2summer11Elliott":"",
+	"1summer28Elliott":"",
+	"2summer28Elliott":"",	
+ "1wintergiftElliott":"a story about a little explorer.",
+	
+	//Harvey
+	"kid.1.Harvey":"",	
+	"kid.2.Harvey":"",	
+	
+	"1spring13Harvey":"",	
+	"2spring13Harvey":"",
+	"1spring24Harvey":"",
+	"2spring24Harvey":"",
+	"1summer11Harvey":"",
+	"2summer11Harvey":"",
+	"1summer28Harvey":"",
+	"2summer28Harvey":"",
+ "1wintergiftHarvey":"a model plane., a doctor playset.",
+	
+	//Sam
+	"kid.1.Sam":"",	
+	"kid.2.Sam":"",		
+	
+	"1spring13Sam":"",
+	"2spring13Sam":"",
+	"1spring24Sam":"",
+	"2spring24Sam":"",
+	"1summer11Sam":"",
+	"2summer11Sam":"",
+	"1summer28Sam":"",
+	"2summer28Sam":"",
+ "1wintergiftSam":"a drum., a skateboard.",
+	
+	//Sebastian
+	"kid.1.Sebastian":"",	
+	"kid.2.Sebastian":"",	
+	
+	"1spring13Sebastian":"",
+	"2spring13Sebastian":"",
+	"1spring24Sebastian":"",
+	"2spring24Sebastian":"",
+	"1summer11Sebastian":"",
+	"2summer11Sebastian":"",
+	"1summer28Sebastian":"",
+	"2summer28Sebastian":"",	
+ "1wintergiftSebastian":"a new helmet., a guitar., a new board game.",
+	
+	//Shane
+	"kid.1.Shane":"",
+	"kid.2.Shane":"",	
+	
+	"1spring13Shane":"",
+	"2spring13Shane":"",
+	"1spring24Shane":"",
+	"2spring24Shane":"",
+	"1summer11Shane":"Aunt Marnie said when I'm bigger, she'll let me stir the potion.#$b#I mean soup.$3", 
+	"2summer11Shane":"",
+	"1summer28Shane":"",
+	"2summer28Shane":"",
+ "1wintergiftShane":"a baby blue chick.",	
+	
+	
+	//Abigail
+	"kid.1.Abigail":"",		
+	"kid.2.Abigail":"",	
+	
+	"1spring13Abigail":"",
+	"2spring13Abigail": "Grandpa told me why he only sells strawberry seeds today.#$b#He also said it's a secret just between us, and I can't tell anyone.#$b#Not even you.$1",
+	"1spring24Abigail":"",
+	"2spring24Abigail":"",
+	"1summer11Abigail":"",
+	"2summer11Abigail":"",
+	"1summer28Abigail":"",
+	"2summer28Abigail":"",	
+ "1wintergiftAbigail":"a wooden sword., a video game.",
+   	
+	//Emily
+	"kid.1.Emily":"",
+	"kid.2.Emily":"",	
+	
+	"1spring13Emily":"",	
+	"2spring13Emily":"",
+	"1spring24Emily":"",
+	"2spring24Emily":"",
+	"1summer11Emily":"",
+	"2summer11Emily":"",
+	"1summer28Emily":"",
+	"2summer28Emily":"",	
+ "1wintergiftEmily":"healing crystals.",
+	
+	//Haley
+	"kid.1.Haley":"",
+	"kid.2.Haley":"",	
+	
+	"1spring13Haley":"",	
+	"2spring13Haley":"",
+	"1spring24Haley":"",
+	"2spring24Haley":"",
+	"1summer11Haley":"",
+	"2summer11Haley":"",
+	"1summer28Haley":"",
+	"2summer28Haley":"",	
+ "1wintergiftHaley":"my own camera., new clothes.",	
+	
+	//Leah	
+	"kid.1.Leah":"",	
+	"kid.2.Leah":"",	
+	
+	"1spring13Leah":"",	
+	"2spring13Leah":"",
+	"1spring24Leah":"",
+	"2spring24Leah":"",
+	"1summer11Leah":"",
+	"2summer11Leah":"",
+	"1summer28Leah":"",
+	"2summer28Leah":"",	
+ "1wintergiftLeah":"a coloring book., a bunch of paints and canvas.",
+	
+	//Maru
+	"kid.1.Maru":"",
+	"kid.2.Maru":"",	
+	
+	"1spring13Maru":"",	
+	"2spring13Maru":"",	
+	"1spring24Maru":"",
+	"2spring24Maru":"",
+	"1summer11Maru":"",
+	"2summer11Maru":"",
+	"1summer28Maru":"",
+	"2summer28Maru":"",	
+ "1wintergiftMaru":"a little robot.",
+	
+	//Penny
+	"kid.1.Penny":"",
+	"kid.2.Penny":"",	
+	
+	"1spring13Penny":"",	
+	"2spring13Penny":"",
+	"1spring24Penny":"",
+	"2spring24Penny":"",
+	"1summer11Penny":"",
+	"2summer11Penny":"",
+	"1summer28Penny":"",
+	"2summer28Penny":"",	
+ "1wintergiftPenny":"a book.",
 	}

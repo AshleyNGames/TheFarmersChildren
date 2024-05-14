@@ -11,10 +11,7 @@
  {  "Name": "Festival",  			"Value": "SVFair",    					"When":    {"DayEvent": "stardew valley fair", "LocationName": "town, temp"    }},
  {  "Name": "Festival",  			"Value": "WinterStar",    				"When":    {"DayEvent": "feast of the winter star", "LocationName": "town, temp"  }},	
  {  "Name": "SVE",  				"Value": "false",   					"When":    {},},
- {  "Name": "SVE",  				"Value": "true",   						"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},}, 	
- {  "Name": "noschoolday",  		"Value": "false",   					"When":    {},},
- 
- 
+ {  "Name": "SVE",  				"Value": "true",   						"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},}, 	 
  ],  
 
 "Changes":  [ 	

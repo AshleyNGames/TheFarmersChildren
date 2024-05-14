@@ -67,7 +67,7 @@
       "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Jacket/{{Jacket2}}.png",
 	"When": { "HasFile:{{FromFile}}": true},},
 
-//Child 2 Skin Loads
+//Skin Loads
 {      "Action": "Load",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 
       "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}/skin/{{Skin2}}.png",},
@@ -88,11 +88,7 @@
 	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}} Clothes/Glasses/{{Glasses2}}.png", 
  		"When": { "HasFile:{{FromFile}}": true,},},
 
-
-
 //Characters Clothes
-
-
 {      "Action": "editimage",
       "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 
 		"Patchmode":"Overlay",

@@ -1,6 +1,0 @@
-Optional .json you can add
-
-Schedule1
-Schedule2
-Festivals
-Custom

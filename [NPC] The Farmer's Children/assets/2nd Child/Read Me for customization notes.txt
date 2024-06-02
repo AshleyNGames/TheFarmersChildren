@@ -1,8 +1,0 @@
-Optional .json you can add to the three folders
-
-
-{{spouse}}           - replace {{spouse}} with the NPC spouse name
-custom
-
-
-Movies in this folder is not implemented yet. I am still working on them.

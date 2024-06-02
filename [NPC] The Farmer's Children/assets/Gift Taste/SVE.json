@@ -1,0 +1,28 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],
+         "Value": "{{spacechase0.JsonAssets/ObjectId:Mixed Berry Pie}}",
+         "Delimiter": " "       },    
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}} {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}}",
+         "Delimiter": " "       },  ]  ,
+   "When": {   "HasMod": "spacechase0.JsonAssets"},},
+
+{ "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "{{spacechase0.JsonAssets/ObjectId:Mixed Berry Pie}}",
+         "Delimiter": " "       },      
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "{{spacechase0.JsonAssets/ObjectId:Blue Moon Wine}} {{spacechase0.JsonAssets/ObjectId:Aged Blue Moon Wine}}",
+         "Delimiter": " "       },   ]  ,
+   "When": {   "HasMod": "spacechase0.JsonAssets"},},
+]}

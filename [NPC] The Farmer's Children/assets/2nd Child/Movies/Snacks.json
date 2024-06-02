@@ -1,0 +1,10 @@
+{  "Changes":  [ 	 
+
+ {  "Action": "EditData",
+  "Target": "Data/ConcessionTastes",
+  "Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+  "Name": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+  "LovedTags":   ["Candy", "Sweet", "Salty" ] ,
+  "LikedTags":[ "Joja", "Gourmet"  ]  ,
+  "DislikedTags":[ "Healthy"  ]  ,},  },},  
+]}

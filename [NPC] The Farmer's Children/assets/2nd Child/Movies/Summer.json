@@ -1,0 +1,50 @@
+{  "Changes":  [ 	 
+ 
+{  "Action": "EditData",
+   "Target": "Strings/Characters",
+   "Entries": { 
+  "MovieInvite_{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:MovieInvite2}}"},},
+
+{"Action": "EditData",
+ "Target": "Data/MoviesReactions",
+     "Entries": {            
+                "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+                    "Reactions": [
+                        {
+                         "Tag": "summer_movie_0", 
+                         "Response": "love",
+                         "SpecialResponses": {
+                               "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.PK.kid2.before}}"  },
+                               "DuringMovie": {
+                                    "ResponsePoint": null, 
+                                    "Script": "/message \"{{i18n:movies.PK.kid2.during}}\"",
+                                    "Text": ""  },
+                               "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.PK.kid2.after}}"  }   },
+                            "ID": "reaction_2"                         },
+                        {
+                         "Tag": "summer_movie_1", 
+                         "Response": "love",
+                         "SpecialResponses": {
+                               "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.Wumbus.kid2.before}}"  },
+                               "DuringMovie": {
+                                    "ResponsePoint": null, 
+                                    "Script": "/message \"{{i18n:movies.Wumbus.kid2.during}}\"",
+                                    "Text": ""  },
+                               "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:movies.Wumbus.kid2.after}}"  }   },
+                            "ID": "reaction_3"                     },
+                      
+					]}},},
+]}

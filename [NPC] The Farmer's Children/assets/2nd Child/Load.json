@@ -17,16 +17,7 @@
             "FromFile": "assets/2nd Child/Movies/Snacks.json",},
  
 {            "Action": "Include",
-            "FromFile": "assets/2nd Child/Movies/Spring.json",},
- 
-{            "Action": "Include",
-            "FromFile": "assets/2nd Child/Movies/Summer.json",},
- 
-{            "Action": "Include",
-            "FromFile": "assets/2nd Child/Movies/Fall.json",},
- 
-{            "Action": "Include",
-            "FromFile": "assets/2nd Child/Movies/Winter.json",},
+            "FromFile": "assets/2nd Child/Movies/Movies.json",},
 
 //spouse
 {            "Action": "Include",

@@ -22,7 +22,7 @@
                                     "Text": "{{i18n:movies.BLS.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:movies.BLS.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.BLS.kid2.during}}\"",
                                     "Text": ""    },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -39,7 +39,7 @@
                                     "Text": "{{i18n:movies.NW.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.NW.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.NW.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -57,7 +57,7 @@
                                     "Text": "{{i18n:movies.PK.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.PK.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.PK.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -74,7 +74,7 @@
                                     "Text": "{{i18n:movies.Wumbus.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.Wumbus.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.Wumbus.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -92,7 +92,7 @@
                                     "Text": "{{i18n:movies.Mysterium.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.Mysterium.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.Mysterium.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -109,7 +109,7 @@
                                     "Text": "{{i18n:movies.HITR.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.HITR.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.HITR.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -126,7 +126,7 @@
                                     "Text": "{{i18n:movies.MACR.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.MACR.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.MACR.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -143,7 +143,7 @@
                                     "Text": "{{i18n:movies.ZUZUce.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{i18n:movies.ZUZUce.kid2.during}}\"",
+                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.ZUZUce.kid2.during}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,

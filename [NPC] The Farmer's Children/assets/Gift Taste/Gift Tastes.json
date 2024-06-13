@@ -22,6 +22,15 @@
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:gift.love2m}}/220 221 223 233 243 612 721 126 127 903 107/{{i18n:gift.like2m}}/-80 206 211 224 395 731 342 768 769/{{i18n:gift.dislike2m}}/-4 -2 -79 167 832/{{i18n:gift.hate2m}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873 /{{i18n:gift.neutral1m}}/-8 -6 -5 -7 428 432/"},
-  "When": {   "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male",  },},
-	
+  "When": {   "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male",  },},	
+
+ {          "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+            "Entries": {	
+                "AcceptGift_(O)StardropTea": "{{i18n:kid1_AcceptGift_(O)StardropTea}}",}},
+
+ {          "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+            "Entries": {	
+                "AcceptGift_(O)StardropTea": "{{i18n:kid2_AcceptGift_(O)StardropTea}}",}},
 ]}

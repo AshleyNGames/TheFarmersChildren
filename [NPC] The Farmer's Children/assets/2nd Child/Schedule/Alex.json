@@ -1,0 +1,17 @@
+{  "Changes":  [ 	 	
+	
+{
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+		"When": {   "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female",  "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male"},	
+"Entries": { 
+	"Sun":"MAIL saloonSportsRoom/GOTO Sun_normal/740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2springseed.000\"/1050 Saloon 31 6 1/1510 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1700 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"" ,
+	"summer_Sun":"MAIL saloonSportsRoom/GOTO summer_Sun_normal/740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2summerseed.000\"/1050 Saloon 31 6 1/1510 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1700 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"" ,
+	"fall_Sun":"MAIL saloonSportsRoom/GOTO fall_Sun_normal/740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2fallseed.000\"/1050 Saloon 31 6 1/1510 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1700 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"" ,
+	"winter_Sun":"MAIL saloonSportsRoom/GOTO winter_Sun_normal/740 SeedShop 2 20 3/1050 Saloon 31 6 1/1510 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1700 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"" ,
+"Sun_normal":"740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2springseed.000\"/1110 SeedShop 13 27 square_1_4_1/1400 Town 22 62 1 child_ball/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"" ,
+"summer_Sun_normal": "740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2summerseed.000\"/1110 SeedShop 13 27 square_1_4_1/1400 Town 22 62 1 child_ball/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"", 
+"fall_Sun_normal": "740 SeedShop 2 20 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2fallseed.000\"/1110 SeedShop 13 27 square_1_4_1/1400 Town 22 62 1 child_ball/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
+"winter_Sun_normal": "730 ArchaeologyHouse 11 9 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1130 ArchaeologyHouse 15 9 0/1300 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"", 
+},},
+]}

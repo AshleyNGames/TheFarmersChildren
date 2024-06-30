@@ -1,0 +1,34 @@
+{  "Changes":  [  
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { "rain": "730 JoshHouse 2 19 0 square_1_2",	
+	"Sun":"MAIL saloonSportsRoom/GOTO Sun_normal/730 Town 37 68 2 child_ball/1120 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
+	"winter_Sun":"MAIL saloonSportsRoom/GOTO winter_Sun_normal/740 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1110 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
+	"summer_Sun":"GOTO Sun",	
+	"Sun_normal": "730 Town 37 68 2 child_ball/1010 Seedshop 37 22 0/1400 Custom_KidsTreeHouse 7 5 0 child_twirl/1630 Town 63 16 2 wave_arms",
+	"winter_Sun_normal": "730 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1010 Seedshop 37 22 0/1400 Custom_KidsTreeHouse 7 5 0 child_twirl/1630 Town 63 16 2 wave_arms",},
+	"When": {   "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Male"}},		
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { 
+	"Sun_normal": "730 Town 37 68 2 child_ball/1010 Seedshop 37 22 0/1400 CommunityCenter 39 10 0/1630 Saloon 34 17 2 child_fidget/1810 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
+	"winter_Sun_normal": "730 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1000 Seedshop 37 22 0/1400 CommunityCenter 39 10 0/1630 Saloon 34 17 2 child_fidget/1740 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",},
+	"When": {    "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Male", "HasSeenEvent": "191393"}},	
+ 
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { "rain": "730 JoshHouse 2 19 0 square_1_2",	
+	"Sun":"MAIL saloonSportsRoom/GOTO Sun_normal/730 Town 37 68 2 child_ball/1130 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"/1300 Custom_KidsTreeHouse 7 5 0 child_twirl/1500 Custom_KidsTreeHouse 7 8 1/1610 Town 63 16 2 wave_arms",
+	"winter_Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/710 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1100 JojaMart 23 8 2 wave_arms/1240 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\"",
+	"summer_Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/700 Town 37 68 2 child_ball/1100 Beach 77 20 square_4_4_2 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:beach.002\"/1410 Beach 41 21 3 child_fidget/1610 Beach 11 25 square_1_4_3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:beach.001\"",
+	"Sun_normal": "730 Town 37 68 2 child_ball/1000 Seedshop 37 22 0/1400 Custom_KidsTreeHouse 7 5 0 child_twirl/1630 Town 63 16 2 wave_arms",},
+	"When": {   "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female"}},	
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { 
+	"winter_Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/700 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1130 CommunityCenter 39 10 0/1440 CommunityCenter 8 5 0/1740 Saloon 34 17 2 child_fidget",
+	"Sun_normal": "730 Town 37 68 2 child_ball/1010 Seedshop 37 22 0/1400 CommunityCenter 39 10 0/1630 Saloon 34 17 2 child_fidget",},
+	"When": {    "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female", "HasSeenEvent": "191393"}},	
+]}

@@ -39,5 +39,7 @@ Willy
 Wizard
 
 
-if you want changes to happen when someone is your spouse you have to add that to the "When" in the json yourself.
+if you want changes to happen when someone is your spouse you have to add 
+"When": {"spouse": "npc name here"}, 
+in their json yourself
 

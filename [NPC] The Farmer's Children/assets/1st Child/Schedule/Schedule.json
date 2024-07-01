@@ -24,7 +24,21 @@
 	"afterschool.001": "{{i18n:1afterschool.001}}",	  
 	"afterschool.002": "{{i18n:1afterschool.002}}",	 
     "samhouse.001": "%{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}} {{i18n:1samhouse.001}}",
-	"Joja.000": "{{i18n:1Joja.000}}",},},
+	"Joja.000": "{{i18n:1Joja.000}}",
+		"Kid.1.Alex.000" : "{{i18n:Kid.1.Alex.000}}",
+		"Kid.1.Alex.001" : "{{i18n:Kid.1.Alex.001}}",
+		"Kid.1.Sam.000" : "{{i18n:Kid.1.Sam.000}}",
+		"Kid.1.Sebastian.000" : "{{i18n:Kid.1.Sebastian.000}}",
+		"Kid.1.Shane.000" : "{{i18n:Kid.1.Shane.000}}",
+		"Kid.1.Abigail.000" : "{{i18n:Kid.1.Abigail.000}}",
+		"Kid.1.Elliott.000" : "{{i18n:Kid.1.Elliott.000}}",
+		"Kid.1.Emily.000" : "{{i18n:Kid.1.Emily.000}}",
+		"Kid.1.Haley.000" : "{{i18n:Kid.1.Haley.000}}",
+		"Kid.1.Harvey.000" : "{{i18n:Kid.1.Harvey.000}}",
+		"Kid.1.Leah.000" : "{{i18n:Kid.1.Leah.000}}",
+		"Kid.1.Maru.000" : "{{i18n:Kid.1.Maru.000}}",
+		"Kid.1.Penny.000" : "{{i18n:Kid.1.Penny.000}}",
+},},
 
 
 	

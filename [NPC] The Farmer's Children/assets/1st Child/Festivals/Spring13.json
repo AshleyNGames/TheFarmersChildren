@@ -2,14 +2,7 @@
 	
 {"Action": "EditData",
 "Target": "Data/Festivals/spring13",
-	"When":{"IsOddYear": true},
 "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1spring13}}"},},
-
-{"Action": "EditData",
-"Target": "Data/Festivals/spring13",
-	"When":{"IsOddYear": false},
-"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1spring13Alex}}"},},
-
 
 //odd
 { "Action": "EditData",

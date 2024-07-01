@@ -1,4 +1,7 @@
 {    	
+	"Kid.1.GreenRain":"Normaly rain is bad, but it's different today.$3#$b#It just feels better.",
+	"Kid.2.GreenRain":"Why is the rain green?$3#$b#Does it have anything to do with crabs?$3",
+	
 	"gift.love1g": "Thank you, thank you, thank you, thank you, thank you!#$b#I love it so much!",
     "gift.like1g": "Thank you Daddy.^Thank you Mommy.",
     "gift.dislike1g": "Ewwwwww...",
@@ -24,7 +27,9 @@
     "gift.neutral2m": "Thanks.$3",	
 	
 	"kid1_AcceptGift_(O)StardropTea":"It smells so good!$1",
-	"kid2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",
+	"kid2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",	
+	"kid1_AcceptGift_(O)Cookies": "COOKIES!$1",
+	"kid2_AcceptGift_(O)Cookies": "Cookies are the best snack ever.$1",
 		
 	"1spring13": "I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.#$b#Just you watch.$1",
     "1spring24": "If I'm the best dancer, the flowers will make me their queen.$1",
@@ -103,7 +108,8 @@
 	"Mon1.2": "I love you!#$b#I also love the beach.",
 	
   "Tue1.1": "~Baa baa black sheep have you any wool?~#$b#~Yes sir yes sir three bags full~, ~Mary had a little lamb little lamb little lamb~#$b#~Mary had a little lamb whose fleece was white as snow.~#$e#~And everywhere that Mary went Mary went Mary went~#$b#~And everywhere that Mary went the lamb was sure to go., ~Old Ms. Marnie had a farm E I E I O. And on her farm she had a cow E I E I O~, ~The farmer's in his den. The farmer's in his den~, ~The sheep’s in the meadow. The cow’s in the corn.~",
-		
+  "kid.1.923":"I don't have school today.$1",
+	
   "Wed1.1": "I saw an mouse wearing a hat., I saw a unicorn in the forest!$1, I saw a UFO last night!$1, I saw a mermaid on the beach!$1, I saw a dragon in the distance!$1, I saw a witch flying over the mountains!, I saw a leprechaun on a train!$1, I saw a fairy near the crops!$1, I saw a pink sheep!$1, I saw a doggy in town!$1, I saw something moving in the sewers!$2",	
   "Thu1.0": "When I grow up, I'm going to be an explorer!$1#$b#",
   	"Thu1.1": "I'll see all the great wonders of the world., I'll climb to the top of every mountains., I'll dive to the bottom of every ocean., I'll find an ancient city in the jungle., I'll find never before seen animals!, I'll fly across the entire globe., I'll even go into space!",
@@ -142,17 +148,17 @@
 	"Tue2.2": "Where do raindows come from?",
 	"Tue2.3": "Why are there spots on the moon?",
 	"Tue2.4": "Are ghosts real?",
-	"Tue2.5": "When is grandma and grandpa coming to visit?",
+	"Tue2.5": "When is grandma and Grandpa coming to visit?",
 	"Tue2.6": "Why do we need to sleep?",
 	"Tue2.7": "How big is space?",
 	"Tue2.8": "Where does the sun go at night?",
 	"Tue2.9": "What are clouds made of?",
 	"Tue2.10":"Are there aliens?",
 	
-	"Wed2.1": "The man that lives in a tent up the mountain smells weird.",
-	"Wed2.2": "Ms.Marnie smells a lot like a cow.#3",
-	"Wed2.3": "Mr.Willy stinks of fish. Yuck!",
-	"Wed2.4": "%pet got sprayed by a skunk and needs a bath.",
+	"Wed2.1": "The man that lives in a tent up the mountain smells weird.$5",
+	"Wed2.2": "Ms.Marnie smells a lot like a cow.$5",
+	"Wed2.3": "Mr.Willy stinks of fish. Yuck!$5",
+	"Wed2.4": "%pet got sprayed by a skunk and needs a bath.%5",
 	
 	"Thu2.1.1": "I love living on %farm farm.#$b#It's really quiet.#$b#Except for",
 	"Thu2.1.2": "of course.",
@@ -263,37 +269,38 @@
 	"movies.ZUZUce.kid2.after":"...",
 	
 	//Alex	
-	"kid.1.Alex":"",
-	"kid.2.Alex":"",
+	"kid.1.Alex.Jack":"This is the book Daddy likes!$1",
+	"kid.1.Alex.Books":"Do I have to read it?$4",
+	"kid.2.Alex.Jack":"Books are great, and this one is Dads favorite.",
+	
+	"kid.1.Alex.Sun":"I like spending time with Grandpa.#$e#Even if he's a cranky.",
 	
 	"1spring13Alex":"Daddy was eating a lot of eggs.#$b#He must really like them.",
-	"2spring13Alex":"",
-	"1spring24Alex":"",
-	"2spring24Alex":"",
-	"1summer11Alex":"",
-	"2summer11Alex":"",
-	"1summer28Alex":"",
-	"2summer28Alex":"",	
- "1wintergiftAlex":"a baseball bat., a football.",
+	"2spring13Alex":"Dad said eating lots of protein will help me win the egg hunt.",
+ 	"1wintergiftAlex":"a baseball bat., a football., a soccer ball.",	
+	
+	"Kid.1.Alex.000":"I love watching Gridball with Daddy and Grandpa!$1",
+	"Kid.1.Alex.001":"I'm praying to Yoba with Grandpa.#$b#Grandpa seems to smile more when I do.",
+	"Kid.2.Alex.000":"Did Grandpa write this book?",
 	
 	//Elliott
 	"kid.1.Elliott":"",	
-	"kid.2.Elliott":"",	
-	
+	"kid.2.Elliott":"",		
 	"1spring13Elliott":"",	
 	"2spring13Elliott":"",
 	"1spring24Elliott":"",
 	"2spring24Elliott":"",
 	"1summer11Elliott":"",
-	"2summer11Elliott":"",
+	"2summer11Elliott":"Did Dad really live in that old shack?",
 	"1summer28Elliott":"",
 	"2summer28Elliott":"",	
- "1wintergiftElliott":"a story about a little explorer.",
+ "1wintergiftElliott":"a story about a little explorer., a story about a knight., a story about pirate., a space story.",
+	"Kid.1.Elliott.000":"",
+	"Kid.2.Elliott.000":"",
 	
 	//Harvey
 	"kid.1.Harvey":"",	
-	"kid.2.Harvey":"",	
-	
+	"kid.2.Harvey":"",		
 	"1spring13Harvey":"",	
 	"2spring13Harvey":"",
 	"1spring24Harvey":"",
@@ -303,11 +310,12 @@
 	"1summer28Harvey":"",
 	"2summer28Harvey":"",
  "1wintergiftHarvey":"a model plane., a doctor playset.",
+	"Kid.1.Harvey.000":"",
+	"Kid.2.Harvey.000":"",
 	
 	//Sam
 	"kid.1.Sam":"",	
-	"kid.2.Sam":"",		
-	
+	"kid.2.Sam":"",			
 	"1spring13Sam":"",
 	"2spring13Sam":"",
 	"1spring24Sam":"",
@@ -317,11 +325,12 @@
 	"1summer28Sam":"",
 	"2summer28Sam":"",
  "1wintergiftSam":"a drum., a skateboard.",
+	"Kid.1.Sam.000":"",
+	"Kid.2.Sam.000":"",
 	
 	//Sebastian
 	"kid.1.Sebastian":"",	
-	"kid.2.Sebastian":"",	
-	
+	"kid.2.Sebastian":"",		
 	"1spring13Sebastian":"",
 	"2spring13Sebastian":"",
 	"1spring24Sebastian":"",
@@ -331,11 +340,12 @@
 	"1summer28Sebastian":"",
 	"2summer28Sebastian":"",	
  "1wintergiftSebastian":"a new helmet., a guitar., a new board game.",
+	"Kid.1.Sebastian.000":"",
+	"Kid.2.Sebastian.000":"",
 	
 	//Shane
 	"kid.1.Shane":"",
-	"kid.2.Shane":"",	
-	
+	"kid.2.Shane":"",		
 	"1spring13Shane":"",
 	"2spring13Shane":"",
 	"1spring24Shane":"",
@@ -345,6 +355,8 @@
 	"1summer28Shane":"",
 	"2summer28Shane":"",
  "1wintergiftShane":"a baby blue chick.",	
+	"Kid.1.Shane.000":"",
+	"Kid.2.Shane.000":"",
 	
 	
 	//Abigail
@@ -360,12 +372,14 @@
 	"1summer28Abigail":"",
 	"2summer28Abigail":"",	
  "1wintergiftAbigail":"a wooden sword., a video game.",
+	"Kid.1.Abigail.000":"",
+	"Kid.2.Abigail.000":"",
    	
 	//Emily
 	"kid.1.Emily":"",
 	"kid.2.Emily":"",	
 	
-	"1spring13Emily":"",	
+	"1spring13Emily":"I spent all morning helping mommy color eggs.$4",	
 	"2spring13Emily":"",
 	"1spring24Emily":"",
 	"2spring24Emily":"",
@@ -373,7 +387,9 @@
 	"2summer11Emily":"",
 	"1summer28Emily":"",
 	"2summer28Emily":"",	
- "1wintergiftEmily":"healing crystals.",
+ "1wintergiftEmily":"healing crystals., new clothes.",
+	"Kid.1.Emily.000":"",
+	"Kid.2.Emily.000":"",
 	
 	//Haley
 	"kid.1.Haley":"",
@@ -388,6 +404,8 @@
 	"1summer28Haley":"",
 	"2summer28Haley":"",	
  "1wintergiftHaley":"my own camera., new clothes.",	
+	"Kid.1.Haley.000":"",
+	"Kid.2.Haley.000":"",
 	
 	//Leah	
 	"kid.1.Leah":"",	
@@ -401,7 +419,9 @@
 	"2summer11Leah":"",
 	"1summer28Leah":"",
 	"2summer28Leah":"",	
- "1wintergiftLeah":"a coloring book., a bunch of paints and canvas.",
+ "1wintergiftLeah":"a coloring book., a bunch of paints and canvas., a wooden toy car.",	
+	"Kid.1.Leah.000":"",	
+	"Kid.2.Leah.000":"",
 	
 	//Maru
 	"kid.1.Maru":"",
@@ -415,7 +435,9 @@
 	"2summer11Maru":"",
 	"1summer28Maru":"",
 	"2summer28Maru":"",	
- "1wintergiftMaru":"a little robot.",
+ "1wintergiftMaru":"a little robot., a chemistry kit.",	
+	"Kid.1.Maru.000":"",	
+	"Kid.2.Maru.000":"",
 	
 	//Penny
 	"kid.1.Penny":"",
@@ -429,5 +451,7 @@
 	"2summer11Penny":"",
 	"1summer28Penny":"",
 	"2summer28Penny":"",	
- "1wintergiftPenny":"a book.",
+ "1wintergiftPenny":"a book., a book.",
+	"Kid.1.Penny.000":"",
+	"Kid.2.Penny.000":"",
 	}

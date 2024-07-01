@@ -3,4 +3,9 @@
 {"Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2spring24Dad}}"},},
+
+{"Action": "EditData",
+"Target": "Data/Festivals/summer11",
+	"When":{"IsOddYear": true},
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2summer11Elliott}}"},},
 ]}

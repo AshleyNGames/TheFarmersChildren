@@ -1,0 +1,11 @@
+{  "Changes":  [ 	 
+	
+{"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+	"Entries": {  "AcceptGift_(O)Book_Defense": "{{i18n:kid.1.Alex.Jack}}",		
+		"AcceptGift_book_item": "{{i18n:kid.1.Alex.Books}}",
+		"Sun": "{{i18n:kid.1.Alex.Sun}}",
+		"5_2": "{{i18n:Sun1.0}}{{Random:{{i18n:Sun1.game}}, {{i18n:Sun1.foreign}}, {{i18n:Sun1.noodle}}, {{i18n:Sun1.sweets}}, {{i18n:Sun1.fish}}, {{i18n:Sun1.meat}}}}",
+		"19_2": "{{i18n:Sun1.0}}{{Random:{{i18n:Sun1.game}}, {{i18n:Sun1.foreign}}, {{i18n:Sun1.noodle}}, {{i18n:Sun1.sweets}}, {{i18n:Sun1.fish}}, {{i18n:Sun1.meat}}}}",
+		 }},
+]}

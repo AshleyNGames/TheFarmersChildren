@@ -148,7 +148,7 @@
 	"Tue2.2": "Where do raindows come from?",
 	"Tue2.3": "Why are there spots on the moon?",
 	"Tue2.4": "Are ghosts real?",
-	"Tue2.5": "When is grandma and Grandpa coming to visit?",
+	"Tue2.5": "When is Grandma and Grandpa coming to visit?",
 	"Tue2.6": "Why do we need to sleep?",
 	"Tue2.7": "How big is space?",
 	"Tue2.8": "Where does the sun go at night?",
@@ -273,8 +273,7 @@
 	"kid.1.Alex.Books":"Do I have to read it?$4",
 	"kid.2.Alex.Jack":"Books are great, and this one is Dads favorite.",
 	
-	"kid.1.Alex.Sun":"I like spending time with Grandpa.#$e#Even if he's a cranky.",
-	
+	"kid.1.Alex.Sun":"I like spending time with Grandpa.#$e#Even if he's a cranky.",	
 	"1spring13Alex":"Daddy was eating a lot of eggs.#$b#He must really like them.",
 	"2spring13Alex":"Dad said eating lots of protein will help me win the egg hunt.",
  	"1wintergiftAlex":"a baseball bat., a football., a soccer ball.",	
@@ -282,6 +281,7 @@
 	"Kid.1.Alex.000":"I love watching Gridball with Daddy and Grandpa!$1",
 	"Kid.1.Alex.001":"I'm praying to Yoba with Grandpa.#$b#Grandpa seems to smile more when I do.",
 	"Kid.2.Alex.000":"Did Grandpa write this book?",
+	"kid.2.Alex.summer.000":"Can I have an ice cream?#$e#Dad said I still have to pay for one.$5",
 	
 	//Elliott
 	"kid.1.Elliott":"",	
@@ -341,7 +341,9 @@
 	"2summer28Sebastian":"",	
  "1wintergiftSebastian":"a new helmet., a guitar., a new board game.",
 	"Kid.1.Sebastian.000":"",
-	"Kid.2.Sebastian.000":"",
+	"Kid.2.Sebastian.000":"",	
+	"kid.1.Sebastian.Rain":"The ocean is really pretty in the rain.$1",
+	"kid.2.Sebastian.Rain":"Grandpa Demetrius asked me to collect rain water from the farm for him.#$e#I wonder what he's doing with it?$3",
 	
 	//Shane
 	"kid.1.Shane":"",
@@ -438,6 +440,8 @@
  "1wintergiftMaru":"a little robot., a chemistry kit.",	
 	"Kid.1.Maru.000":"",	
 	"Kid.2.Maru.000":"",
+	"kid.1.Maru.Rain":"",
+	"kid.2.Maru.Rain":"Grandpa asked me to collect rain water from the farm for him.#$e#I wonder what he's doing with it?$3",
 	
 	//Penny
 	"kid.1.Penny":"",

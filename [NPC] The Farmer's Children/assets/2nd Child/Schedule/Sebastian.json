@@ -1,0 +1,6 @@
+{  "Changes":  [ 	 	
+	
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { "rain": "a1110 ScienceHouse 22 21 1/1420 ScienceHouse 19 23 2/1740 ScienceHouse 26 13 1",},},
+]}

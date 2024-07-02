@@ -1,0 +1,21 @@
+{  "Changes":  [  
+	
+	
+{"Action": "EditData",
+	"When":{"Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Alex",
+"Entries": { 	"9":"GOTO NO_SCHEDULE",	
+				"23":"GOTO NO_SCHEDULE",
+				"marriage_Tue": "a940 Town 50 68 1/a1010 Town 60 72 0/a1050 Town 83 94 1/1120 JoshHouse 6 18 2/1910 bed",
+				"marriage_Wed": "GOTO marriage_Tue",
+				"marriage_Fri": "GOTO marriage_Tue", },},
+	
+{"Action": "EditData",
+	"When":{"Season":"Summer", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Alex",
+"Entries": { 	"9":"GOTO NO_SCHEDULE",	
+				"23":"GOTO NO_SCHEDULE",
+				"marriage_Tue": "a940 Town 50 68 1/a1010 Town 60 72 0/a1050 Town 83 94 1/1110 Beach 30 13 2 square_7_7/a1350 Town 88 91 2/1700 JoshHouse 6 18 2/1910 bed",
+				"marriage_Wed": "GOTO marriage_Tue",
+				"marriage_Fri": "GOTO marriage_Tue", },},
+]}

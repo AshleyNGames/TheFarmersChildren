@@ -86,7 +86,7 @@
  
   "2gameing.000": "is pretending to play, but it's just the video on loop." ,
   "2mountain.000": "I'm not doing anything.$2#$b#Those rocks were already on the tent, I swear.$2",
-  "2school.000": "Not now Dad, I'm studying.^Not now Mom, I'm studying",	
+  "2school.000": "Not now Dad, I'm studying.$5^Not now Mom, I'm studying.$5",	
   "2school.001": "What book should I read today?",	
   "2school.002": "This story is about a princess fighting a lich., This book has a bunch of short stories.#$b#Most of them are fantasy., I'm reading the third book in the Adventure Boy series., This book is actually a magic tomb.",
   "2towneast.000": "This would be a really great spot for a small house and garden.#$b#Maybe when I'm bigger, I can build a wizard tower of my own here.",
@@ -94,6 +94,7 @@
   "2springseed.000": "Hmmm... potatoes or kale?",
   "2summerseed.000": "Corn crops live a lot longer then most other plants.",
   "2fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
+	"2magic.000": "I'm learning lots from the Wizard.#$b#See?$6",
 	
   "MovieInvite1": "This is going to be so much fun!$1#$b#I wounder what's playing.",
   "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",
@@ -193,6 +194,7 @@
  "1summer112": "Yay! Party, on the beach!",
  "1summer282": "The moonlight jellies are comming tonight.$1#$b#Can we catch one?$3",
  "1fall12": "I was too tired to catch any jellies last night.$2",
+	"1fall152":"Can I have some money for the fair tomorrow?$3",
  "1fall162": "Hurry Up Daddy!^Hurry Up Mommy!#$b#I wanna play the fishing game!",
  "1fall272": "BOO!#$b#Haha, I'm scary.$h#$b#Great-Grandpa even said so.",
  "1fall282": "My tummy hurts.$4",
@@ -269,14 +271,19 @@
 	"movies.ZUZUce.kid2.after":"...",
 	
 	//Alex	
+	"kid.1.Alex":"",
+	"kid.2.Alex":"",
+	
 	"kid.1.Alex.Jack":"This is the book Daddy likes!$1",
 	"kid.1.Alex.Books":"Do I have to read it?$4",
 	"kid.2.Alex.Jack":"Books are great, and this one is Dads favorite.",
+	"kid.1.Alex_AcceptGift_(O)Cookies": "COOKIES!$1#$b#They taste just like Granny's.",
+	"kid.2.Alex_AcceptGift_(O)Cookies": "Did Granny make these?$1#$b#Her cookies are the best.",
 	
-	"kid.1.Alex.Sun":"I like spending time with Grandpa.#$e#Even if he's a cranky.",	
+	"kid.1.Alex.Sun":"I like spending time with Grandpa.#$e#Even if he's a cranky.",
 	"1spring13Alex":"Daddy was eating a lot of eggs.#$b#He must really like them.",
 	"2spring13Alex":"Dad said eating lots of protein will help me win the egg hunt.",
- 	"1wintergiftAlex":"a baseball bat., a football., a soccer ball.",	
+ 	"1wintergiftAlex":"a baseball bat., a gridball., a soccer ball., a basketball",
 	
 	"Kid.1.Alex.000":"I love watching Gridball with Daddy and Grandpa!$1",
 	"Kid.1.Alex.001":"I'm praying to Yoba with Grandpa.#$b#Grandpa seems to smile more when I do.",

@@ -2,7 +2,7 @@
 	
 	
 {"Action": "EditData",
-	"When":{"Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+	"When":{ "spouse":"Alex", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
 "Target": "Characters/schedules/Alex",
 "Entries": { 	"9":"GOTO NO_SCHEDULE",	
 				"23":"GOTO NO_SCHEDULE",
@@ -11,7 +11,7 @@
 				"marriage_Fri": "GOTO marriage_Tue", },},
 	
 {"Action": "EditData",
-	"When":{"Season":"Summer", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+	"When":{ "spouse":"Alex", "Season":"Summer", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
 "Target": "Characters/schedules/Alex",
 "Entries": { 	"9":"GOTO NO_SCHEDULE",	
 				"23":"GOTO NO_SCHEDULE",

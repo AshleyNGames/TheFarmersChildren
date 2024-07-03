@@ -11,6 +11,7 @@
 "Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:gift.love2g}}/104 220 223 233 243 591 612 903 107/{{i18n:gift.like2g}}/221 -80 206 211 224 395 731 342 768 769 book_item/{{i18n:gift.dislike2g}}/-4 -2 -79 167 832/{{i18n:gift.hate2g}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873/{{i18n:gift.neutral2g}}/-8 -6 -5 -7 428 432/"},
   "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Female",},},
 
+
  {"Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
 	  "When": {  "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female",},

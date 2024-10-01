@@ -1,5 +1,5 @@
 { "Format": "2.0.0",
-
+	
  "DynamicTokens": [  
  {  "Name": "IsOddYear",  			"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
  {  "Name": "Festival",  			"Value": "EggFestival",   				"When":    {"DayEvent": "egg festival", "LocationName": "town, temp"    }},
@@ -11,9 +11,10 @@
  {  "Name": "Festival",  			"Value": "SVFair",    					"When":    {"DayEvent": "stardew valley fair", "LocationName": "town, temp"    }},
  {  "Name": "Festival",  			"Value": "WinterStar",    				"When":    {"DayEvent": "feast of the winter star", "LocationName": "town, temp"  }},	
  {  "Name": "SVE",  				"Value": "false",   					"When":    {},},
- {  "Name": "SVE",  				"Value": "true",   						"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},}, 	 
+ {  "Name": "SVE",  				"Value": "true",   						"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},}, 
  ],  
 
+	
 "Changes":  [ 	
 //loads
 {"Action": "Load",
@@ -37,21 +38,21 @@
 
 //include
 {"Action": "Include",
-"FromFile": "assets/1st Child/Load.json"},
+"FromFile": "assets/1st Child/Load.json",},
 {"Action": "Include",
-"FromFile": "assets/2nd Child/Load.json"}, 
+"FromFile": "assets/2nd Child/Load.json",}, 
  
 //Changes to other NPCs
 {            "Action": "Include",
-            "FromFile": "assets/Changes to other NPCs/Load.json"},   
+            "FromFile": "assets/Changes to other NPCs/Load.json",},   
 
 //Changes to other Mods
 {            "Action": "Include",
-            "FromFile": "assets/Other Mods/Load.json"}, 
+            "FromFile": "assets/Other Mods/Load.json",}, 
 
 //Gift Tastes
 {           "Action": "Include",
-            "FromFile": "assets/Gift Taste/Gift Tastes.json"},  
+            "FromFile": "assets/Gift Taste/Gift Tastes.json",},  
 
 {            "Action": "Include",
             "FromFile": "assets/Gift Taste/{{spouse}}.json",
@@ -59,19 +60,19 @@
 
 {            "Action": "Include",
             "FromFile": "assets/Gift Taste/SVE.json",
-	"When": { "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true}}, 
+	 "When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
 
 {            "Action": "Include",
             "FromFile": "assets/Gift Taste/RSV.json",
-	"When": { "HasMod": "Rafseazz.RSVCP", "HasFile:{{FromFile}}": true}}, 
+	"When":  {"HasMod|contains=DaisyNiko.SVR3": true, "HasFile:{{FromFile}}": true},}, 
 
 {            "Action": "Include",
             "FromFile": "assets/Gift Taste/PPJA.json",
-	"When": { "HasFile:{{FromFile}}": true }}, 
+	"When": { "HasFile:{{FromFile}}": true },}, 
 
 {            "Action": "Include",
             "FromFile": "assets/Gift Taste/custom.json",
-	"When": { "HasFile:{{FromFile}}": true }}, 
+	"When": { "HasFile:{{FromFile}}": true },}, 
 
 //Animation
 {"LogName": "Animations",

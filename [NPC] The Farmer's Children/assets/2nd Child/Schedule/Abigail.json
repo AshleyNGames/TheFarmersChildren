@@ -5,6 +5,9 @@
 "Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
 "Entries": { 
-"rain": "730 SeedShop 2 21 square_1_3_3/1300 SeedShop 6 17 square_3_1_2/1600 SeedShop 13 27 square_1_4_1",},} 
+"rain": "730 SeedShop 2 21 square_1_3_3/1300 SeedShop 6 17 square_3_1_2/1600 SeedShop 13 27 square_1_4_1",	
+	"Wed": "a920 Town 61 68 0 square_3_3/a1110 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1500 Town 22 63 0 child_ball",	
+	"summer_Wed": "a920 Town 61 68 0 square_3_3/a1110 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1550 Town 22 63 0 child_ball",     
+},} 
 
 ]}

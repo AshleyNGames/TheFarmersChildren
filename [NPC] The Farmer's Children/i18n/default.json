@@ -30,6 +30,7 @@
 	"kid2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",	
 	"kid1_AcceptGift_(O)Cookies": "COOKIES!$1",
 	"kid2_AcceptGift_(O)Cookies": "Cookies are the best snack ever.$1",
+	"kid1_AcceptGift_(TR)FrogEgg": "A frog egg?$3#$b#I'm going to have my own little pet!$1",
 		
 	"1spring13": "I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.#$b#Just you watch.$1",
     "1spring24": "If I'm the best dancer, the flowers will make me their queen.$1",
@@ -57,7 +58,7 @@
     	"2winter8y2": "The ice mermaid is so cool.#$e#How do they do it?$3",
     "2winter25": "It's so cold!#$b#Is there any hot coco?$3",
 			
-	"1storm.1": "EEK!#$b#I don't like lightning!$s, The storm is so loud.$s, Yoba sounds angry.$s",	
+	"1storm.1": "EEK!$3#$b#I don't like lightning!$s, The storm is so loud.$s, Yoba sounds angry.$s",	
 	"1rain.1": "~It's raining it's pouring the old man is snoring~#$b#~He bumped his head then went to bed and didn't get up til morning~$0, ~Rain rain go away~$0#$b#~Come again another day~, ~Doo-doo-doot doo~#$b#~Just singin' in the rain~, ~The itsy bitsy spider went up the waterspout~#$b#~Down came the rain and washed the spider out~#$e#~Out came the sun and dried up all the rain~#$b#~And the itsy bitsy spider climbed up the spout again~",	
 		
 	"2rainsis": "doesn't like the sound of rain, so she tries to sing louder then it.$3#$b#I'd rather hear the rain then her singing.",
@@ -65,13 +66,13 @@
 			
   "1school.000": "It's not fare.$5#$b#The weather is so nice.$5#$b#Why do we have to study when we could be playing?$5",	
   "1school.001": "I'm glad there's air conditioning here.#$b#Why don't we have that at home?$3",
-  "1school.002": "is concentrating.",	
+  "1school.002": "School is so boring.$4",	
   "1school.003": "It's so cold in here.$5#$b#Can you ask Mr.Gunther to turn the heat up?$3",
   "1school.004": "So sleepy.$4",
   "1forest.001": "Vincent said chocolate milk comes from brown cows, but Jas said that's not true.",
-  "1winter.001": "~~Oh Winter Tree~ ~Oh Winter Tree~~#$b#~~Your Starlight Is So Pretty~~$h",
+  "1winter.001": "~Oh Winter Tree, Oh Winter Tree~#$b#~Your Starlight Is So Pretty~$h",
   "1beach.001": "I saw a mermaid over there.$1",
-  "1beach.002": "is playing in the tide pools.",
+  "1beach.002": "Tide pools have so many animals in them!$1",
   "1beach.003": "Happy Birthday Jas!",
   "1town.003": "Goodboy Dusty.",
   "1town.001": "Look at all the fishies.#$b#Can you catch one Daddy?^Can you catch one Mommy?#$b#Then we can keep it as a pet in a fish pond.$1",
@@ -81,7 +82,7 @@
   "1afterschool.000": "I'm going to spend some time with Vincent.",
   "1afterschool.001": "I'm going to spend some time with Jas.",
   "1afterschool.002": "Russel is so cute.#$b#Can I take him home?",
-  "1samhouse.001": "is playing with Vincent's toys. Looks fun.",
+  "1samhouse.001": "Vincent has this really weird looking thing in his toybox.$3",
   "1Joja.000": "These fish don't look good.$3",
  
   "2gameing.000": "is pretending to play, but it's just the video on loop." ,
@@ -167,7 +168,7 @@
 	"Thu2.3": "wont leave me alone!$2",
 	
 	 "2Fri.0": "%How's school going?#$b#",
- 	"2Fri.1": "Good. I actually like school., Fine I guess., I wish we could learn something about magic., The other kids can be very loud and annoying.",
+ 	"2Fri.1": "Good. I actually like school., Fine I guess., I wish we could learn something about magic., The other kids are loud and annoying.",
 	
 	"Sat2.0": "I get to choose what we have for dinner?$3#$b#Ummm...",
 		"Sat2.1": "chicken nuggets?, curry?, meatloaf?, breakfast?, udon?, cheesey rice?, gyro?, roast beef?, orange chicken?, dim sum?, pineapple pizza?, tonkatsu?, potato soup?, chicken alfredo?, chilli?, pho?, crêpes?, cheese burgers?, hot dogs?, fried rice?, pancakes?",

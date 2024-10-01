@@ -8,13 +8,13 @@
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
   "Dependencies": [
 {"UniqueID": "Candidus42.LittleNPCs",
-	  "IsRequired": true },
+	"IsRequired": true},
 {"UniqueID": "Xiddav.KidsTreeHouse",
-	  "IsRequired": true },
+	"IsRequired": true},
 {"UniqueID": "FlashShifter.StardewValleyExpandedCP",
-   "IsRequired": false}   ,
+   "IsRequired": false},
 {"UniqueID": "Rafseazz.RSVCP",
-   "IsRequired": false}   ,
+   "IsRequired": false},
 {"UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": false   }
+    "IsRequired": false}
 ]}

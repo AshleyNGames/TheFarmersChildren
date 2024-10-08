@@ -1,20 +1,5 @@
 { "Format": "2.0.0",
-	
- "DynamicTokens": [  
- {  "Name": "IsOddYear",  			"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
- {  "Name": "Festival",  			"Value": "EggFestival",   				"When":    {"DayEvent": "egg festival", "LocationName": "town, temp"    }},
- {  "Name": "Festival",   			"Value": "FlowerDance",   				"When":    {"DayEvent": "flower dance", "LocationName": "Forest, temp"    }},
- {  "Name": "Festival",   			"Value": "IceFestival",   				"When":    {"DayEvent": "festival of ice", "LocationName": "Forest, temp"    }},
- {  "Name": "Festival",   			"Value": "Luau",    					"When":    {"DayEvent": "luau", "LocationName": "Beach, temp"    }},
- {  "Name": "Festival",   			"Value": "MoonlightJellies",  			"When":    {"DayEvent": "dance of the moonlight jellies", "LocationName": "Beach, temp"    }},
- {  "Name": "Festival",   			"Value": "SpiritsEve",    				"When":    {"DayEvent": "spirit's eve", "LocationName": "town, temp"    }},
- {  "Name": "Festival",  			"Value": "SVFair",    					"When":    {"DayEvent": "stardew valley fair", "LocationName": "town, temp"    }},
- {  "Name": "Festival",  			"Value": "WinterStar",    				"When":    {"DayEvent": "feast of the winter star", "LocationName": "town, temp"  }},	
- {  "Name": "SVE",  				"Value": "false",   					"When":    {},},
- {  "Name": "SVE",  				"Value": "true",   						"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},}, 
- ],  
-
-	
+		
 "Changes":  [ 	
 //loads
 {"Action": "Load",
@@ -42,15 +27,12 @@
 {"Action": "Include",
 "FromFile": "assets/2nd Child/Load.json",}, 
  
-//Changes to other NPCs
 {            "Action": "Include",
             "FromFile": "assets/Changes to other NPCs/Load.json",},   
 
-//Changes to other Mods
 {            "Action": "Include",
             "FromFile": "assets/Other Mods/Load.json",}, 
 
-//Gift Tastes
 {           "Action": "Include",
             "FromFile": "assets/Gift Taste/Gift Tastes.json",},  
 
@@ -85,5 +67,4 @@
 	    "child_twirl": "0/0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12/12",
 	    "child_ball": "26/26 25 24 25 26 27 29 28 25 24 26 28 30 32 34 35 33 31 28 25 24 25 26 25 24 25 27 29 31 30 28 26 25 24 25/26",
 	    "child_read": "20 21 22 23/36/23",
-	  },},
- ]}
+	  },}, ]}

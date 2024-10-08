@@ -4,7 +4,7 @@
 "Action": "EditData",
 "Target": "Data/Festivals/spring24",
 "Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1spring24}}",
-			  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_y2": "{{i18n:1spring24}}",},},
+			  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_y2": "{{i18n:1spring24y2}}",},},
 
 //y1
 { "Action": "EditData",

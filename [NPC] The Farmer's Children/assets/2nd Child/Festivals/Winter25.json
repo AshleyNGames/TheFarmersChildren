@@ -3,7 +3,7 @@
 {"Action": "EditData",
 "Target": "Data/Festivals/winter25",
 "Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2winter25}}",
-			  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:2winter25}}"},},
+			  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:2winter25y2}}"},},
 
 { "Action": "EditData",
   "Target": "Data/Festivals/winter25",

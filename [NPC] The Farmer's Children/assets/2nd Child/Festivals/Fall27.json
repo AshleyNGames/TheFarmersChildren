@@ -1,19 +1,12 @@
-{     "Changes": [
-		
+{     "Changes": [		
 	
 	{ "Action": "EditData",
 "Target": "data/festivals/fall27",
-"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2fall27}}"},
-  "When": { "IsOddYear": true,},},
-	
-{ "Action": "EditData",
-"Target": "data/festivals/fall27",
-"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Monsters}}"},
-  "When": { "IsOddYear": false,},},
+"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2fall27}}",
+             "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:Monsters}}"  },},	
 
 { "Action": "EditData",
   "Target": "Data/Festivals/fall27",
-  "When": { "IsOddYear": true,},
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -22,10 +15,9 @@
 
 { "Action": "EditData",
   "Target": "Data/Festivals/fall27",
-  "When": { "IsOddYear": false,},
   "TextOperations": [  {  
   "Operation": "Append",
-  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 15 66 0",
   "Delimiter": "/"  }], },	
 ]}

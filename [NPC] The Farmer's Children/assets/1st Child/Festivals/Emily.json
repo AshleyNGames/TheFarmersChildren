@@ -2,6 +2,5 @@
 	
 {"Action": "EditData",
 "Target": "Data/Festivals/spring13",
-	"When":{"IsOddYear": false},
-"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1spring13Emily}}"},},
+"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_y2": "{{i18n:1spring13Emily}}"},},
 ]}

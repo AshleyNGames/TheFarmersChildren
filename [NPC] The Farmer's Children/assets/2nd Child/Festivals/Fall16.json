@@ -4,27 +4,19 @@
 
 {"Action": "EditData",
 "Target": "Data/Festivals/fall16",
-	"When":{"IsOddYear": true},
-"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2fall16}}{{Random:{{i18n:2fall16.2}}}}"},},
-
-
-{"Action": "EditData",
-"Target": "Data/Festivals/fall16",
-	"When":{"IsOddYear": false},
-"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2fall16y2}}"},},
+"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2fall16}}{{Random:{{i18n:2fall16.2}}}}",
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:2fall16y2}}"},},
 
 { "Action": "EditData",
   "Target": "Data/Festivals/fall16",
-	"When":{"IsOddYear": false},
   "TextOperations": [  {  
   "Operation": "Append",
-  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 57 69 1",
   "Delimiter": "/"  }], },	
 
 { "Action": "EditData",
   "Target": "Data/Festivals/fall16",
-	"When":{"IsOddYear": true},
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],

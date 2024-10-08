@@ -1,13 +1,14 @@
 {     "Changes": [
-		
+
+//dialogue
 {"Action": "EditData",
 "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": true},
-"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2winter8}}"},},
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2winter8}}",
+ 			  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:2winter8y2}}"},},
 
+//y1
 { "Action": "EditData",
   "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": true},
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -25,35 +26,25 @@
 
     {"Action": "EditData",
         "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": true},
         "TextOperations": [          {
              "Operation": "Append",
-             "Target": ["Fields", "set-up", 5],
-             "Value": "/animate {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} false true 100 26",
-          },        ]    },			
+             "Target": ["Fields", "set-up", 7],
+             "Value": "/animate {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} false true 100 26", }, ] },	
 	
-	
-{"Action": "EditData",
-"Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": false},
-"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2winter8y2}}"},},
-	
+//y2	
 { "Action": "EditData",
   "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": false},
   "TextOperations": [  {  
   "Operation": "Append",
-  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 78 17 3",
   "Delimiter": "/"  },], },
 
 { "Action": "EditData",
   "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": false},
   "TextOperations": [  {  
   "Operation": "Append",
-  "Target": ["Entries", "Main-Event_additionalCharacters"],
+  "Target": ["Entries", "Main-Event_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 75 20 0 ",
-  "Delimiter": "/"  },], },
-	
+  "Delimiter": "/"  },], },	
 ]}

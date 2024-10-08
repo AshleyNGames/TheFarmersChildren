@@ -3,8 +3,8 @@
 {"LogName": "Festival dialogue 28",
 "Action": "EditData",
 "Target": "Data/Festivals/summer28",
-"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1summer28}}"},},
-
+"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:1summer28}}",
+			  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_y2": "{{i18n:1summer28}}",},},
 
 { "Action": "EditData",
   "Target": "Data/Festivals/summer28",
@@ -20,4 +20,23 @@
   "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 25 36 2",
   "Delimiter": "/"  }   
   ], },
+
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 25 36 2",
+  "Delimiter": "/"  } ,
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 25 36 2",
+  "Delimiter": "/"  }   
+  ], },
+
+
+
 ]}

@@ -1,6 +1,15 @@
 {     "Changes": [
 		
+
 {"Action": "EditData",
 "Target": "Data/Festivals/spring24",
-"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:2spring24Mom}}"},},
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:2spring24Mom}}"},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring24",
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 24 35 3",
+  "Delimiter": "/"  },]}
 ]}

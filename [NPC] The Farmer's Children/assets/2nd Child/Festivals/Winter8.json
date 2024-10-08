@@ -17,7 +17,6 @@
 
 { "Action": "EditData",
   "Target": "Data/Festivals/winter8",
-	"When":{"IsOddYear": true},
   "TextOperations": [  {  
   "Operation": "Append",
   "Target": ["Entries", "Main-Event_additionalCharacters"],

@@ -1,0 +1,14 @@
+{  "Changes":  [  	
+	
+{"Action": "EditData",
+	"When":{  "spouse":"", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/",
+"Entries": { 	"marriage_Wed": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 /1910 bed",
+				"marriage_Fri": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 /1910 bed",
+},},
+	
+{"Action": "EditData",
+	"When":{  "Day":"16, 2","spouse":"", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/",
+"Entries": { 	"marriage_Tue": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 /1910 bed",	},},      
+]}

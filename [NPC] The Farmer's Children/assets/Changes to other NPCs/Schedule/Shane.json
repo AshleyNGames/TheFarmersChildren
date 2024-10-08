@@ -1,0 +1,15 @@
+{  "Changes":  [  	
+	
+{"Action": "EditData",
+	"When":{  "spouse":"Shane", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Shane",
+"Entries": { 	"marriage_Wed": "GOTO marriage_Fri",
+				"marriage_Fri": "MAIL shanePK/GOTO marriage_Fri_normal/a950 Town 60 72 0/a1050 Town 83 94 1/1120 Town 33 101 2 shane_drink \"Strings\\schedules\\Shane:marriage_Fri.000\"/1400 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1700 Saloon 33 18 0 \"Strings\\schedules\\Shane:marriage_Fri.003\"/1910 bed",
+				"marriage_Fri_normal": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 Town 33 101 2 shane_drink \"Strings\\schedules\\Shane:marriage_Fri.000\"/1400 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1700 Saloon 21 17 2 shane_drink \"Strings\\schedules\\Shane:marriage_Fri.002\"/1910 bed",
+},},
+	
+{"Action": "EditData",
+	"When":{  "Day":"16, 2","spouse":"Shane", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Shane",
+"Entries": { 	"marriage_Tue": "GOTO marriage_Fri",	},},      
+]}

@@ -1,0 +1,18 @@
+{  "Changes":  [  	
+	
+{"Action": "EditData",
+	"When":{  "spouse":"Elliott", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Elliott",
+"Entries": {"marriage_Wed": "a950 Town 60 72 0/a1130 ArchaeologyHouse 21 11 2 elliott_read/1700 bed",
+			"marriage_Fri": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 Beach 46 11 2 \"Strings\\schedules\\Elliott:marriage_Mon.000\"/1700 bed",},},
+	
+{"Action": "EditData",
+	"When":{  "Day":"16, 2","spouse":"Elliott", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Elliott",
+"Entries": {"marriage_Tue": "a950 Town 60 72 0/a1050 Town 83 94 1/1120 ElliottHouse 1 5 0/1430 ElliottHouse 7 7 2/1700 bed",},},     
+
+{"Action": "EditData",
+	"When":{  "Season": "Fall", "Day":"16, 2","spouse":"Elliott", "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
+"Target": "Characters/schedules/Elliott",
+"Entries": {"marriage_Tue": "a950 Town 60 72 0/a1130 ArchaeologyHouse 21 11 2 elliott_read/1700 bed",},},   
+]}

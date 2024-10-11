@@ -13,7 +13,7 @@
   {  
   "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 16 69 3",
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 14 69 1",
   "Delimiter": "/"  },
   {
   "Operation": "Append",

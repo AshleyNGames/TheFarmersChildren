@@ -18,6 +18,9 @@
  
 {            "Action": "Include",
             "FromFile": "assets/1st Child/Movies/Movies.json",},
+ 
+{            "Action": "Include",
+            "FromFile": "assets/1st Child/Dispotision.json",},
 
 //spouse
 {            "Action": "Include",

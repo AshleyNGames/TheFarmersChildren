@@ -1,0 +1,28 @@
+{  "Changes":  [ 	 	
+	 
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
+		"Age": "Child",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Sister.k1'}}'",},}	},
+	  
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",	
+		"Age": "Child",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Brother.k1'}}'",},}	},
+]}

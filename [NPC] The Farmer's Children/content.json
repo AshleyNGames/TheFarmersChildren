@@ -21,17 +21,6 @@
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
 "FromFile": "assets/Loads/schedule 2.json",},
   
- {  "Action": "EditData",
-    "Target": "Data/Characters",
-    "Entries": {
-	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
-		"Age": "Child",
-		"Manner": "Rude",
-		"SocialAnxiety": "Shy",
-		"Optimism": "Neutral",
-		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}'",},}	},
-
 //include
 {"Action": "Include",
 "FromFile": "assets/1st Child/Load.json",},

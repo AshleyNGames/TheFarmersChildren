@@ -31,6 +31,24 @@
 	"kid1_AcceptGift_(O)Cookies": "COOKIES!$1",
 	"kid2_AcceptGift_(O)Cookies": "Cookies are the best snack ever.$1",
 	"kid1_AcceptGift_(TR)FrogEgg": "A frog egg?$3#$b#I'm going to have my very own pet frog!$1",
+	
+	"Friend.k": "friend",
+	"Teacher.k": "teacher",
+	"Mom.k1": "mommy",
+	"Mom.k2": "mom",
+	"Dad.k1": "daddy",
+	"Dad.k2": "dad",
+	"Uncle.k": "uncle",
+	"Aunt.k": "aunt",
+	"GreatAunt.k": "great-aunt",
+	"Grandpa.k": "grandpa",
+	"Grandma.k": "grandma",
+	"Granny.k": "granny",
+	"Sister.k1": "big sister",
+	"Brother.k1": "big brother",
+	"Sister.k2": "little sister",
+	"Brother.k2": "littl2 brother",
+	
 		
 	"1spring13": "I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.#$b#Just you watch.$1",
 		"1spring13y2": "This year I'm going to win for sure!",
@@ -49,7 +67,7 @@
     "1winter25": "I love all the thing you got me, but a secret gift giver is so exciting.#$b#I wonder who it is?",
    		"1winter25y2": "There are so many presents!$1",
 	
-	"2spring13": "Why does Mr. Pierre not sell strawberry seeds in his shop?$3#$b#I asked, but he said it's a trade secret.$5",
+	"2spring13": "Are you really joining the egg hunt dad?$3^Are you really joining the egg hunt mom?$3#$b#I don't stand a chance against you.$5",
 		"2spring13y2": "Why does Mr. Pierre not sell strawberry seeds in his shop?$3#$b#I asked, but he said it's a trade secret.$5",
 	 "2spring24": "What is the flower dance even for?$3",
 	 	"2spring24y2": "It's so jiggly.$h",

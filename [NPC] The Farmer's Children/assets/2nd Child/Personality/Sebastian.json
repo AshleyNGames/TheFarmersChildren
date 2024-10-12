@@ -11,7 +11,7 @@
 		"SocialAnxiety": "Shy",
 		"Optimism": "Neutral",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Sister.k1'}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Sister.k1}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
 	  
  {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -24,5 +24,5 @@
 		"SocialAnxiety": "Shy",
 		"Optimism": "Neutral",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Brother.k1'}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Brother.k1}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
 ]}

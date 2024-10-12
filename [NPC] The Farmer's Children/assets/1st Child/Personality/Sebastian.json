@@ -1,6 +1,5 @@
-{  "Changes":  [ 	 	
-	 
-	
+{  "Changes":  [ 	 
+
   {  "Action": "EditData",
     "Target": "Data/Characters",
     "Entries": {
@@ -11,10 +10,8 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k2}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}'",},}	},
-	    
-  
-  
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	}, 
+
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -26,7 +23,7 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k2}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}'",},}	},
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -39,7 +36,6 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k2}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}'",},}	},
-  
-  
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}' Sebastian '{{i18n:Dad.k2}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
+   
 ]}

@@ -10,7 +10,7 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}",},}	},  
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}'",},}	},  
 
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -23,7 +23,7 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2'}}'",},}	},
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}'",},}	},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -36,6 +36,6 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k'}}' '{{i18n:Grandpa.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2'}}'",},}	},
+		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}'",},}	},
    
 ]}

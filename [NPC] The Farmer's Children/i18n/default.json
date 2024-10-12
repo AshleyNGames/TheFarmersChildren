@@ -105,7 +105,6 @@
   "1beach.003": "Happy Birthday Jas!",
   "1town.003": "Goodboy Dusty.",
   "1town.001": "Look at all the fishies.#$b#Can you catch one Daddy?^Can you catch one Mommy?#$b#Then we can keep it as a pet in a fish pond.$1",
-  "1town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",	
   "1mountain.000": "I'm not doing anything.$2#$b#Those rocks were already on the tent, I swear.$2",
   "1summit.000": "We made it to the top!",
   "1afterschool.000": "I'm going to spend some time with Vincent.",
@@ -125,6 +124,7 @@
   "2summerseed.000": "Corn crops live a lot longer then most other plants.",
   "2fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
 	"2magic.000": "I'm learning lots from the Wizard.#$b#See?$6",
+  "2town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",
 	
   "MovieInvite1": "This is going to be so much fun!$1#$b#I wounder what's playing.",
   "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",

@@ -40,7 +40,8 @@
 			"When": { "HasFile:{{FromFile}}": true },}, 
  
 {            "Action": "Include",
-            "FromFile": "assets/2nd Child/Personality/{{spouse}}.json",},
+            "FromFile": "assets/2nd Child/Personality/{{spouse}}.json",
+			"When": { "HasFile:{{FromFile}}": true },}, 
 
 //custom
 {            "Action": "Include",

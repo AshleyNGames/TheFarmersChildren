@@ -1,6 +1,8 @@
 { "Format": "2.0.0",
 		
-"Changes":  [ 	
+"ConfigSchema": {"Spouse take Kids to school":{  "AllowValues": "true, false", "Default": "true"},},
+
+"Changes":  [
 //loads
 {"Action": "Load",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
@@ -26,35 +28,27 @@
 "FromFile": "assets/1st Child/Load.json",},
 {"Action": "Include",
 "FromFile": "assets/2nd Child/Load.json",}, 
- 
-{            "Action": "Include",
-            "FromFile": "assets/Changes to other NPCs/Load.json",},   
-
-{            "Action": "Include",
-            "FromFile": "assets/Other Mods/Load.json",}, 
-
-{           "Action": "Include",
-            "FromFile": "assets/Gift Taste/Gift Tastes.json",},  
-
-{            "Action": "Include",
-            "FromFile": "assets/Gift Taste/{{spouse}}.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{            "Action": "Include",
-            "FromFile": "assets/Gift Taste/SVE.json",
-	 "When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
-
-{            "Action": "Include",
-            "FromFile": "assets/Gift Taste/RSV.json",
-	"When":  {"HasMod|contains=DaisyNiko.SVR3": true, "HasFile:{{FromFile}}": true},}, 
-
-{            "Action": "Include",
-            "FromFile": "assets/Gift Taste/PPJA.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{            "Action": "Include",
-            "FromFile": "assets/Gift Taste/custom.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
+{"Action": "Include",
+"FromFile": "assets/Changes to other NPCs/Load.json",},  
+{"Action": "Include",
+"FromFile": "assets/Other Mods/Load.json",}, 
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/Gift Tastes.json",},  
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/{{spouse}}.json",
+"When": { "HasFile:{{FromFile}}": true },}, 
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/SVE.json",
+"When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/RSV.json",
+"When":  {"HasMod|contains=DaisyNiko.SVR3": true, "HasFile:{{FromFile}}": true},}, 
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/PPJA.json",
+"When": { "HasFile:{{FromFile}}": true },}, 
+{"Action": "Include",
+"FromFile": "assets/Gift Taste/custom.json",
+"When": { "HasFile:{{FromFile}}": true },}, 
 
 //Animation
 {"LogName": "Animations",

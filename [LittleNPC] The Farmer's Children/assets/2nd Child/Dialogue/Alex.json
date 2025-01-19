@@ -1,0 +1,6 @@
+{  "Changes":  [ 	 
+	
+{"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+	"Entries": {  "AcceptGift_(O)Book_Defense": "{{i18n:kid.2.Alex.Jack}}", }},
+]}

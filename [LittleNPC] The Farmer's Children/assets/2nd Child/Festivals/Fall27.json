@@ -1,0 +1,23 @@
+{     "Changes": [		
+	
+	{ "Action": "EditData",
+"Target": "data/festivals/fall27",
+"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.fall.27.y1}}",
+             "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:Kid.2.fall.27.y2}}"  },},	
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 63 2",
+  "Delimiter": "/"  }], },	
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 15 66 0",
+  "Delimiter": "/"  }], },	
+]}

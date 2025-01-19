@@ -1,0 +1,32 @@
+{     "Changes": [
+		
+{"Action": "EditData",
+"Target": "Data/Festivals/summer28",
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.summer.28.y1}}",
+ 			  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:Kid.2.summer.28.y2}}",},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/summer28",
+  "TextOperations": [  
+{ 
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 36 2",
+  "Delimiter": "/"  } ,
+{  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 36 2",
+  "Delimiter": "/"  } ,   
+{ 
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 36 2",
+  "Delimiter": "/"  } ,
+{  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 36 2",
+  "Delimiter": "/"  } ,
+  ], },
+]}

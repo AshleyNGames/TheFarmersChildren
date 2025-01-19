@@ -1,0 +1,35 @@
+{     "Changes": [
+	
+//1 love 3 like 5 dislike 7 hate 9 neutral
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "732 637 814",
+         "Delimiter": " "       },
+	  { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "300 80",
+         "Delimiter": " "       }, 	  
+   ],},
+
+//keep 1st and 2nd seperated. if they are in the same load they will only work when there is two children.
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "444 218 715",
+         "Delimiter": " "       },   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "151 149",
+         "Delimiter": " "       },     	        	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "300 154",
+         "Delimiter": " "       }, 	    
+   ],},
+]}

@@ -1,0 +1,44 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "212 Book_Defense",
+         "Delimiter": " "       }, 
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "ParrotEgg",
+         "Delimiter": " "       },
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 5],
+         "Value": "book_item",
+         "Delimiter": " "       },  ],},
+
+ { "Action": "EditData",
+       "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+       "Entries": {	 
+                "AcceptGift_(O)223": "{{i18n:kid.1.Alex_AcceptGift_(O)Cookies}}",	}},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "201 Book_Defense",
+         "Delimiter": " "       }, 
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "ParrotEgg",
+         "Delimiter": " "       }, 
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 9],
+         "Value": "FrogEgg",
+         "Delimiter": " "       },   ],},
+
+ { "Action": "EditData",
+       "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+       "Entries": {	 
+                "AcceptGift_(O)223": "{{i18n:kid.2.Alex_AcceptGift_(O)Cookies}}",	}},
+]}

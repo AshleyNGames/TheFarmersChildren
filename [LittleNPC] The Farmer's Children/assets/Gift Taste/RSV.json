@@ -5,9 +5,8 @@
    "TextOperations": [
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
-         "Value": "{{spacechase0.JsonAssets/ObjectId:Highland Ice Cream}} {{spacechase0.JsonAssets/ObjectId:Snowball Slurpee}}",
-         "Delimiter": " "       },      ]  ,
-   "When": {   "HasMod": "spacechase0.JsonAssets"},},	
+         "Value": "Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Highland_Butterwort",
+         "Delimiter": " "       },      ]  ,},	
 	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -15,7 +14,6 @@
       {
          "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],
-         "Value": "{{spacechase0.JsonAssets/ObjectId:Highland Ice Cream}} {{spacechase0.JsonAssets/ObjectId:Snowball Slurpee}}",
-         "Delimiter": " "       },    ]  ,
-   "When": {   "HasMod": "spacechase0.JsonAssets"},},	
+         "Value": "Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Highland_Butterwort",
+         "Delimiter": " "       },    ]  ,},	
 ]}

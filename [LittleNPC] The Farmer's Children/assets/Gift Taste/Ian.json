@@ -1,0 +1,26 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "400 Rafseazz.RSVCP_Pebble_Back_Crab Rafseazz.RSVCP_Tropic_Mango_Cake",
+         "Delimiter": " "},
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": " 397",
+         "Delimiter": " "},   ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "272 Rafseazz.RSVCP_Summit_Snowbell Rafseazz.RSVCP_Tropic_Mango_Cake",
+         "Delimiter": " "},
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "812 397",
+         "Delimiter": " "},   ],},
+]}

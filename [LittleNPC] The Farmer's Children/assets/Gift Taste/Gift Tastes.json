@@ -1,4 +1,5 @@
 {     "Changes": [	
+	
 {"Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.Girl.gift.love}}/104 221 223 233 243 591 612 812 903 FrogEgg/{{i18n:Kid.1.Girl.gift.like}}/220 -4 -80 206 211 224 731/{{i18n:Kid.1.Girl.gift.dislike}}/-2 -79 167 342/{{i18n:Kid.1.Girl.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873 395/{{i18n:Kid.1.Girl.gift.neutral}}/-8 -6 -5 -7 428 432 832/"},
@@ -6,18 +7,8 @@
 
 {"Action": "EditData",
 "Target": "Data/NPCGiftTastes",
-"Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.Girl.gift.love}}/104 220 223 233 243 591 612 903 107/{{i18n:Kid.2.Girl.gift.like}}/221 -80 206 211 224 395 731 342 768 769 book_item/{{i18n:Kid.2.Girl.gift.dislike}}/-4 -2 -79 167 832/{{i18n:Kid.2.Girl.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873/{{i18n:Kid.2.Girl.gift.neutral}}/-8 -6 -5 -7 428 432/"},
-  "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Female",},},
-
-{"Action": "EditData",
-"Target": "Data/NPCGiftTastes",
 "Entries": {"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.Boy.gift.love}}/221 223 233 243 612 721 812 126 127 903 FrogEgg/{{i18n:Kid.1.Boy.gift.like}}/220 -4 -80 206 211 224 731/{{i18n:Kid.1.Boy.gift.dislike}}/-2 -79 167 342/{{i18n:Kid.1.Boy.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873 395/{{i18n:Kid.1.Boy.gift.neutral}}/-8 -6 -5 -7 428 432 832/"},
  "When": {  "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Male",},},
-
-{"Action": "EditData",
-"Target": "Data/NPCGiftTastes",
-"Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.Boy.gift.love}}/220 223 233 243 612 721 126 127 903 107/{{i18n:Kid.2.Boy.gift.like}}/221 -80 206 211 224 395 731 342 768 769 book_item/{{i18n:Kid.2.Boy.gift.dislike}}/-4 -2 -79 167 832/{{i18n:Kid.2.Boy.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873 /{{i18n:Kid.2.Boy.gift.neutral}}/-8 -6 -5 -7 428 432/"},
-  "When": {   "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male",},},	
 
  {"Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
@@ -25,6 +16,16 @@
 		   		"AcceptGift_(O)StardropTea": "{{i18n:Kid.1_AcceptGift_(O)StardropTea}}",
                 "AcceptGift_(O)223": "{{i18n:Kid.1_AcceptGift_(O)Cookies}}",	
                 "AcceptGift_(TR)FrogEgg": "{{i18n:Kid.1_AcceptGift_(TR)FrogEgg}}",}},
+ 	
+{"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.Girl.gift.love}}/104 220 223 233 243 591 612 903 107/{{i18n:Kid.2.Girl.gift.like}}/221 -80 206 211 224 395 731 342 768 769 book_item/{{i18n:Kid.2.Girl.gift.dislike}}/-4 -2 -79 167 832/{{i18n:Kid.2.Girl.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873/{{i18n:Kid.2.Girl.gift.neutral}}/-8 -6 -5 -7 428 432/"},
+  "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Female",},},
+
+{"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.Boy.gift.love}}/220 223 233 243 612 721 126 127 903 107/{{i18n:Kid.2.Boy.gift.like}}/221 -80 206 211 224 395 731 342 768 769 book_item/{{i18n:Kid.2.Boy.gift.dislike}}/-4 -2 -79 167 832/{{i18n:Kid.2.Boy.gift.hate}}/-20 -19 -81 -75 614 446 346 348 303 459 74 873 /{{i18n:Kid.2.Boy.gift.neutral}}/-8 -6 -5 -7 428 432/"},
+  "When": {   "Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male",},},	
 
  { "Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",

@@ -122,7 +122,9 @@
   "Kid.2.town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",
 
 //kid 1
-"Kid.1.Introduction": "Hi!$2",	
+"Kid.1.Introduction": "Hi!$1",
+"Kid.1.ZeroHearts":"...$2",
+	
  "Kid.1.spring.10.1": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's ice cream.",
  "Kid.1.spring.10.2": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's pink cake.",
  "Kid.1.spring.10.3": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's cupcakes.",
@@ -141,7 +143,7 @@
   "Kid.1.Fri.0": "%What did you do at school this week",
 	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpols." ,
 		
- "Kid.1.Sa1.0": "Saturday morning cartoons are the best.#$b#",
+ "Kid.1.Sat.0": "Saturday morning cartoons are the best.#$b#",
 	"Kid.1.Sat.1": "I really like the ones where adults from other cartoons are kids., My favorite shows are when kids team up with monsters to fight the bad guys.$1, The ones when animals act like people are really funny.$1, The superhero ones are okay I guess.$3",
 	
  "Kid.1.Sun.0": "Yay! I get to pick dinner tonight.$1#$b#",
@@ -170,7 +172,7 @@
  "Kid.1.winter24": "Don't forget to leave out milk and cookies Daddy.^Don't forget to leave out milk and cookies Mommy.",
  "Kid.1.winter28": "~For Auld Lang Syne, my dear. For Auld Lang Syne~#$b#~We'll take a cup of kindness yet, for the sake of Auld Lang Syne~",
 	
- "Kid.1.winter25": "He came! He came!$1#$b#I got", //random there is more in spouse section as well
+ "Kid.1.winter25": "He came! He came!$1#$b#I got", //there is more random in spouse section as well
 	"Kid.1.girl.wintergiftrandom": "a super soft frog pillow!$1, building blocks!$1, a doll as big as me!$1, an explorers kit!$1",
 	"Kid.1.boy.wintergiftrandom": "a monster truck!$1, building blocks!$1, a train set!$1, an explorers kit!$1",
 	

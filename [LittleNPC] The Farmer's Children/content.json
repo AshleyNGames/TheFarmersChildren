@@ -39,15 +39,6 @@
 {"Action": "Include",
 "FromFile": "assets/Gift Taste/SVE.json",
 "When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
-{"Action": "Include",
-"FromFile": "assets/Gift Taste/RSV.json",
-"When":  {"HasMod|contains=Rafseazz.RSVCP": true},}, 
-{"Action": "Include",
-"FromFile": "assets/Gift Taste/PPJA.json",
-"When": { "HasFile:{{FromFile}}": true },}, 
-{"Action": "Include",
-"FromFile": "assets/Gift Taste/custom.json",
-"When": { "HasFile:{{FromFile}}": true },}, 
 
 //Animation
 {"LogName": "Animations",

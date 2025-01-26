@@ -1,0 +1,18 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "142 Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich Rafseazz.RSVCP_Kek_s_Small_Dream Rafseazz.RSVCP_Fried_Mountain_Greens",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "Rafseazz.RSVCP_Cherry_Pluot Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich Rafseazz.RSVCP_Ginger_Rangpur_Meringue Rafseazz.RSVCP_Fried_Mountain_Greens",
+         "Delimiter": " "},    ],},
+]}

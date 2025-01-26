@@ -5,7 +5,7 @@
    "TextOperations": [	    	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
-         "Value": "212 Book_Defense",
+         "Value": "212 Book_Defense Rafseazz.RSVCP_Ridge_Apple_Cake",
          "Delimiter": " "       }, 
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
@@ -26,7 +26,7 @@
    "TextOperations": [	   
       {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
-         "Value": "201 Book_Defense",
+         "Value": "201 Book_Defense Rafseazz.RSVCP_Ridge_Apple_Cake",
          "Delimiter": " "       }, 
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],

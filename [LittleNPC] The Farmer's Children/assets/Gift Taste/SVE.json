@@ -1,0 +1,26 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],
+         "Value": "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie",
+         "Delimiter": " "       },    
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+         "Delimiter": " "       },  ]  ,},
+
+{ "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie",
+         "Delimiter": " "       },      
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+         "Delimiter": " "       },   ]  ,},
+]}

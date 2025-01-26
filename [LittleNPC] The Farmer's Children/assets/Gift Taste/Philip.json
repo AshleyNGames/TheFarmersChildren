@@ -1,6 +1,5 @@
 {     "Changes": [
 	
-//1 love   3 like   9 neutral   5 dislike   7 hate 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
@@ -11,7 +10,11 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
          "Value": "157 80",
-         "Delimiter": " "},],},
+         "Delimiter": " "},	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],		 
+         "Value": "Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "}, ],},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -23,5 +26,9 @@
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
          "Value": "157 80",
-         "Delimiter": " "},],},
+         "Delimiter": " "},
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],		 
+         "Value": "Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "}, ],},
 ]}

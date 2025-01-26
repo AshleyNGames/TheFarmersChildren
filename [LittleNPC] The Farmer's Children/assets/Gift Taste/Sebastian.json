@@ -6,7 +6,7 @@
    "TextOperations": [	    	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
-         "Value": "227 84 305",
+         "Value": "227 84 305 Rafseazz.RSVCP_Ridge_Apple_Cake",
          "Delimiter": " "       },  	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
@@ -25,7 +25,7 @@
    "TextOperations": [	   
       {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
-         "Value": "236 575 305",
+         "Value": "236 575 305 Rafseazz.RSVCP_Ridge_Apple_Cake",
          "Delimiter": " "       },   	  
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],

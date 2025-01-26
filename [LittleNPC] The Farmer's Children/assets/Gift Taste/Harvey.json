@@ -1,6 +1,5 @@
 {     "Changes": [
 	
-//1 love 3 like 5 dislike 7 hate 9 neutral
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
@@ -18,11 +17,8 @@
          "Delimiter": " "       },  	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
-         "Value": "296",
-         "Delimiter": " "       }, 	  
-   ],},
-
-//keep 1st and 2nd seperated. if they are in the same load they will only work when there is two children.
+         "Value": "296 Rafseazz.RSVCP_Wild_Apple_Juice Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "       }, 	    ],},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -41,7 +37,6 @@
          "Delimiter": " "       },       	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
-         "Value": "396",
-         "Delimiter": " "       }, 	    
-   ],},
+         "Value": "396 Rafseazz.RSVCP_Wild_Apple_Juice Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "       }, 	    ],},
 ]}

@@ -5,7 +5,7 @@
    "TextOperations": [	    	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
-         "Value": "907 896 {{spacechase0.JsonAssets/ObjectId:Green Mushroom}} {{spacechase0.JsonAssets/ObjectId:Moster Mushroom}} {{spacechase0.JsonAssets/ObjectId:Ornate Treasure Chest}}",
+         "Value": "907 896 FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest",
          "Delimiter": " "       },  	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
@@ -30,7 +30,7 @@
    "TextOperations": [	   
       {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
-         "Value": "907 896 {{spacechase0.JsonAssets/ObjectId:Void Shard}} {{spacechase0.JsonAssets/ObjectId:Swirl Stone}} {{spacechase0.JsonAssets/ObjectId:Ornate Treasure Chest}}",
+         "Value": "907 896 FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest",
          "Delimiter": " "       },   	  
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
@@ -42,7 +42,7 @@
          "Delimiter": " "       },      	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 5],
-         "Value": "{{spacechase0.JsonAssets/ObjectId:Frog Legs}}",
+         "Value": "FlashShifter.StardewValleyExpandedCP_Frog_Legs",
          "Delimiter": " "       },       	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],

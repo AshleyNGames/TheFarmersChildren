@@ -18,11 +18,31 @@
   "Target": ["Entries", "MainEvent_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 25 65 1",
   "Delimiter": "/"  },
+   {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 16 69 3",
+  "Delimiter": "/"  },
+  {
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 32 65 3",
+  "Delimiter": "/"  },
   {
    "Operation": "Append",
     "Target": ["Fields", "set-up", 7],
    "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12",  },
   {
+   "Operation": "Append",
+    "Target": ["Fields", "set-up_y2", 5],
+   "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12" , },
+      ]    },  
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+	"When":{"HasMod|contains=Rafseazz.RSVCP": false, "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false},
+  "TextOperations": [
+	{
    "Operation": "Append",
     "Target": ["Fields", "mainEvent", 13],
     "Value": "/Jump {{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", },
@@ -41,25 +61,7 @@
   {
    "Operation": "Append",
     "Target": ["Fields", "AbbyWin", 2],
-    "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 9999 23" ,},     ]    },  
-
-{ "Action": "EditData",
-  "Target": "Data/Festivals/spring13",
-  "TextOperations": [
-   {  
-  "Operation": "Append",
-  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 16 69 3",
-  "Delimiter": "/"  },
-  {
-  "Operation": "Append",
-  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 32 65 3",
-  "Delimiter": "/"  },
-  {
-   "Operation": "Append",
-    "Target": ["Fields", "set-up_y2", 5],
-   "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12" , },
+    "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 9999 23" ,}, 
   {
    "Operation": "Append",
     "Target": ["Fields", "mainEvent_y2", 15],

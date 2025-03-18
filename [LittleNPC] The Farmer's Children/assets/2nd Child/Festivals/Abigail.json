@@ -1,0 +1,35 @@
+{     "Changes": [
+		
+{"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:kid.2.spring13Abigail}}",
+			  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:kid.2.spring13Abigail}}"	},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [ 
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 21 52 2",
+  "Delimiter": "/"  }, 
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 20 52 2",
+  "Delimiter": "/"  },  
+  ]} ,
+
+
+{"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"Entries": {  "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:Kid.2.spring.24.Mom}}"},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring24",
+  "TextOperations": [  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 24 35 3",
+  "Delimiter": "/"  },]}
+]}

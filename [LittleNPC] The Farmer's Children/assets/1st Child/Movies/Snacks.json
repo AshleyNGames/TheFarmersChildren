@@ -1,0 +1,18 @@
+{  "Changes":  [ 	 
+	
+{  "Action": "EditData",
+  "Target": "Data/ConcessionTastes",
+  "Entries": {
+ "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+  "Name": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+  "LovedTags":   ["Candy", "Sweet", "Salty" ] ,
+  "LikedTags":[ "Joja", "Gourmet"  ]  ,
+  "DislikedTags":[ "Healthy"  ]  ,  },},},
+
+{  "Action": "EditData",
+   "Target": "Strings/Characters",
+   "Entries": { 
+  "MovieInvite_{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:MovieInvite1}}"},},
+
+
+]}

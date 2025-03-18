@@ -1,0 +1,25 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "88 421 Rafseazz.RSVCP_Kek_s_Style_Shortcake",
+         "Delimiter": " "       },  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "18 Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "       },     ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "88 610 Rafseazz.RSVCP_Kek_s_Style_Shortcake",
+         "Delimiter": " "       },   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "18 Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "       },     ],},]}

@@ -1,0 +1,26 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "Rafseazz.RSVCP_Kedi_Delight Rafseazz.RSVCP_Clementine_Cake Rafseazz.RSVCP_Sweet_Cranberry_Cheesecake Rafseazz.RSVCP_Lava_Lily 604",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "406",
+         "Delimiter": " "},  ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "Rafseazz.RSVCP_Kedi_Delight Rafseazz.RSVCP_Fluffy_Apple_Crumble Rafseazz.RSVCP_Sweet_Cranberry_Cheesecake Rafseazz.RSVCP_Ember_Blood_Lime",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "80",
+         "Delimiter": " "},    ],},
+]}

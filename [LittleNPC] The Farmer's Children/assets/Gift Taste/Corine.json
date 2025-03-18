@@ -1,0 +1,26 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "Rafseazz.RSVCP_Bladetail_Sturgeon 340 Rafseazz.RSVCP_Tropic_Mango_Cake Rafseazz.RSVCP_Summit_Iced_Tea",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "254 398 Rafseazz.RSVCP_Aurorean_Iris",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "Rafseazz.RSVCP_Lava_Lily Rafseazz.RSVCP_Ridge_Cherry 340 Rafseazz.RSVCP_Clementine_Cake Rafseazz.RSVCP_Wild_Apple_Juice",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "254 398 Rafseazz.RSVCP_Aurorean_Iris",
+         "Delimiter": " "},],},
+]}

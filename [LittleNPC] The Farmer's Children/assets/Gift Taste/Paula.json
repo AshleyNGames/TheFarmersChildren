@@ -1,0 +1,35 @@
+{     "Changes": [
+	
+//1 love   3 like   9 neutral   5 dislike   7 hate 
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "Rafseazz.RSVCP_Crunchy_Bagel Rafseazz.RSVCP_Ridgeside_Shaketini Rafseazz.RSVCP_Desert_Tangelo Ridge Azorean Flower",
+         "Delimiter": " "},    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 5],
+         "Value": "306 605 906 260",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "729 921 247",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "Rafseazz.RSVCP_Crunchy_Bagel Rafseazz.RSVCP_Arugula_Roll Rafseazz.RSVCP_Desert_Tangelo Ridge Azorean Flower",
+         "Delimiter": " "},     	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 5],
+         "Value": "306 605 906 260",
+         "Delimiter": " "},       	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "729 921 445",
+         "Delimiter": " "},    ],},
+]}

@@ -1,0 +1,35 @@
+{     "Changes": [
+	
+//1 love   3 like   9 neutral   5 dislike   7 hate  
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "444 787 FlashShifter.StardewValleyExpandedCP_Butterfish",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "392 394 FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "205 609 610 196",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "444 787 224",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "392 394 FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger",
+         "Delimiter": " "}, 	         	        	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "205 609 610 196",
+         "Delimiter": " "},    ],},
+]}

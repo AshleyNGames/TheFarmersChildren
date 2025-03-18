@@ -1,0 +1,78 @@
+{     "Changes": [
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "400 215 222 910 Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "909 80 Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "},     	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 5],
+         "Value": "724",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "340 Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+	"When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender": "Male"},
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "787",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+	"When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender": "Female"},
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "72",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "190 197 222 336 337 Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "335 334 Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "},     	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 5],
+         "Value": "724",
+         "Delimiter": " "},       	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "342 Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+	"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender": "Male"},
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],		 
+         "Value": "787",
+         "Delimiter": " "},],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+	"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender": "Female"},
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],		 
+         "Value": "72",
+         "Delimiter": " "},],},
+]}

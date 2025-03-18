@@ -1,0 +1,59 @@
+{  "Changes":  [ 	 
+//SVE 
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/SVE/Schedule1.json",
+	"When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/SVE/Schedule2.json",
+	"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/SVE/Festivals.json",
+	"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/SVE/Custom.json",
+	"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:{{FromFile}}": true},}, 
+
+//RSV
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/RSV/Schedule1.json",
+	"When":  {"HasMod|contains=Rafseazz.RSVCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/RSV/Schedule2.json",
+	"When":  {"HasMod|contains=Rafseazz.RSVCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/RSV/Festivals.json",
+	"When":  {"HasMod|contains=Rafseazz.RSVCP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/RSV/Custom.json",
+	"When":  {"HasMod|contains=Rafseazz.RSVCP": true, "HasFile:{{FromFile}}": true},}, 
+
+//East Scarpe
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/East/Schedule1.json",
+	"When":  {"HasMod|contains=LemurKat.EastScarpe.CP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/East/Schedule2.json",
+	"When":  {"HasMod|contains=LemurKat.EastScarpe.CP": true, "HasFile:{{FromFile}}": true},}, 
+
+{            "Action": "Include",
+            "FromFile": "assets/Other Mods/East/Custom.json",
+	"When":  {"HasMod|contains=LemurKat.EastScarpe.CP": true, "HasFile:{{FromFile}}": true},}, 
+
+//school mods
+{"LogName": "CommunityCenter",
+			"Action": "Include",
+            "FromFile": "assets/Other Mods/School/CommunityCenter.json",
+            "When":  {"HasMod|contains=LemurKat.CommunityCenter.CP": true, "HasSeenEvent": "191393", "HasFile:{{FromFile}}": true},},
+
+{"LogName": "custom school",
+            "Action": "Include",
+            "FromFile": "assets/Other Mods/School/Custom.json",
+	"When": { "HasFile:{{FromFile}}": true },}, 
+]}

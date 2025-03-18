@@ -1,0 +1,31 @@
+{     "Changes": [
+	
+//1 love   3 like   9 neutral   5 dislike   7 hate 
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "282 197 Rafseazz.RSVCP_Sweet_Cranberry_Cheesecake Rafseazz.RSVCP_Summer_Mountain_Blessing Rafseazz.RSVCP_Forest_Amancay",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "282 197 Rafseazz.RSVCP_Cherry_Berry_Shakey Rafseazz.RSVCP_Summer_Mountain_Blessing Rafseazz.RSVCP_Ridgeside_Clementine",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "},     	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 5],
+         "Value": "Rafseazz.RSVCP_Fixer_Eel",
+         "Delimiter": " "},        ],},
+]}

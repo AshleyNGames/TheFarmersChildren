@@ -50,19 +50,19 @@
 
 	"Kid.1.spring.13.y1": "I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.#$b#Just you watch.$1",
 		"Kid.1.spring.13.y2": "This year I'm going to win for sure!",
-    "Kid.1.spring.24.y1": "If I'm the best dancer, the flowers will make me their queen.$1",
+    "Kid.1.spring.24.y1": "I tried convincing Jas to ask Vincent to dance, but she got really quiet.#$e#Guess she's too shy to do it.",
    		"Kid.1.spring.24.y2": "If I'm the best dancer, the flowers will make me their queen.$1",
     "Kid.1.summer.11.y1": "I love this song!$1",
     	"Kid.1.summer.11.y2": "I love this song!$1",
     "Kid.1.summer.28.y1": "Can you catch a Jellie Daddy?^Can you catch a Jellie Mommy?#$e#Then we could see them all year instead of just one night.",
     	"Kid.1.summer.28.y2": "Gotta stay awake.$4#$b#I can't miss the jellies.$3",
-    "Kid.1fall.16.y1": "I spent all my allowence on the fishing game.$3#$b#Good thing the petting zoo is free, and the piggies are cute.$1",   
+    "Kid.1fall.16.y1": "I spent all my allowance on the fishing game.$3#$b#Good thing the petting zoo is free, and the piggies are cute.$1",   
 		"Kid.1.fall.16.y2": "I'm going to pet all the animals.$1#$b#The fish tent is next.",    
     "Kid.1.fall.27.y1": "Here kitty kitty. I got ham for you.",
 		"Kid.1.fall.27.y2": "The maze is really confusing.$3",
     "Kid.1.winter.8.y1": "Why can't I enter the competition to?$3", 
     	"Kid.1.winter.8.y2": "So many fishies!#$b#I want to catch them all!$1",    
-    "Kid.1.winter.25.y1": "I love all the thing you got me, but a secret gift giver is so exciting.#$b#I wonder who it is?",
+    "Kid.1.winter.25.y1": "I love all the things you got me, but a secret gift giver is so exciting.#$b#I wonder who it is?",
    		"Kid.1.winter.25.y2": "There are so many presents!$1",
 
 	"Kid.2.spring.13.y1": "Are you really joining the egg hunt dad?$3^Are you really joining the egg hunt mom?$3#$b#I don't stand a chance against you.$5",
@@ -90,7 +90,7 @@
 	"Kid.1.rain": "~It's raining it's pouring the old man is snoring~#$b#~He bumped his head then went to bed and didn't get up til morning~$0, ~Rain rain go away~$0#$b#~Come again another day~, ~Doo-doo-doot doo~#$b#~Just singin' in the rain~, ~The itsy bitsy spider went up the waterspout~#$b#~Down came the rain and washed the spider out~#$e#~Out came the sun and dried up all the rain~#$b#~And the itsy bitsy spider climbed up the spout again~",	
 	"Kid.2.rain.sister": "doesn't like the sound of rain, so she tries to sing louder then it.$3#$b#I'd rather hear the rain then her singing.",
 	"Kid.2.rain.brother": "doesn't like the sound of rain, so he tries to sing louder then it.$3#$b#I'd rather hear the rain then him singing.",
-	"Kid.1.GreenRain":"Normaly rain is bad, but it's different today.$3#$b#It just feels better.",
+	"Kid.1.GreenRain":"Normally rain is bad, but it's different today.$3#$b#It just feels better.",
 	"Kid.2.GreenRain":"Why is the rain green?$3#$b#Does it have anything to do with crabs?$3",
 	
 //schedule
@@ -110,7 +110,7 @@
   "Kid.1.afterschool.000": "I'm going to spend some time with Vincent.",
   "Kid.1.afterschool.001": "I'm going to spend some time with Jas.",
   "Kid.1.afterschool.002": "Russel is so cute.#$b#Can I take him home?",
-  "Kid.1.samhouse.001": "Vincent has this really weird looking thing in his toybox.$3",
+  "Kid.1.samhouse.001": "Vincent has this really weird looking thing in his toy box.$3",
   "Kid.1.Joja.000": "These fish don't look good.$3",
   "Kid.1.Ball.000": "Look how high I can bounce my ball.$1",
  
@@ -121,7 +121,7 @@
   "Kid.2.school.001": "What book should I read today?",
   "Kid.2.school.002": "This story is about a princess fighting a lich., This book has a bunch of short stories.#$b#Most of them are fantasy., I'm reading the third book in the Adventure Boy series., This book is actually a magic tomb.",
   "Kid.2.springseed.000": "Hmmm... potatoes or kale?$3",
-  "Kid.2.summerseed.000": "Corn crops live a lot longer then most other plants.",
+  "Kid.2.summerseed.000": "Corn crops live a lot longer than most other plants.",
   "Kid.2.fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
 	"Kid.2.magic.000": "I'm learning lots from the Wizard.#$b#See?$6",
   "Kid.2.town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",
@@ -146,7 +146,7 @@
   "Kid.1.Thu.0": "When I grow up, I'm going to be an explorer!$1#$b#",
   	"Kid.1.Thu.1": "I'll see all the great wonders of the world., I'll climb to the top of every mountains., I'll dive to the bottom of every ocean., I'll find an ancient city in the jungle., I'll find never before seen animals!, I'll fly across the entire globe., I'll even go into space!",
   "Kid.1.Fri.0": "%What did you do at school this week",
-	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpols." ,
+	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpoles." ,
 		
  "Kid.1.Sat.0": "Saturday morning cartoons are the best.#$b#",
 	"Kid.1.Sat.1": "I really like the ones where adults from other cartoons are kids., My favorite shows are when kids team up with monsters to fight the bad guys.$1, The ones when animals act like people are really funny.$1, The superhero ones are okay I guess.$3",
@@ -154,10 +154,10 @@
  "Kid.1.Sun.0": "Yay! I get to pick dinner tonight.$1#$b#",
     "Kid.1.Sun.game": "How about pepper poppers?, We're having stir fry tonight., Can we have chowder?,  I want pizza with extra cheese!",
     "Kid.1.Sun.foreign": "I want poutine!, Can we have ramen?, How about sushi?, Let's have wonton soup.",
-    "Kid.1.Sun.noodle": "I want mac and cheese!, I want spaghetti with meatballs the size of my head!$1, I want spahetti and garlic bread., And I pick chicken noodle soup!, Baked ziti sounds yummy.",
+    "Kid.1.Sun.noodle": "I want mac and cheese!, I want spaghetti with meatballs the size of my head!$1, I want spaghetti and garlic bread., And I pick chicken noodle soup!, Baked ziti sounds yummy.",
     "Kid.1.Sun.sweets": "That means chocolate cake!$1, I want milk and cookies!",
-    "Kid.1.Sun.fish": "Let's have... uhmmm... tacos?$3#$b#Yeah! Tacos! Fish tacos!, I want tuna noodle cassarole!#$b#I even got the tuna!$1.[130], I want fish and chips!, Do we have the stuff for surf and terf?, Let's have coconut shrimp!$1",
-	"Kid.1.Sun.meat": "I want a cheeseburger and potato wedges!, So let's have breadcrumb porkchops!#$b#And I'll help$1., Big juicy steaks it is!, Let's grill up some BBQ ribs!, We're having fried chicken!",	
+    "Kid.1.Sun.fish": "Let's have... uhmmm... tacos?$3#$b#Yeah! Tacos! Fish tacos!, I want tuna noodle casserole!#$b#I even got the tuna!$1.[130], I want fish and chips!, Do we have the stuff for surf and turf?, Let's have coconut shrimp!$1",
+	"Kid.1.Sun.meat": "I want a cheeseburger and potato wedges!, So let's have breadcrumb pork chops!#$b#And I'll help$1., Big juicy steaks it is!, Let's grill up some BBQ ribs!, We're having fried chicken!",	
 	
  "Kid.1.spring1": "Happy new year Daddy.^Happy new year Mommy.#$e#This year is going to be the bestest one yet!", 
  "Kid.1.spring13": "EGGS, EGGS, EGGS!#$b#I'm going to find all the eggs this year!",
@@ -167,7 +167,7 @@
  "Kid.1.summer1": "It's finally summer!$1#$b#I'm going to spend so much time on the beach.$0",
  "Kid.1.summer4": "It's Jas's birthday today.#$e#We're going to play at the ranch and then the beach to celebrate.",
  "Kid.1.summer11": "Yay! Party, on the beach!",
- "Kid.1.summer28": "The moonlight jellies are comming tonight.$1#$b#Can we catch one?$3",
+ "Kid.1.summer28": "The moonlight jellies are coming tonight.$1#$b#Can we catch one?$3",
  "Kid.1.fall1": "I was too tired to catch any jellies last night.$2",
  "Kid.1.fall15":"Can I have some money for the fair tomorrow?$3",
  "Kid.1.fall16": "Hurry Up Daddy!^Hurry Up Mommy!#$b#I wanna play the fishing game!",
@@ -202,7 +202,7 @@
  	 "Kid.2.Mon.14":"Hey Dad?^Hey Mom?#$b#I wanna learn how to hunt.",
 	
 	"Kid.2.Tue.1": "Why is the sky blue?",
-	"Kid.2.Tue.2": "Where do raindows come from?",
+	"Kid.2.Tue.2": "Where do rainbows come from?",
 	"Kid.2.Tue.3": "Why are there spots on the moon?",
 	"Kid.2.Tue.4": "Are ghosts real?",
 	"Kid.2.Tue.5": "When is Grandma and Grandpa coming to visit?",
@@ -224,14 +224,14 @@
 	"Kid.2.Thu.3.1": " ", //sibings in the middle
 	"Kid.2.Thu.3.2": "wont leave me alone!$2",
 	"Kid.2.Thu10.1": " ", //siblings name in the middle
-	"Kid.2.Thu10.2.sister": "might be annoying an loud, but she's my sister and I love her.",
-	"Kid.2.Thu10.2.brother": "might be annoying an loud, but he's my brother and I love him.",
+	"Kid.2.Thu10.2.sister": "might be annoying and loud, but she's my sister and I love her.",
+	"Kid.2.Thu10.2.brother": "might be annoying and loud, but he's my brother and I love him.",
 	
 	"Kid.2.Fri.0": "%How's school going?#$b#",
  	"Kid.2.Fri.1": "Fine I guess.$4, I prefer going to the wizard tower for magic lessons.$6, The other kids are loud and annoying.$5, I'm the youngest but all the other kids seem so immature to me.$3, Great. I got all A's on my homework.$1",
 	
 	"Kid.2.Sat.0": "I get to choose what we have for dinner?$3#$b#Ummm...",
-		"Kid.2.Sat.1": "chicken nuggets?, curry?, meatloaf?, breakfast?, udon?, cheesey rice?, gyro?, roast beef?, orange chicken?, dim sum?, pineapple pizza?, tonkatsu?, potato soup?, chicken alfredo?, chilli?, pho?, crêpes?, cheese burgers?, hot dogs?, fried rice?, pancakes?",
+		"Kid.2.Sat.1": "chicken nuggets?, curry?, meatloaf?, breakfast?, udon?, cheesy rice?, gyro?, roast beef?, orange chicken?, dim sum?, pineapple pizza?, tonkatsu?, potato soup?, chicken alfredo?, chilli?, pho?, crêpes?, cheese burgers?, hot dogs?, fried rice?, pancakes?",
 		
 	 "Kid.2.Sun": "Hi Dad.^Hi Mom.",
 	 "Kid.2.Sun6": "Hi Dad.^Hi Mom.#$e#I found this rock for you.",
@@ -256,7 +256,7 @@
 	"Kid.2.wintergiftrandom": "I love my new ball., I can't wait to play all my new games., The potion making set is perfect., The magic wand I got is so cool., The dragon plushie is awesome.",
 		
 //Movies Still being worked on	  I need to actually see the movies
-  "MovieInvite1": "This is going to be so much fun!$1#$b#I wounder what's playing.",
+  "MovieInvite1": "This is going to be so much fun!$1#$b#I wonder what's playing.",
   "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",
 	
 	"movies.BLS.kid1.before": "MOVIE! MOVIE! MOVIE!$1",
@@ -291,7 +291,7 @@
 	"movies.NW.kid2.during":" ...",
 	"movies.NW.kid2.after":"...",
 	"movies.PK.kid2.before":"Journey Of The Prairie King?$3#$b#Like the game?$1",
-	"movies.PK.kid2.during":" eye's are guled to the screen.",
+	"movies.PK.kid2.during":" eyes are glued to the screen.",
 	"movies.PK.kid2.after":"It wasn't as good as the game, but I still liked it.",
 	"movies.Wumbus.kid2.before":"What's a Wumbus?$3",
 	"movies.Wumbus.kid2.during":" ...",
@@ -327,12 +327,12 @@
 	//Elliott
  "Kid.1.wintergiftElliott":"a story about a little explorer., a story about a knight., a story about pirates., a space story.",
  	"Kid.2.Elliott.summer11":"Did Dad really live in that old shack?",
- 	"Kid.2.Elliott.winter8": "Why are you and Dad are competing against eachother?$3",
+ 	"Kid.2.Elliott.winter8": "Why are you and Dad are competing against each other?$3",
 	
 	//Harvey
  "Kid.1.wintergiftHarvey":"a model plane., a doctor playset.",
-	  "kid.1.Harvey.923.1": "Daddy is supper smart.#$b#He know so much about planes and flying.",
-	  "kid.1.Harvey.923.2": "Daddy is supper smart.#$b#Are all doctors that smart?$3",
+	  "kid.1.Harvey.923.1": "Daddy is super smart.#$b#He know so much about planes and flying.",
+	  "kid.1.Harvey.923.2": "Daddy is super smart.#$b#Are all doctors that smart?$3",
 	
 	//Sam
  "Kid.1.wintergiftSam":"a drum., a skateboard.",
@@ -374,6 +374,5 @@
   "Kid.1.Penny.school.000": "Mommy said I can't go outside until after class.$4",
   "Kid.1.Penny.school.002": "How many books are there?$3#$e#When I finish one, Mommy just gives me another.$4",
   "Kid.1.Penny.school.004": "If I fall asleep in class, Mommy will give me more homework.$4",
-	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made use practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpols., Mom gave me extra homework because I fell asleep.$5",
-	
+	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made use practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpoles., Mom gave me extra homework because I fell asleep.$5",
 	}

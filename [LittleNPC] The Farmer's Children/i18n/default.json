@@ -161,6 +161,7 @@
 	
  "Kid.1.spring1": "Happy new year Daddy.^Happy new year Mommy.#$e#This year is going to be the bestest one yet!", 
  "Kid.1.spring13": "EGGS, EGGS, EGGS!#$b#I'm going to find all the eggs this year!",
+ "Kid.1.spring14": "Next year I'll win the egg hunt for sure!$1",
  "Kid.1.spring23": "Daddy look, there's so many flowers.^Mommy look, there's so many flowers.#$b#I can't wait for the dance tomorrow.",
  "Kid.1.spring25": "No one asked me to dance yesterday.$2", 
  "Kid.1.summer1": "It's finally summer!$1#$b#I'm going to spend so much time on the beach.$0",
@@ -330,6 +331,8 @@
 	
 	//Harvey
  "Kid.1.wintergiftHarvey":"a model plane., a doctor playset.",
+	  "kid.1.Harvey.923.1": "Daddy is supper smart.#$b#He know so much about planes and flying.",
+	  "kid.1.Harvey.923.2": "Daddy is supper smart.#$b#Are all doctors that smart?$3",
 	
 	//Sam
  "Kid.1.wintergiftSam":"a drum., a skateboard.",
@@ -368,4 +371,9 @@
 	//Penny	
  "Kid.1.wintergiftPenny":"a book., a book., a book.",
 	"kid.2.Penny.Books":"A new book?#$b#Awesome.$1",
+  "Kid.1.Penny.school.000": "Mommy said I can't go outside until after class.$4",
+  "Kid.1.Penny.school.002": "How many books are there?$3#$e#When I finish one, Mommy just gives me another.$4",
+  "Kid.1.Penny.school.004": "If I fall asleep in class, Mommy will give me more homework.$4",
+	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made use practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpols., Mom gave me extra homework because I fell asleep.$5",
+	
 	}

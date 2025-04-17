@@ -3,31 +3,35 @@
     "Kid.1.Girl.gift.dislike": "Ewwwwww...$5",
     "Kid.1.Girl.gift.hate": "Am I in trouble?$2",
     "Kid.1.Girl.gift.neutral": "Thank you.$3",
-	
+
 	"Kid.1.Boy.gift.love": "Wow, thank you so much!#$b#You're the best Daddy!^You're the best Mommy!",
     "Kid.1.Boy.gift.like": "Thank you Daddy.^Thank you Mommy.",
     "Kid.1.Boy.gift.dislike": "Yuck!$5",
     "Kid.1.Boy.gift.hate": "Did I do something wrong?$2",
     "Kid.1.Boy.gift.neutral": "Thank you.$3",
-	
+
     "Kid.2.Girl.gift.love": "This is so cool!#$b#Thank you Dad!^Thank you Mom!$6",
     "Kid.2.Girl.gift.like": "Thanks Dad.^Thanks Mom.",
     "Kid.2.Girl.gift.dislike": "Am I in trouble?$2",
     "Kid.2.Girl.gift.hate": "You're so mean!$5",
     "Kid.2.Girl.gift.neutral": "Thanks.$4",
-		
+
     "Kid.2.Boy.gift.love": "IT'S PERFECT!!!#$b#So cool!$6",
     "Kid.2.Boy.gift.like": "Thanks Dad.^Thanks Mom.#$b#This is great.",
     "Kid.2.Boy.gift.dislike": "Why would you give me this?$2",
     "Kid.2.Boy.gift.hate": "NO!$5",
-    "Kid.2.Boy.gift.neutral": "Thanks... I guess.$3",	
-	
+    "Kid.2.Boy.gift.neutral": "Thanks... I guess.$3",
+
 	"Kid.1_AcceptGift_(O)StardropTea":"It smells so good!$1",
-	"Kid.2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",	
+	"Kid.2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",
 	"Kid.1_AcceptGift_(O)Cookies": "COOKIES!$1",
 	"Kid.2_AcceptGift_(O)Cookies": "Cookies are the best snack ever.$1",
 	"Kid.1_AcceptGift_(TR)FrogEgg": "A frog egg?$3#$b#I'm going to have my very own pet frog!$1",
-	
+	"Kid.1_AcceptGift_alcohol_item": "YUCK!$5#$e#I feel sick.$2",
+	"Kid.2_AcceptGift_alcohol_item": "Is this what I think it is?$5",
+	"Kid.1_AcceptGift_(O)74": "It pretty, but something about it is really scary.$2",
+	"Kid.2_AcceptGift_(O)74": "The wizard said shards like these contain trasformation magic.$3#$b#It is harmful to children.$5",
+
 	"Friend.k": "friend",
 	"Teacher.k": "teacher",
 	"Mom.k1": "Mommy",
@@ -359,15 +363,17 @@
 	//Haley
 	"Kid.1.spring24Haley":"Mommy looks really pretty today.",
  "Kid.1.wintergiftHaley":"my own camera., new clothes.",
-	
-	//Leah	
+		"Kid.1.Haley.Rain":"Mommies old bedrooom look like the beach.$1",
+		"Kid.2.Haley.Rain":"Aunt Emily's house always smells like cupcakes.$1",
+
+	//Leah
  "Kid.1.wintergiftLeah":"a coloring book., a bunch of paints and a canvas., a wooden toy car., a funny looking wood carving.",
-	
+
 	//Maru
  "Kid.1.wintergiftMaru":"a little robot., a chemistry kit.",
 	"kid.1.Maru.Rain":"Grandma's Spaghetti is super yummy.$1",
 	"kid.2.Maru.Rain":"Grandpa asked me to collect rain water from the farm for him.#$e#I wonder what he's doing with it?$3",
-	
+
 	//Penny	
  "Kid.1.wintergiftPenny":"a book., a book., a book.",
 	"kid.2.Penny.Books":"A new book?#$b#Awesome.$1",

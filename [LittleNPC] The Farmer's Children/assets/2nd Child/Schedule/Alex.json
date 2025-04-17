@@ -3,7 +3,7 @@
 {
 "Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "rain": "720 JoshHouse 17 18 square_3_3/a1200 JoshHouse 1 20 1/1600 JoshHouse 18 17 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:Kid.2.Alex.000\"/1700 JoshHouse 13 22 child_read",	
+"Entries": { "rain2": "720 JoshHouse 17 18 square_3_3/a1200 JoshHouse 1 20 1/1600 JoshHouse 18 17 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:Kid.2.Alex.000\"/1700 JoshHouse 13 22 child_read",	
 			 "GreenRain": "720 JoshHouse 17 18 square_3_3",},},
 {
 "Action": "EditData",

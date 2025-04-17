@@ -1,5 +1,4 @@
 {  "Changes":  [ 	 	
-	 
  {  "Action": "EditData",
     "Target": "Data/Characters",
 	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
@@ -16,8 +15,15 @@
             "HiddenProfileEmoteStartFrame": 36,
             "HiddenProfileEmoteFrameCount": 1,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Sister.k1}}' Olivia '{{i18n:Mom.k2}}' Victor '{{i18n:Brother.k1}}'",},}	},
-	  
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}",		
+			"Olivia": "{{i18n:Mom.k2}}",
+		"Victor": "{{i18n:Brother.k1}}"
+		}}}},
+ 
  {  "Action": "EditData",
     "Target": "Data/Characters",
 	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
@@ -34,6 +40,12 @@
             "HiddenProfileEmoteStartFrame": 36,
             "HiddenProfileEmoteFrameCount": 1,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} '{{i18n:Brother.k1}}' Olivia '{{i18n:Mom.k2}}' Victor '{{i18n:Brother.k1}}'",},}	},
-
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Brother.k1}}",		
+			"Olivia": "{{i18n:Mom.k2}}",
+		"Victor": "{{i18n:Brother.k1}}"
+		}}}},
 ]}

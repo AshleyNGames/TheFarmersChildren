@@ -15,8 +15,14 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k1}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}'",},}	},
-	      
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+		"Abigail":"{{i18n:Mom.k2}}",
+		"Caroline": "{{i18n:Grandma.k}}",
+		"Pierre": "{{i18n:Grandpa.k}}"}}}},
+  
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -33,9 +39,16 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k1}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}'",},}	},
-    
-  {  "Action": "EditData",
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",		
+		"Abigail":"{{i18n:Mom.k2}}",
+		"Caroline": "{{i18n:Grandma.k}}",
+		"Pierre": "{{i18n:Grandpa.k}}"}}}},
+
+{"Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"male",},
     "Entries": {
@@ -51,5 +64,12 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Abigail '{{i18n:Mom.k1}}' Caroline '{{i18n:Grandma.k}}' Pierre '{{i18n:Grandpa.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}'",},}	},
-  ]}
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",		
+		"Abigail":"{{i18n:Mom.k2}}",
+		"Caroline": "{{i18n:Grandma.k}}",
+		"Pierre": "{{i18n:Grandpa.k}}"}}}},
+]}

@@ -1,19 +1,18 @@
 {  "Changes":  [ 	 
-	
 	//First child schedual Dialogue edits
 {"Action": "EditData",
 "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": {	
+"Entries": {
 	"school.000": "{{i18n:Kid.1.school.000}}",
 	"school.001": "{{i18n:Kid.1.school.001}}",
     "school.002": "{{i18n:Kid.1.school.002}}",
 	"school.003": "{{i18n:Kid.1.school.003}}",
 	"school.004": "{{i18n:Kid.1.school.004}}",
 	"forest.001": "{{i18n:Kid.1.forest.001}}",
-	"winter.001": "{{i18n:Kid.1.winter.001}}", 	
+	"winter.001": "{{i18n:Kid.1.winter.001}}",
 	"beach.001": "{{i18n:Kid.1.beach.001}}",
 	"beach.002": "{{i18n:Kid.1.beach.002}}",
-	"beach.003": "{{i18n:Kid.1.beach.003}}",	
+	"beach.003": "{{i18n:Kid.1.beach.003}}",
 	"town.003": "{{i18n:Kid.1.town.003}}",
 	"town.001": "{{i18n:Kid.1.town.001}}",
 	"summit.000": "{{i18n:Kid.1.summit.000}}",
@@ -24,7 +23,7 @@
 	"Joja.000": "{{i18n:Kid.1.Joja.000}}",
 	"Ball.000": "{{i18n:Kid.1.Ball.000}}",
 		"Kid.1.Alex.000" : "{{i18n:Kid.1.Alex.000}}",
-		"Kid.1.Alex.001" : "{{i18n:Kid.1.Alex.001}}",	
+		"Kid.1.Alex.001" : "{{i18n:Kid.1.Alex.001}}",
 		"Kid.1.Sam.000" : "{{i18n:Kid.1.Sam.000}}",
 		"Kid.1.Sebastian.000" : "{{i18n:Kid.1.Sebastian.000}}",
 		"Kid.1.Shane.000" : "{{i18n:Kid.1.Shane.000}}",
@@ -35,16 +34,17 @@
 		"Kid.1.Harvey.000" : "{{i18n:Kid.1.Harvey.000}}",
 		"Kid.1.Leah.000" : "{{i18n:Kid.1.Leah.000}}",
 		"Kid.1.Maru.000" : "{{i18n:Kid.1.Maru.000}}",
-		"Kid.1.Penny.000" : "{{i18n:Kid.1.Penny.000}}",	
+		"Kid.1.Penny.000" : "{{i18n:Kid.1.Penny.000}}",
 		"Kid.1.Maru.Rain" : "{{i18n:Kid.1.Maru.Rain}}",
+		"Kid.1.Haley.Rain" : "{{i18n:Kid.1.Haley.Rain}}",
 },},
-	
+
 	//First child schedual edits Community Center not finished
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": { 
+"Entries": {
 	"rain": "730 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\"",	
-	"Greenrain": "",
+	"Greenrain": "GOTO rain",
 "9": "730 Town 16 19 1 child_ball/1230 JojaMart 23 8 2 wave_arms/1410 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\"/1720 Town 63 16 2 wave_arms",
 "summer_9": "700 Beach 77 20 square_4_4_2 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:beach.002\"/1400 Beach 11 25 square_1_4_3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:beach.001\"",
 "winter_9": "630 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1200 JojaMart 23 8 2 wave_arms/1540 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\"",
@@ -80,12 +80,12 @@
 //First child Community Center Finished
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": { 
+"Entries": {
 "rain":"800 CommunityCenter 31 12 0 child_twirl/1240 CommunityCenter 8 5 0/1500 CommunityCenter 39 10 0",
 	"9": "830 Town 16 19 1 child_ball/1310 CommunityCenter 31 12 0 child_twirl/1600 Town 63 16 2 wave_arms",
 	"23": "830 Town 16 19 1 child_ball/1310 CommunityCenter 31 12 0 child_twirl/1600 Town 63 16 2 wave_arms",
 	"winter_9": "630 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1430 CommunityCenter 39 10 0",
 	"winter_23": "630 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1430 CommunityCenter 39 10 0",
 "winter_Mon": "700 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1130 CommunityCenter 39 10 0/1440 CommunityCenter 8 5 0/1750 Saloon 34 17 2 child_fidget",},
-  "When": {  "HasSeenEvent": "191393"}},	
+  "When": {  "HasSeenEvent": "191393"}},
 ]}

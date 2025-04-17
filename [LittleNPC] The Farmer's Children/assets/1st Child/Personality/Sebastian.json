@@ -15,8 +15,16 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Sebastian '{{i18n:Dad.k1}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	}, 
-
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,	
+		"Sebastian": "{{i18n:Dad.k1}}", 
+		"Robin": "{{i18n:Grandma.k}}", 
+		"Maru": "{{i18n:Aunt.k}}", 
+		"Demetrius": "{{i18n:Grandpa.k}}"}}}},
+  
+  
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -33,7 +41,15 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}' Sebastian '{{i18n:Dad.k1}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",		
+		"Sebastian": "{{i18n:Dad.k1}}", 
+		"Robin": "{{i18n:Grandma.k}}", 
+		"Maru": "{{i18n:Aunt.k}}", 
+		"Demetrius": "{{i18n:Grandpa.k}}"}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -51,6 +67,13 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}' Sebastian '{{i18n:Dad.k1}}' Robin '{{i18n:Grandma.k}}' Maru '{{i18n:Aunt.k}}' Demetrius '{{i18n:Grandpa.k}}'",},}	},
-   
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",		
+		"Sebastian": "{{i18n:Dad.k1}}", 
+		"Robin": "{{i18n:Grandma.k}}", 
+		"Maru": "{{i18n:Aunt.k}}", 
+		"Demetrius": "{{i18n:Grandpa.k}}"}}}},
 ]}

@@ -15,7 +15,12 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Daia '{{i18n:Mom.k1}}'",},}	},  
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"Daia": "{{i18n:Mom.k2}}",
+		}}}},
 
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -33,7 +38,13 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}' Daia '{{i18n:Mom.k1}}'",},}	},
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",
+			"Daia": "{{i18n:Mom.k2}}",
+		}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -51,6 +62,11 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}' Daia '{{i18n:Mom.k1}}'",},}	},
-   
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+			"Daia": "{{i18n:Mom.k2}}",
+		}}}},
 ]}

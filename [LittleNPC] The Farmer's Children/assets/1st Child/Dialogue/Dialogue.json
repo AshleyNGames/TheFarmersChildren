@@ -65,13 +65,14 @@
 {  "Action": "EditData",
   "Target": "Characters/Dialogue/rainy",
   "Entries": { "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{Random: {{i18n:Kid.1.rain}}}}"},
-  "When": {"Weather": "Rain"},},  
+  "When": {"Weather": "rain"},},  
 {  "Action": "EditData",
   "Target": "Characters/Dialogue/rainy",
   "Entries": { "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{Random: {{i18n:Kid.1.storm}}}}"},
-  "When": {"Weather": "Storm"},},  
+  "When": {"Weather": "storm"},}, 
+
 {  "Action": "EditData",
   "Target": "Characters/Dialogue/rainy",
   "Entries": { "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.GreenRain}}"},
-  "When": {"Weather": "GreenRain"},},
+  "When": {"Weather": "greenrain"},},
 ]}

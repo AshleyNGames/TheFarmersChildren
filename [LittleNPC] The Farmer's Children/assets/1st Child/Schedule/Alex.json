@@ -1,7 +1,7 @@
 {  "Changes":  [  
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": { "rain": "730 JoshHouse 3 19 0 square_4_2/a1200 JoshHouse 2 19 2/1540 JoshHouse 15 6 child_ball",
+"Entries": { "rain2": "730 JoshHouse 3 19 0 square_4_2/a1200 JoshHouse 2 19 2/1540 JoshHouse 15 6 child_ball",
 	"Fri": "a930 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"/a1120 ArchaeologyHouse 18 9 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1400 Town 83 98 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.001\"/1620 JoshHouse 3 19 0 square_4_2",
 	"summer_Fri": "a930 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"/a1120 ArchaeologyHouse 18 9 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.001\"/1400 Town 83 98 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.001\"/1620 JoshHouse 3 19 0 square_4_2",
 	"fall_Fri": "a930 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"/a1120 ArchaeologyHouse 18 9 2 child_fidget \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.002\"/1400 Town 83 98 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.001\"/1620 JoshHouse 3 19 0 square_4_2",

@@ -15,8 +15,15 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Alex '{{i18n:Dad.k1}}' George '{{i18n:Grandpa.k}}' Evelyn '{{i18n:Granny.k}}'",},}	},  
-
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+		"Alex": "{{i18n:Dad.k1}}" ,
+		"George": "{{i18n:Grandpa.k}}" ,
+		"Evelyn": "{{i18n:Granny.k}}",
+		}}}},
+  
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -33,7 +40,15 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}}''{{i18n:Sister.k2}}' Alex '{{i18n:Dad.k1}}' George '{{i18n:Grandpa.k}}' Evelyn '{{i18n:Granny.k}}'",},}	},
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",
+		"Alex": "{{i18n:Dad.k1}}" ,
+		"George": "{{i18n:Grandpa.k}}" ,
+		"Evelyn": "{{i18n:Granny.k}}",
+		}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -51,6 +66,13 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}}''{{i18n:Brother.k2}}'Alex '{{i18n:Dad.k1}}' George '{{i18n:Grandpa.k}}' Evelyn '{{i18n:Granny.k}}'",},}	},
-   
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+		"Alex": "{{i18n:Dad.k1}}" ,
+		"George": "{{i18n:Grandpa.k}}" ,
+		"Evelyn": "{{i18n:Granny.k}}",
+		}}}},
 ]}

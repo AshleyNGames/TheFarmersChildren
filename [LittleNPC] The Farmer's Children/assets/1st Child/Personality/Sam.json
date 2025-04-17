@@ -15,8 +15,14 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Sam '{{i18n:Dad.k1}}' Vincent '{{i18n:Uncle.k}}' Jodi '{{i18n:Grandma.k}}' Kent '{{i18n:Grandpa.k}}'",},}	},  
-
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Uncle.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,		
+		"Sam": "{{i18n:Dad.k1}}",
+		"Jodi": "{{i18n:Grandma.k}}", 
+			"Kent": "{{i18n:Grandpa.k}}"
+		}}}},
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -33,7 +39,15 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}' Sam '{{i18n:Dad.k1}}' Vincent '{{i18n:Uncle.k}}' Jodi '{{i18n:Grandma.k}}' Kent '{{i18n:Grandpa.k}}'",},}	},
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Uncle.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",		
+		"Sam": "{{i18n:Dad.k1}}",
+		"Jodi": "{{i18n:Grandma.k}}", 
+			"Kent": "{{i18n:Grandpa.k}}"
+		}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -51,6 +65,13 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}' Sam '{{i18n:Dad.k1}}' Vincent '{{i18n:Uncle.k}}' Jodi '{{i18n:Grandma.k}}' Kent '{{i18n:Grandpa.k}}'",},}	},
-   
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Uncle.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",		
+		"Sam": "{{i18n:Dad.k1}}",
+		"Jodi": "{{i18n:Grandma.k}}", 
+			"Kent": "{{i18n:Grandpa.k}}"
+		}}}},
 ]}

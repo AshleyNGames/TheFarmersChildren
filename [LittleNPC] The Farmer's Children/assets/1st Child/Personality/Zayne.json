@@ -15,8 +15,18 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' Zayne '{{i18n:Dad.k1}}' Maive'{{i18n:GreatGrandma.k}}' Zachary'{{i18n:Grandpa.k}}' Louie '{{i18n:Uncle.k}}' Ariah '{{i18n:Aunt.k}}'",},}	},  
-
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+		"Zayne": "{{i18n:Dad.k1}}" ,
+		"Maive":"{{i18n:GreatGrandma.k}}" ,
+		"Zachary":"{{i18n:Grandpa.k}}" ,
+		"Louie": "{{i18n:Uncle.k}}" ,
+		"Ariah": "{{i18n:Aunt.k}}"
+		}}}},
+  
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -33,7 +43,17 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Sister.k2}}' Zayne '{{i18n:Dad.k1}}' Maive'{{i18n:GreatGrandma.k}}' Zachary'{{i18n:Grandpa.k}}' Louie '{{i18n:Uncle.k}}' Ariah '{{i18n:Aunt.k}}'",},}	},
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+		"Zayne": "{{i18n:Dad.k1}}" ,
+		"Maive":"{{i18n:GreatGrandma.k}}" ,
+		"Zachary":"{{i18n:Grandpa.k}}" ,
+		"Louie": "{{i18n:Uncle.k}}" ,
+		"Ariah": "{{i18n:Aunt.k}}"
+		}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -51,6 +71,15 @@
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
-		"Friends":"Jas '{{i18n:Friend.k}}' Vincent '{{i18n:Friend.k}}' Penny '{{i18n:Teacher.k}}' {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} '{{i18n:Brother.k2}}' Zayne '{{i18n:Dad.k1}}' Maive'{{i18n:GreatGrandma.k}}' Zachary'{{i18n:Grandpa.k}}' Louie '{{i18n:Uncle.k}}' Ariah '{{i18n:Aunt.k}}'",},}	},
-   
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+		"Zayne": "{{i18n:Dad.k1}}" ,
+		"Maive":"{{i18n:GreatGrandma.k}}" ,
+		"Zachary":"{{i18n:Grandpa.k}}" ,
+		"Louie": "{{i18n:Uncle.k}}" ,
+		"Ariah": "{{i18n:Aunt.k}}"
+		}}}},
 ]}

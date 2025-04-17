@@ -18,9 +18,10 @@
 		"FriendsAndFamily":{
 			"Jas": "{{i18n:Friend.k}}" ,
 			"Vincent": "{{i18n:Friend.k}}" ,
-			"Penny": "{{i18n:Teacher.k}}" ,	
-		"Sofia":"{{i18n:Mom.k2}}",}}}},
-
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"EliasSBV": "{{i18n:Dad.k2}}",
+		}}}},
+  
   {  "Action": "EditData",
     "Target": "Data/Characters",
 	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
@@ -41,8 +42,9 @@
 			"Jas": "{{i18n:Friend.k}}" ,
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
-			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",		
-		"Sofia":"{{i18n:Mom.k2}}",}}}},
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",
+			"EliasSBV": "{{i18n:Dad.k2}}",
+		}}}},
     
   {  "Action": "EditData",
     "Target": "Data/Characters",
@@ -64,6 +66,7 @@
 			"Jas": "{{i18n:Friend.k}}" ,
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
-			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",		
-		"Sofia":"{{i18n:Mom.k2}}",}}}},
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",
+			"EliasSBV": "{{i18n:Dad.k2}}",
+		}}}},
 ]}

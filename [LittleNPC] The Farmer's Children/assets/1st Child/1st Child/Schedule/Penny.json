@@ -1,0 +1,8 @@
+{  "Changes":[
+{"Action": "EditData",
+"Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": {
+	"school.000": "{{i18n:Kid.1.Penny.school.000}}",
+    "school.002": "{{i18n:Kid.1.Penny.school.002}}",
+	"school.004": "{{i18n:Kid.1.Penny.school.004}}",}}	
+]}

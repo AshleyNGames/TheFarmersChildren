@@ -1,0 +1,72 @@
+{  "Changes":  [ 	 
+
+  {  "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}",	
+		"Age": "2",
+		"Manner": "Neutral",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Positive",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 24,
+            "HiddenProfileEmoteFrameCount": 4,
+            "HiddenProfileEmoteFrameDuration": 150,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Aunt.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,	
+		"Shane": "{{i18n:Dad.k1}}", 
+		"Marnie": "{{i18n:GreatAunt.k}}",}}}},
+
+  {  "Action": "EditData",
+    "Target": "Data/Characters",
+	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"female",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}",	
+		"Age": "2",
+		"Manner": "Neutral",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Positive",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 24,
+            "HiddenProfileEmoteFrameCount": 4,
+            "HiddenProfileEmoteFrameDuration": 150,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Aunt.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Sister.k2}}",		
+		"Shane": "{{i18n:Dad.k1}}", 
+		"Marnie": "{{i18n:GreatAunt.k}}",}}}},
+  
+  {  "Action": "EditData",
+    "Target": "Data/Characters",
+	  "When": {"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"male",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}",	
+		"Age": "2",
+		"Manner": "Neutral",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Positive",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 24,
+            "HiddenProfileEmoteFrameCount": 4,
+            "HiddenProfileEmoteFrameDuration": 150,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Aunt.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Brother.k2}}",		
+		"Shane": "{{i18n:Dad.k1}}", 
+		"Marnie": "{{i18n:GreatAunt.k}}",}}}},
+]}

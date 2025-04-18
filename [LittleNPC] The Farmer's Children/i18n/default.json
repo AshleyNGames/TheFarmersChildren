@@ -359,12 +359,15 @@
 	//Emily		
 	"Kid.1.spring13Emily":"I spent all morning helping Mommy color eggs.$4",
  "Kid.1.wintergiftEmily":"healing crystals., new clothes.",
+	  "kid.1.Emily.923.1": "The parrot isn't Mommies pet, but her friend.#$e#And I'm not allowed to pet friends.$4",
+	  "kid.2.Emily.923.1": "Mom has a lot of crystals, but they're not magical.$3",
 	
 	//Haley
 	"Kid.1.spring24Haley":"Mommy looks really pretty today.",
- "Kid.1.wintergiftHaley":"my own camera., new clothes.",
+ "Kid.1.wintergiftHaley":"my own camera., new clothes.,",
 		"Kid.1.Haley.Rain":"Mommies old bedrooom look like the beach.$1",
 		"Kid.2.Haley.Rain":"Aunt Emily's house always smells like cupcakes.$1",
+		"Kid.1.Haley.923.1": "The braclet Mommy always wears is really pretty.#$e#She said it belonged to my great-greatgrandmother, so it must be super old.$3",
 
 	//Leah
  "Kid.1.wintergiftLeah":"a coloring book., a bunch of paints and a canvas., a wooden toy car., a funny looking wood carving.",

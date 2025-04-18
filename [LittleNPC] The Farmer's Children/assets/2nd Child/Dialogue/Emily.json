@@ -1,0 +1,7 @@
+{  "Changes":  [ 	 
+	
+{"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+	"Entries": {  "9_2": "{{i18n:kid.2.Emily.923.1}}", 
+		"23_2": "{{i18n:kid.2.Emily.923.1}}", }},
+]}

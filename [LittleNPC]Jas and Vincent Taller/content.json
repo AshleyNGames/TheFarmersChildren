@@ -1,0 +1,85 @@
+{  "Format": "2.6.0",
+  "Changes": [
+{"Action": "EditImage",
+      "Target": "Characters/Jas",
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+      "FromFile": "assets/Jas.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent",
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+      "FromFile": "assets/Vincent.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas_Winter",
+"When": { "HasFile:{{FromFile}}": true},
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+      "FromFile": "assets/Jas_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent_Winter",
+"When": { "HasFile:{{FromFile}}": true},
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+      "FromFile": "assets/Vincent_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas_Beach",
+"When": { "HasFile:{{FromFile}}": true},
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+      "FromFile": "assets/Jas_Beach.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent_Beach",
+				"Condition": "PLAYER_HAS_CHILDREN Any 1",
+"When": { "HasFile:{{FromFile}}": true},
+      "FromFile": "assets/Vincent_Beach.png"},
+
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas",
+"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Jas2.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent",
+"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Vincent2.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas_Winter",
+"When": { "HasFile:{{FromFile}}": true, "Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Jas_Winter2.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent_Winter",
+"When": { "HasFile:{{FromFile}}": true, "Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Vincent_Winter2.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas_Beach",
+"When": { "HasFile:{{FromFile}}": true, "Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Jas_Beach2.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent_Beach",
+"When": { "HasFile:{{FromFile}}": true, "Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+      "FromFile": "assets/Vincent_Beach2.png"},
+	 
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+    "Entries": {"Jas": 
+		{"Age": "Teen",
+			"BreathChestRect": {"X": 5,    "Y": 20,    "Width": 6,    "Height": 4},
+			"BreathChestPosition":{"X": 32,"Y": 11,},
+	}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+"When": {"Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
+    "Entries": {"Vincent": 
+		{"Age": "Teen",
+			"BreathChestRect": {"X": 5,    "Y": 20,    "Width": 6,    "Height": 4},
+			"BreathChestPosition":{"X": 32,"Y": 11,},
+	}}},
+ ]}

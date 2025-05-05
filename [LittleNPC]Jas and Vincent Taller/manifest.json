@@ -1,0 +1,11 @@
+{
+  "Name": "Jas and Vincent are taller",
+  "Author": "xiddav",
+  "Description": "Jas and Vincent get a little taller once youe first baby is born and again when your 2nd child becomes a LittleNPC.",
+  "Version": "0.0.1",
+  "UniqueID": "Xiddav.LittleNPC.JasandVincentTaller",
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}  ,
+  "Dependencies": [  	 
+   {"UniqueID": "Candidus42.LittleNPCs",
+      "IsRequired": true},
+  ],}

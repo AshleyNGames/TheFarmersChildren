@@ -49,6 +49,7 @@
 		"23_2": "{{i18n:kid.1.923}}",
 		"5_2": "{{i18n:Kid.1.Sun.0}}{{Random:{{i18n:Kid.1.Sun.game}}, {{i18n:Kid.1.Sun.foreign}}, {{i18n:Kid.1.Sun.fish}}, {{i18n:Kid.1.Sun.noodle}}, {{i18n:Kid.1.Sun.sweets}}, {{i18n:Kid.1.Sun.meat}}}}",
 		"19_2": "{{i18n:Kid.1.Sun.0}}{{Random:{{i18n:Kid.1.Sun.game}}, {{i18n:Kid.1.Sun.foreign}}, {{i18n:Kid.1.Sun.fish}}, {{i18n:Kid.1.Sun.noodle}}, {{i18n:Kid.1.Sun.sweets}}, {{i18n:Kid.1.Sun.meat}}}}",
+	"Resort": "{{Random:{{i18n:Kid.1.Resort.1}},{{i18n:Kid.1.Resort.2}},{{i18n:Kid.1.Resort.3}}}}",
 		}},
 	
 {"Action": "EditData",

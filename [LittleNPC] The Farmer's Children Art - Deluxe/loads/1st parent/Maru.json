@@ -1,0 +1,78 @@
+{     "Changes": [
+	
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/Skin/{{Maru Skin1}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/Skin/{{Maru Skin1}}.png", 
+ 		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Base.png", 
+		"When": { "HasFile:{{FromFile}}": true, },},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/PonyTail.png",
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Long.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Winter", "IsOutdoors": "false",},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Long.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Festival": "WinterStar" ,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/TwinTails.png",
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Spring, Fall", "FestivalExceptionEVE": false},},
+
+{      "Action": "editimage", 
+		"Patchmode":"Overlay",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Base.png", 
+ 		"When": { "HasFile:{{FromFile}}": true},},
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/PonyTail.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"},}, 
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Long.png",  
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Winter", "IsOutdoors": "false"},}, 
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/Long.png",  
+		"When": { "HasFile:{{FromFile}}": true, "Festival": "WinterStar"},},
+
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",  
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Maru/{{Maru Hair1}}/TwinTails.png", 
+		"When": { "HasFile:{{FromFile}}": true, "Season":"Spring, Fall", "FestivalExceptionEVE": false},}, 
+ ]}

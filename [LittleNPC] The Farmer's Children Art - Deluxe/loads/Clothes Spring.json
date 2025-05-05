@@ -1,0 +1,88 @@
+{     "Changes": [
+	
+//Portraits spring
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Shirt/{{SpringShirt1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Shirt/{{SpringShirt2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Hair Accessories/{{SpringFlower1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Hair Accessories/{{SpringFlower2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Overalls/{{SpringOveralls1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Overalls/{{SpringOveralls2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+//Characters spring
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Spring/Shirt/{{SpringShirt1}}.png",
+ 		"When": {  "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Spring/Shirt/{{SpringShirt2}}.png",
+ 		"When": {  "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Hair Accessories/{{SpringFlower1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Hair Accessories/{{SpringFlower2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Skirt/{{Springskirt1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Skirt/{{Springskirt2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/spring/Overalls/{{SpringOveralls1}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/spring/Overalls/{{SpringOveralls2}}.png",
+ 		"When": { "Season": "Spring", "HasFile:{{FromFile}}": true,},},
+]}

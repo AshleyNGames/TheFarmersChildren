@@ -1,0 +1,30 @@
+{     "Changes": [
+	
+{      "Action": "editimage",
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Festivals/{{Festival}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage",
+		"Patchmode":"Overlay", 
+	"Update": "OnLocationChange",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Festivals/{{Festival}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Festivals/{{Festival}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+
+{      "Action": "editimage",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
+		"Patchmode":"Overlay",
+	"Update": "OnLocationChange",
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Festivals/{{Festival}}.png",
+		"When": { "HasFile:{{FromFile}}": true},},
+]}

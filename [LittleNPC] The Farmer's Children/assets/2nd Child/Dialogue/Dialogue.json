@@ -30,7 +30,9 @@
 		"fall_27_1" : "{{i18n:Kid.2.fall27}}",
 		"fall_28_1" : "{{i18n:Kid.2.fall28}}",
 		"winter_8_1" : "{{i18n:Kid.2.winter8}}",
-		"winter_25_1" : "{{i18n:Kid.2.winter25}}{{Random:{{i18n:Kid.2.wintergiftrandom}}}}",},},
+		"winter_25_1" : "{{i18n:Kid.2.winter25}}{{Random:{{i18n:Kid.2.wintergiftrandom}}}}",
+	"Resort": "{{Random:{{i18n:Kid.2.Resort.1}},{{i18n:Kid.2.Resort.2}},{{i18n:Kid.2.Resort.3}}}}",
+	}},
 
 {"Action": "EditData",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 

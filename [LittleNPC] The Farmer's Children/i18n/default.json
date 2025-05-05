@@ -117,6 +117,9 @@
   "Kid.1.samhouse.001": "Vincent has this really weird looking thing in his toy box.$3",
   "Kid.1.Joja.000": "These fish don't look good.$3",
   "Kid.1.Ball.000": "Look how high I can bounce my ball.$1",
+  "Kid.1.Resort.1": "Can we come here every day?$1",
+  "Kid.1.Resort.2": "I wanna go in the volcano!",
+  "Kid.1.Resort.3": "Sailing here was so much fun.$1#$e#I wonder if Mr.Willy will let me drive the boat back?$3",
  
   "Kid.2.gameing.000": " ",//second childs name in the middle
   "Kid.2.gameing.001": "is pretending to play, but it's just the video on loop.",
@@ -129,6 +132,9 @@
   "Kid.2.fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
 	"Kid.2.magic.000": "I'm learning lots from the Wizard.#$b#See?$6",
   "Kid.2.town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",
+  "Kid.2.Resort.1": "Can I go to the dig site?$3",
+  "Kid.2.Resort.2": "Is the volcano going to erupt?$2",
+  "Kid.2.Resort.3": "If I can't leave the resort then what's the point of comming here?$3#$e#It's just another beach.#$e#We already live by a beach.",
 
 //kid 1
 "Kid.1.Introduction": "Hi!$1",

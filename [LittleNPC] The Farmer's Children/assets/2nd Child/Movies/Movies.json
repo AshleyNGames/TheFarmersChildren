@@ -57,7 +57,7 @@
                                     "Text": "{{i18n:movies.PK.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.PK.kid2.during}}\"",
+                                    "Script": "/message \"{{i18n:movies.PK.kid2.during.1}}{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.PK.kid2.during.2}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
@@ -126,7 +126,7 @@
                                     "Text": "{{i18n:movies.MACR.kid2.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.MACR.kid2.during}}\"",
+                                    "Script": "/message \"{{i18n:movies.MACR.kid2.during.1}}{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:movies.MACR.kid2.during.2}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,

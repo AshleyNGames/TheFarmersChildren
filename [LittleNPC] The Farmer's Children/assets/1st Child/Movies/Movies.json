@@ -1,6 +1,4 @@
-{  "Changes":  [ 	 
-	
-
+{  "Changes":  [ 	 	
 {  "Action": "EditData",
    "Target": "Strings/Characters",
    "Entries": { 
@@ -12,8 +10,8 @@
                 "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
                     "NPCName": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
                     "Reactions": [
-                        {
-                         "Tag": "spring_movie_0", 
+{
+"Tag": "spring_movie_0", 
                          "Response": "love",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -22,15 +20,15 @@
                                     "Text": "{{i18n:movies.BLS.kid1.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.BLS.kid1.during}}\"",
+                                    "Script": "/message \"{{i18n:movies.BLS.kid1.during.1}}{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.BLS.kid1.during.2}}\"",
                                     "Text": ""    },
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
                                     "Text": "{{i18n:movies.BLS.kid1.after}}"  }   },
-                            "ID": "reaction_0"                         },
-                        {
-                         "Tag": "spring_movie_1", 
+                            "ID": "reaction_0"},
+{
+"Tag": "spring_movie_1", 
                          "Response": "like",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -45,10 +43,10 @@
                                     "ResponsePoint": null,
                                     "Script": "",
                                     "Text": "{{i18n:movies.NW.kid1.after}}"  }   },
-                            "ID": "reaction_1"                         },
+                            "ID": "reaction_1"},
 						
-						             {
-                         "Tag": "summer_movie_0", 
+{
+"Tag": "summer_movie_0", 
                          "Response": "like",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -63,9 +61,9 @@
                                     "ResponsePoint": null,
                                     "Script": "",
                                     "Text": "{{i18n:movies.PK.kid1.after}}"  }   },
-                            "ID": "reaction_2"                         },
-                        {
-                         "Tag": "summer_movie_1", 
+                            "ID": "reaction_2"},
+{
+"Tag": "summer_movie_1", 
                          "Response": "love",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -80,10 +78,9 @@
                                     "ResponsePoint": null,
                                     "Script": "",
                                     "Text": "{{i18n:movies.Wumbus.kid1.after}}"  }   },
-                            "ID": "reaction_3"                         },  								
-						                
-                        {
-                         "Tag": "fall_movie_0", 
+                            "ID": "reaction_3"                         },  										                
+{
+"Tag": "fall_movie_0", 
                          "Response": "hate",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -92,15 +89,15 @@
                                     "Text": "{{i18n:movies.Mysterium.kid1.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.Mysterium.kid1.during}}\"",
+                                    "Script": "/message \"{{i18n:movies.Mysterium.kid1.during.1}}{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.Mysterium.kid1.during.2}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
                                     "Text": "{{i18n:movies.Mysterium.kid1.after}}"  }   },
-                            "ID": "reaction_4"                         },
-                        {
-                         "Tag": "fall_movie_1", 
+                            "ID": "reaction_4"},
+{
+"Tag": "fall_movie_1", 
                          "Response": "hate",
                          "SpecialResponses": {
                                "BeforeMovie": {
@@ -109,21 +106,21 @@
                                     "Text": "{{i18n:movies.HITR.kid1.before}}"  },
                                "DuringMovie": {
                                     "ResponsePoint": null, 
-                                    "Script": "/message \"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.HITR.kid1.during}}\"",
+                                    "Script": "/message \"{{i18n:movies.HITR.kid1.during.1}}{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.HITR.kid1.during.2}}\"",
                                     "Text": ""  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movies.HITR.kid1.after}}"  }   },
-                            "ID": "reaction_5"                         },  
-                       {
-                         "Tag": "winter_movie_0", 
+                                    "Text": "{{i18n:movies.HITR.kid1.after}}"}},
+                            "ID": "reaction_5"},  
+{
+"Tag": "winter_movie_0", 
                          "Response": "like",
                          "SpecialResponses": {
                                "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movies.MACR.kid1.before}}"  },
+                                    "Text": "{{i18n:movies.MACR.kid1.before}}"},
                                "DuringMovie": {
                                     "ResponsePoint": null, 
                                     "Script": "/message \"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.MACR.kid1.during}}\"",
@@ -131,16 +128,16 @@
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movies.MACR.kid1.after}}"  }   },
-                            "ID": "reaction_6"                         },  
-                       {
-                         "Tag": "winter_movie_1", 
+                                    "Text": "{{i18n:movies.MACR.kid1.after}}"}},
+                            "ID": "reaction_6"},  
+{
+"Tag": "winter_movie_1", 
                          "Response": "like",
                          "SpecialResponses": {
                                "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movies.ZUZUce.kid1.before}}"  },
+                                    "Text": "{{i18n:movies.ZUZUce.kid1.before}}"},
                                "DuringMovie": {
                                     "ResponsePoint": null, 
                                     "Script": "/message \"{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:movies.ZUZUce.kid1.during}}\"",
@@ -148,9 +145,7 @@
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:movies.ZUZUce.kid1.after}}"  }   },
-                            "ID": "reaction_7"                         },						
-                       
-					],},},}								
-
+                                    "Text": "{{i18n:movies.ZUZUce.kid1.after}}"}},
+                            "ID": "reaction_7"},
+]}}}
 ]}

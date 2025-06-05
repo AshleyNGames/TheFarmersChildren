@@ -271,7 +271,8 @@
   "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",
 	
 	"movies.BLS.kid1.before": "MOVIE! MOVIE! MOVIE!$1",
-	"movies.BLS.kid1.during":" ...",
+	"movies.BLS.kid1.during.1":"", //child name is coded between this line and the next. This is so translations that need the childs name not at the begining can have it.
+	"movies.BLS.kid1.during.2":" is engrossed with the little sapling.",
 	"movies.BLS.kid1.after":"That Movie Was Amazing!$1",
 	"movies.NW.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
 	"movies.NW.kid1.during":" ...",
@@ -283,11 +284,13 @@
 	"movies.Wumbus.kid1.during":" ...",
 	"movies.Wumbus.kid1.after":"...",
 	"movies.Mysterium.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
-	"movies.Mysterium.kid1.during":" seems scared.",
+	"movies.Mysterium.kid1.during.1":"", //child name 
+	"movies.Mysterium.kid1.during.2":" seems scared.",
 	"movies.Mysterium.kid1.after":"The shadow is coming for me!$2",
 	"movies.HITR.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
-	"movies.HITR.kid1.during":" ...",
-	"movies.HITR.kid1.after":"...",
+	"movies.HITR.kid1.during.1":"",
+	"movies.HITR.kid1.during.2":" is covering their ears",//child name 
+	"movies.HITR.kid1.after":"It was raining the entire movie.$2",
 	"movies.MACR.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
 	"movies.MACR.kid1.during":" ...",
 	"movies.MACR.kid1.after":"...",
@@ -302,11 +305,12 @@
 	"movies.NW.kid2.during":" ...",
 	"movies.NW.kid2.after":"...",
 	"movies.PK.kid2.before":"Journey Of The Prairie King?$3#$b#Like the game?$1",
-	"movies.PK.kid2.during":" eyes are glued to the screen.",
-	"movies.PK.kid2.after":"It wasn't as good as the game, but I still liked it.",
+	"movies.PK.kid2.during.1":"",//child name
+	"movies.PK.kid2.during.2":" eyes are glued to the screen.",
+	"movies.PK.kid2.after":"It's not as good as the game, but I still liked it.",
 	"movies.Wumbus.kid2.before":"What's a Wumbus?$3",
 	"movies.Wumbus.kid2.during":" ...",
-	"movies.Wumbus.kid2.after":"...",
+	"movies.Wumbus.kid2.after":"...I still don't know what a Wumbus is.",
 	"movies.Mysterium.kid2.before":"Mysterium?$3#$b#That sounds cool!$1",
 	"movies.Mysterium.kid2.during":" ...",
 	"movies.Mysterium.kid2.after":"...",
@@ -314,7 +318,8 @@
 	"movies.HITR.kid2.during":" ...",
 	"movies.HITR.kid2.after":"...",
 	"movies.MACR.kid2.before":"The Miracle At Coldstar Ranch?$3#$b#Isn't miracle just another word for magic?",
-	"movies.MACR.kid2.during":"'s stomach growls.",
+	"movies.MACR.kid2.during.1":"",//child name
+	"movies.MACR.kid2.during.2":"'s stomach growls.",
 	"movies.MACR.kid2.after":"Who changed the winter tree star into a stardrop?$3",
 	"movies.ZUZUce.kid2.before":"The Zuzu City Express?$3#$b#So the movie is about a train?",
 	"movies.ZUZUce.kid2.during":" ...",

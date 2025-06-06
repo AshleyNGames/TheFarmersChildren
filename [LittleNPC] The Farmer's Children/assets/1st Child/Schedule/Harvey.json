@@ -1,7 +1,7 @@
 {  "Changes":  [  
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": { "rain2": "GOTO rain"}},
+"Entries": { "rain2": "830 HarveyRoom 11 9 square_2_2_2/1510 Saloon 34 17 2 child_fidget"}},
 
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",

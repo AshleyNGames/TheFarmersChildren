@@ -1,7 +1,8 @@
 {  "Changes":  [ 	 	
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "Thu":"700 Hospital 9 16 3/1130 Hospital 4 17 1 child_read/1500 Town 22 62 1 child_ball",
+"Entries": { 
+	"Thu":"700 Hospital 9 16 3/1130 Hospital 4 17 1 child_read/1500 Town 22 62 1 child_ball",
 	"summer_Thu":"700 Hospital 9 16 3/1130 Hospital 4 17 1 child_read/1500 Town 22 62 1 child_ball",
 	"fall_Thu":"700 Hospital 9 16 3/1130 Hospital 4 17 1 child_read/1500 Town 22 62 1 child_ball",
 	"winter_Thu":"700 Hospital 9 16 3/1130 Hospital 4 17 1 child_read/1500 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",

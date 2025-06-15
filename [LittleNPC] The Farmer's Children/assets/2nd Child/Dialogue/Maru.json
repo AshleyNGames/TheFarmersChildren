@@ -1,0 +1,6 @@
+{  "Changes":  [ 	 
+	
+{  "Action": "EditData",
+  "Target": "Characters/Dialogue/rainy",
+  "Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:kid.2.Maru.Rain}}"},}, 
+]}

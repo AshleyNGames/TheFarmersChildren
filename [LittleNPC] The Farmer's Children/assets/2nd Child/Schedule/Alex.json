@@ -1,0 +1,14 @@
+{  "Changes":  [ 	 	
+	
+{
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { "rain2": "720 JoshHouse 17 18 square_3_3/a1200 JoshHouse 1 20 1/1600 JoshHouse 18 17 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:Kid.2.Alex.000\"/1700 JoshHouse 13 22 child_read",	
+			 "GreenRain": "720 JoshHouse 17 18 square_3_3",},},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { 
+			"summer_Tue": "a920 Town 61 68 0 square_3_3/a1110 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1410 Town 87 93 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:kid.2.Alex.summer.000\"/1700 JoshHouse 17 18 square_3_3",     
+ 			       "Tue": "a920 Town 61 68 0 square_3_3/a1110 ArchaeologyHouse 17 12 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1410 Town 84 102 2 child_fidget/1610 JoshHouse 17 18 square_3_3", },},
+]}

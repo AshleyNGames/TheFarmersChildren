@@ -1,0 +1,51 @@
+{  "Changes":  [ 	 	
+	 
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
+		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
+		"Age": "2",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 36,
+            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteFrameDuration": 200,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}",	
+			"Teren": "{{i18n:Dad.k2}}", 
+		}}}},
+ 
+ 
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+    "Entries": {
+	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",	
+		"Age": "2",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 36,
+            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteFrameDuration": 200,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,
+			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Brother.k1}}",	
+			"Teren": "{{i18n:Dad.k2}}", 
+		}}}},
+]}

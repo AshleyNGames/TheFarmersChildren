@@ -1,5 +1,0 @@
-{  "Changes":  [  
-{"Action": "EditData",
-"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "rain2": "a1200 HaleyHouse 14 20 0 square_3_5 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Haley.Rain\"/1510 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\""}},
-]}

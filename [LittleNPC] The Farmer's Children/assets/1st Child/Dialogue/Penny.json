@@ -1,8 +1,0 @@
-{  "Changes":  [ 	 
-	
-{"Action": "EditData",
-"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-	"Entries": {
- 		"Fri2": "{{i18n:Kid.1.Fri.0}} {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}?#$b#{{Random:{{i18n:Kid.1.Penny.Fri.1}}}}",
-		}},
-]}

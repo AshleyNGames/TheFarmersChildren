@@ -1,6 +1,0 @@
-{  "Changes":  [ 	 
-	
-{"Action": "EditData",
-"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-	"Entries": { "AcceptGift_book_item": "{{i18n:kid.2.Penny.Books}}", }},
-]}

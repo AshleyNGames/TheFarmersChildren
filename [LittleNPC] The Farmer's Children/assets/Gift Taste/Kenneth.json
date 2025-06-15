@@ -1,0 +1,25 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "400 Rafseazz.RSVCP_Fixer_Eel Rafseazz.RSVCP_Mountain_Plumcot Rafseazz.RSVCP_Ridge_Apple_Cake",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "90 -6",
+         "Delimiter": " "},   ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "400 Rafseazz.RSVCP_Autumn_Drop_Berry Rafseazz.RSVCP_Mountain_Plumcot Rafseazz.RSVCP_Pumpkin_Darling_Slice",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "538 -6",   ],},
+]}

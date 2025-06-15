@@ -1,0 +1,27 @@
+{     "Changes": [
+	
+//1 love   3 like   9 neutral   5 dislike   7 hate 
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Puppyfish",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "872 FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+         "Delimiter": " "},     ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken 577",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "872 FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+         "Delimiter": " "},   ],},
+]}

@@ -1,0 +1,34 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "613 Rafseazz.RSVCP_Wild_Apple_Juice 226",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "Rafseazz.RSVCP_Ridge_Wild_Apple Rafseazz.RSVCP_Autumn_Drop_Berry Rafseazz.RSVCP_Frost_Clump_Berry 296 282",
+         "Delimiter": " "}, 	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
+         "Value": "446",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "119 613 Rafseazz.RSVCP_Wild_Apple_Juice",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "Rafseazz.RSVCP_Ridge_Wild_Apple Rafseazz.RSVCP_Frost_Clump_Berry 296 Rafseazz.RSVCP_Ember_Blood_Lime 282",
+         "Delimiter": " "}, 	         	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
+         "Value": "446",
+         "Delimiter": " "},    ],},
+]}

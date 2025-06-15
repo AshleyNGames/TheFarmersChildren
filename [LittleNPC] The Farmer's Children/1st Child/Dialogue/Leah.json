@@ -1,0 +1,7 @@
+{  "Changes":  [ 	 
+{"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+	"Entries": {  
+		"AcceptGift_(O)651": "{{i18n:kid.1.Leah_AcceptGift_(O)Muffin}}",
+	}},
+]}

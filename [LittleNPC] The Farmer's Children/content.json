@@ -1,43 +1,43 @@
-{ "Format": "2.5.0",
+{ "Format": "2.7.0",
 			
 "Changes":  [
 //loads
 {"Action": "Load",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"FromFile": "assets/Loads/dialogue 1.json",},
+"FromFile": "assets/Loads/dialogue 1.json"},
 {"Action": "Load",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"FromFile": "assets/Loads/dialogue 2.json",},
+"FromFile": "assets/Loads/dialogue 2.json"},
 {"Action": "Load",
 "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"FromFile": "assets/Loads/schedule_dialogue 1.json",},
+"FromFile": "assets/Loads/schedule_dialogue 1.json"},
 {"Action": "Load",
 "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"FromFile": "assets/Loads/schedule_dialogue 2.json",},
+"FromFile": "assets/Loads/schedule_dialogue 2.json"},
 {"Action": "Load",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"FromFile": "assets/Loads/schedule 1.json",},
+"FromFile": "assets/Loads/schedule 1.json"},
 {"Action": "Load",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"FromFile": "assets/Loads/schedule 2.json",},
+"FromFile": "assets/Loads/schedule 2.json"},
   
 //include
 {"Action": "Include",
-"FromFile": "assets/1st Child/Load.json",},
+"FromFile": "assets/1st Child/Load.json"},
 {"Action": "Include",
-"FromFile": "assets/2nd Child/Load.json",},
+"FromFile": "assets/2nd Child/Load.json"},
 {"Action": "Include",
 "FromFile": "assets/Changes to other NPCs/Load.json",
-"When": { "HasFile:{{FromFile}}": true },}, 
+"When": { "HasFile:{{FromFile}}": true }}, 
 {"Action": "Include",
 "FromFile": "assets/Other Mods/Load.json",
-"When": { "HasFile:{{FromFile}}": true },}, 
+"When": { "HasFile:{{FromFile}}": true }}, 
 
 {"Action": "Include",
 "FromFile": "assets/Gift Taste/Gift Tastes.json",}, 
 {"Action": "Include",
 "FromFile": "assets/Gift Taste/{{spouse}}.json",
-"When": { "HasFile:{{FromFile}}": true },}, 
+"When": { "HasFile:{{FromFile}}": true }}, 
 
 //Animation
 {"LogName": "Animations",
@@ -49,5 +49,8 @@
 	  	"child_fidget": "16/16 17 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 17 16 16 16/16",
 	    "child_twirl": "0/0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12/12",
 	    "child_ball": "26/26 25 24 25 26 27 29 28 25 24 26 28 30 32 34 35 33 31 28 25 24 25 26 25 24 25 27 29 31 30 28 26 25 24 25/26",
-	    "child_read": "20 21 22 23/36/23",
-	  },}, ]}
+	    "child_read": "20 21 22 23/36/23"}}, 
+
+  
+
+]}

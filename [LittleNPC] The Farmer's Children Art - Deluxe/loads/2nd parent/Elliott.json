@@ -2,7 +2,7 @@
 	
 {      "Action": "Load",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/Skin/{{Elliott Skin2}}.png",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/Skin/{{Art Style}}{{Elliott Skin2}}.png",
 		"When": { "HasFile:{{FromFile}}": true},},
 
 {      "Action": "Load",
@@ -13,34 +13,34 @@
 {      "Action": "editimage", 
 		"Patchmode":"Overlay",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/Base.png", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/{{Art Style}}Base.png", 
 		"When": { "HasFile:{{FromFile}}": true, },},
 
 {      "Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
 		"Patchmode":"Overlay",
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/PonyTail.png",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/{{Art Style}}PonyTail.png",
 		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"},},
 
 {      "Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
 		"Patchmode":"Overlay",
 	"Update": "OnLocationChange",
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/Long.png", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/{{Art Style}}Long.png", 
 		"When": { "HasFile:{{FromFile}}": true, "Season":"Winter", "IsOutdoors": "false",},},
 
 {      "Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
 		"Patchmode":"Overlay",
 	"Update": "OnLocationChange", 
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/Long.png", 
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/{{Art Style}}Long.png", 
 		"When": { "HasFile:{{FromFile}}": true, "Festival": "WinterStar" ,},},
 
 {      "Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
 		"Patchmode":"Overlay",
 	"Update": "OnLocationChange", 
-      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/TwinTails.png",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}}/Elliott/{{Elliott Hair2}}/{{Art Style}}TwinTails.png",
 		"When": { "HasFile:{{FromFile}}": true, "Season":"Spring, Fall", "FestivalExceptionEVE": false},},
 
 {      "Action": "editimage", 

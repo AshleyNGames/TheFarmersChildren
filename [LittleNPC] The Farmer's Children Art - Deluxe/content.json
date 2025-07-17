@@ -20,14 +20,30 @@
  {  "Name": "BiologicalChildren",	"Value": "true",				"When":{"PlayerGender":"Male", "spouse": "Abigail, Aideen, Alissa, Blair, Cirrus, Clair, Corine, Daia, Emily, Faye, Flor, Haley, Irene, Juliet, Kataryna, Kiarra, Leah, Maddie, Maru, Olivia, Paula, Penny, Scarlett, Sophia, Ysabelle"}},
  {  "Name": "BiologicalChildren",	"Value": "true",				"When":{"PlayerGender":"Female", "spouse": "Alex, Anton, Bryle, EliasSBV, Elliott, Gunnar, Harvey, Hector, Ian, Jasper, Jeric, Jio, June, Kenneth, Lance, Olivia, Philip, Sam, Sean, Sebastian, Shane, Shiro, Sig, Sterling, Teren, Tristan, Victor, Wizard, Zayne"}},
  {  "Name": "BiologicalChildren",	"Value": "false",				"When":{"PlayerGender":"Female", "spouse": "Abigail, Aideen, Alissa, Blair, Cirrus, Clair, Corine, Daia, Emily, Faye, Flor, Haley, Irene, Juliet, Kataryna, Kiarra, Leah, Maddie, Maru, Olivia, Paula, Penny, Scarlett, Sophia, Ysabelle"}},
+{"Name": "Art Style","Value":""},
+{"Name": "Art Style","Value":"Nyapu","When":{"Art": "Nyapu"}},
+{"Name": "Art Style","Value":"Custom","When":{"Art": "Custom"}},
  ],
+ 
  "ConfigSchema": 		{  
 	"LookLikeParent": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
- 	"LookLikeParent2": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},	
+ 	"LookLikeParent2": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
 	"select spouse": 	{	"Default": "Shane"},
  	"select spouse2": 	{	"Default": "Shane"},
-	"Glasses1":			{	"AllowValues": "Black, Brown, Sun, Custom, False",  "Default": "False"},
-	"Glasses2":			{	"AllowValues": "Black, Brown, Sun, Custom, False",  "Default": "False"},
+	"Art": 				{	"AllowValues": "Vanilla, Nyapu, Custom",  "Default": "Vanilla"},},
+	
+ "ConfigSchema": 		{  
+	"Glasses1":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
+	"Glasses2":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
+	"EggFestival Style":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"FlowerDance Style":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"IceFestival Style":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"Luau Style":					{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"MoonlightJellies Style":		{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"SpiritsEve Style":				{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"SVFair Style":					{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	"WinterStar Style":				{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	
 	"SpringShirt1": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom",  "Default": "Green"},
 	"SpringShirt2": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom",  "Default": "Blue"},
 	"SpringFlower1": 	{	"AllowValues": "Blue, Pink, Custom",  "Default": "Pink"},
@@ -71,7 +87,8 @@
 	"Pants1": 			{	"AllowValues": "Aqua, Blue, Green, Grey, Orange, Yellow, Custom",  "Default": "Orange"},
 	"Pants2": 			{	"AllowValues": "Aqua, Blue, Green, Grey, Orange, Yellow, Custom",  "Default": "Aqua"},
 	"Boots1": 			{	"AllowValues": "Brown, Custom",  "Default": "Brown"},
-	"Boots2": 			{	"AllowValues": "Brown, Custom",  "Default": "Brown"},
+	"Boots2": 			{	"AllowValues": "Brown, Custom",  "Default": "Brown"},	
+	
 	"Adoption Skin1": 	{	"Default": "1"},
 	"Adoption Skin2": 	{	"Default": "2"},
 	"Adoption Hair1": 	{	"Default": "Black"},
@@ -190,12 +207,12 @@
 {"Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
 		"Patchmode":"Overlay",
-	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Glasses/{{Glasses1}}.png", 
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}} Clothes/Glasses/{{Art Style}}{{Glasses1}}.png", 
  		"When": { "HasFile:{{FromFile}}": true}},
 {"Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCName}}", 
 		"Patchmode":"Overlay",
-	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Glasses/{{Glasses2}}.png", 
+	 "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/SecondLittleNPCGender}} Clothes/Glasses/{{Art Style}}{{Glasses2}}.png", 
  		"When": { "HasFile:{{FromFile}}": true}},
 
 //clothes

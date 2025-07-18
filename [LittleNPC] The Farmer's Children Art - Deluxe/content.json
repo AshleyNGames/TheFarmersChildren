@@ -192,14 +192,14 @@
             "FromFile": "loads/1st parent/{{select spouse}}.json",
  		"When": { "HasFile:{{FromFile}}": true, "LookLikeParent" : "Select"}},
 {"Action": "Include",
-            "FromFile": "loads/2nd parent/{{select spouse}}.json",
+            "FromFile": "loads/2nd parent/{{select spouse2}}.json",
  		"When": { "HasFile:{{FromFile}}": true, "LookLikeParent2" : "Select"}},
 {"Action": "Include",
             "FromFile": "loads/1st parent.json",
  		"When": { "HasFile:loads/1st parent/{{select spouse}}.json": false, "LookLikeParent" : "Select"}},
 {"Action": "Include",
             "FromFile": "loads/2nd parent.json",
- 		"When": { "HasFile:loads/1st parent/{{select spouse2}}.json": false, "LookLikeParent2" : "Select"}},
+ 		"When": { "HasFile:loads/2nd parent/{{select spouse2}}.json": false, "LookLikeParent2" : "Select"}},
 
 //glasses
 {"Action": "editimage",

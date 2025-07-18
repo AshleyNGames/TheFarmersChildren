@@ -30,9 +30,7 @@
  	"LookLikeParent2": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
 	"select spouse": 	{	"Default": "Shane"},
  	"select spouse2": 	{	"Default": "Shane"},
-	"Art": 				{	"AllowValues": "Vanilla, Nyapu, Custom",  "Default": "Vanilla"},},
-	
- "ConfigSchema": 		{  
+	"Art": 				{	"AllowValues": "Vanilla, Nyapu, Custom",  "Default": "Vanilla"},
 	"Glasses1":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
 	"Glasses2":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
 	"EggFestival Style":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},

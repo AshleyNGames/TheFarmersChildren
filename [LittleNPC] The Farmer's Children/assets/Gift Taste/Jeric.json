@@ -1,5 +1,4 @@
 {     "Changes": [
-	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
@@ -10,7 +9,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
          "Value": "408 335",
-         "Delimiter": " "}, 	  ],},
+         "Delimiter": " "},],},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -22,5 +21,5 @@
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
          "Value": "20 335",
-         "Delimiter": " "}, 	
+         "Delimiter": " "},]},
 ]}

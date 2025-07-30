@@ -53,6 +53,7 @@
 	"Sister.k2": "little sister",
 	"Brother.k2": "little brother",
 
+//festivals
 	"Kid.1.spring.13.y1": "${I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.^I'm going to find more eggs than you Parpar.}$#$b#Just you watch.$1",
 		"Kid.1.spring.13.y2": "This year I'm going to win for sure!",
     "Kid.1.spring.24.y1": "I tried convincing Jas to ask Vincent to dance, but she got really quiet.#$e#Guess she's too shy to do it.",
@@ -97,6 +98,10 @@
 	"Kid.2.rain.brother": "doesn't like the sound of rain, so he tries to sing louder then it.$3#$b#I'd rather hear the rain then him singing.",
 	"Kid.1.GreenRain":"Normally rain is bad, but it's different today.$3#$b#It just feels better.",
 	"Kid.2.GreenRain":"Why is the rain green?$3#$b#Does it have anything to do with crabs?$3",
+	
+//Events
+	"Kid.1.StartingSchool":"${Bye Daddy.^Bye Mommy.^Bye Parpar.}$#$b#I'm off to school now.",
+	"Kid.2.StartingSchool":"${See you later Dad.^See you later Mom.^See you later Par.}$#$b#I'm finally big enough to go to school.$1",
 	
 //schedule
   "Kid.1.school.000": "It's not fare.$5#$b#The weather is so nice.$5#$b#Why do we have to study when we could be playing?$5",

@@ -2,7 +2,7 @@
   "Name": "LittleNPC - The Farmer's Children",
   "Author": "xiddav",
   "Description": "A LittleNPCs content pack made by Xiddav over the past 5 years.",
-  "Version": "5.0.2",
+  "Version": "5.0.3",
   "UniqueID": "xiddav.NPCChildren",
   "UpdateKeys": [ "Nexus:5436@FarmersChildren" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },

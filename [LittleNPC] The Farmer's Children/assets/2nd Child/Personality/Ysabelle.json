@@ -22,7 +22,7 @@
 		"Penny": "{{i18n:Teacher.k}}",
 		"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}" ,
 		"Ysabelle": "{{i18n:Mom.k2}}" ,
-		"Richard": "{{i18n:GreatGrandpa.k}}"},}	},
+		"Richard": "{{i18n:GreatGrandpa.k}}"}}}},
 		
 	  
  {  "Action": "EditData",
@@ -47,4 +47,5 @@
 		"Penny": "{{i18n:Teacher.k}}",
 		"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Brother.k1}}" ,
 		"Ysabelle": "{{i18n:Mom.k2}}" ,
-		"Richard": "{{i18n:GreatGrandpa.k}}"},}	},
+		"Richard": "{{i18n:GreatGrandpa.k}}"}}}}
+ ]}

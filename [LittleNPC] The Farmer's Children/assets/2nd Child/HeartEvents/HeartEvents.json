@@ -1,0 +1,6 @@
+{  "Changes":  [
+{"Action": "EditData",
+	 "Target": "Data/Events/Farm",
+	 "Entries": {"5436002/F /e 5436001/w sunny": "continue/-10000 -1000/farmer -100 -100 2 {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} -100 -100 2/warp {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} -100 -100/warp farmer -100 -100/faceDirection {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} \"{{i18n:Kid.2.StartingSchool}}\" /move {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 0 2 2/end",
+}},
+]}

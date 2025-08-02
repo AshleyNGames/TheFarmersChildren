@@ -1,17 +1,17 @@
 {     "Changes": [
 {      "Action": "Load",
-      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach", 
       "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/Skin/{{Art Style}}{{ModNPC Skin1}}.png",
 		"When": { "HasFile:{{FromFile}}": true}},
 
 {      "Action": "Load",
-      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}, Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach", 
       "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/Skin/{{ModNPC Skin1}}.png", 
  		"When": { "HasFile:{{FromFile}}": true}},
 
 {      "Action": "editimage", 
 		"Patchmode":"Overlay",
-      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach", 
       "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/{{Art Style}}Base.png", 
 		"When": { "HasFile:{{FromFile}}": true }},
 
@@ -20,6 +20,12 @@
 		"Patchmode":"Overlay",
       "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/{{Art Style}}PonyTail.png",
 		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"}},
+
+{      "Action": "editimage",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach", 
+		"Patchmode":"Overlay",
+      "FromFile": "assets/Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/{{Art Style}}PonyTail.png",
+		"When": {"HasFile:{{FromFile}}": true}},
 
 {      "Action": "editimage",
       "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
@@ -44,7 +50,7 @@
 
 {      "Action": "editimage", 
 		"Patchmode":"Overlay",
-      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}, Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach", 
       "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/Base.png", 
  		"When": { "HasFile:{{FromFile}}": true}},
  
@@ -53,6 +59,12 @@
 		"Patchmode":"Overlay", 
       "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/PonyTail.png", 
 		"When": { "HasFile:{{FromFile}}": true, "Season":"Summer"}}, 
+ 
+{      "Action": "editimage", 
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}_Beach",  
+		"Patchmode":"Overlay", 
+      "FromFile": "assets/Characters/{{Candidus42.LittleNPCs/FirstLittleNPCGender}}/Replace with NPC Spouse Name/{{ModNPC Hair1}}/PonyTail.png", 
+		"When": { "HasFile:{{FromFile}}": true}}, 
  
 {      "Action": "editimage", 
       "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPCName}}",  

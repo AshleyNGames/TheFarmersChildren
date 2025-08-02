@@ -54,6 +54,7 @@
 	"IceFestival Style2":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"WinterStar Style":				{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"WinterStar Style2":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	
 	"SpringShirt1": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom",  "Default": "Green"},
 	"SpringShirt2": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom",  "Default": "Blue"},
 	"SpringFlower1": 	{	"AllowValues": "Blue, Pink, Custom",  "Default": "Pink"},

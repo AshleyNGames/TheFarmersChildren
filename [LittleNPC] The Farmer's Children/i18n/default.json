@@ -145,28 +145,28 @@
 //kid 1
 "Kid.1.Introduction": "Hi!$1",
 "Kid.1.ZeroHearts":"...$2",
-	
+
  "Kid.1.spring.10.1": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's ice cream.",
  "Kid.1.spring.10.2": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's pink cake.",
  "Kid.1.spring.10.3": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's cupcakes.",
- "Kid.1.spring.10.4": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's chocolate cake.",	 
+ "Kid.1.spring.10.4": "Can we visit Vincent today?#$b#It's his birthday.#$e#I hope there's chocolate cake.",
 	
  "Kid.1.Mon.0":"${Hi Daddy!$1^Hi Mommy!$1^Hi Parpar!$1}$",
 	"Kid.1.Mon.1": "I found this in the woods. You can have it.",
 	"Kid.1.Mon.2": "I love you!#$b#I also love the beach.",
-	
+
   "Kid.1.Tue.1": "~Baa baa black sheep have you any wool?~#$b#~Yes sir yes sir three bags full~, ~Mary had a little lamb little lamb little lamb~#$b#~Mary had a little lamb whose fleece was white as snow.~#$e#~And everywhere that Mary went Mary went Mary went~#$b#~And everywhere that Mary went the lamb was sure to go., ~Old Ms. Marnie had a farm E I E I O. And on her farm she had a cow E I E I O~, ~The farmer's in his den. The farmer's in his den~, ~The sheep’s in the meadow. The cow’s in the corn.~",
   "kid.1.923":"I don't have school today.$1",
-	
-  "Kid.1.Wed.1": "I saw an mouse wearing a hat., I saw a unicorn in the forest!$1, I saw a UFO last night!$1, I saw a mermaid on the beach!$1, I saw a dragon in the distance!$1, I saw a witch flying over the mountains!, I saw a leprechaun on a train!$1, I saw a fairy near the crops!$1, I saw a pink sheep!$1, I saw a doggy in town!$1, I saw something moving in the sewers!$2, There was a really big hairy man in the the forest!$2",	
+
+  "Kid.1.Wed.1": "I saw an mouse wearing a hat., I saw a unicorn in the forest!$1, I saw a UFO last night!, I saw a mermaid on the beach!$1, I saw a dragon in the distance!$1, I saw a witch flying over the mountains!, I saw a leprechaun on a train!$1, I saw a fairy near the crops!$1, I saw a pink sheep!$1, I saw a doggy in town!$1, I saw something moving in the sewers!$2, There was a really big hairy man in the the forest!$2, I saw someone throwing rocks at the tent in the mountains.$5",
   "Kid.1.Thu.0": "When I grow up, I'm going to be an explorer!$1#$b#",
   	"Kid.1.Thu.1": "I'll see all the great wonders of the world., I'll climb to the top of every mountains., I'll dive to the bottom of every ocean., I'll find an ancient city in the jungle., I'll find never before seen animals!, I'll fly across the entire globe., I'll even go into space!",
   "Kid.1.Fri.0": "%What did you do at school this week",
-	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$3, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpoles." ,
-		
+	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., I don't know.#$b#I wasn't paying attention., I learnt rainbows are made of light not candy., We learnt a bunch of animal facts.#$b#Bears sleep all winter because not enough food grows in the cold., We learnt a bunch of animal facts.#$b#Frogs lay eggs just like chickens and the babies are called tadpoles., We learnt a bunch of animal facts.#$b#Cheetas are the fast land animals." ,
+
  "Kid.1.Sat.0": "Saturday morning cartoons are the best.#$b#",
 	"Kid.1.Sat.1": "I really like the ones where adults from other cartoons are kids., My favorite shows are when kids team up with monsters to fight the bad guys.$1, The ones when animals act like people are really funny.$1, The superhero ones are okay I guess.$3",
-	
+
  "Kid.1.Sun.0": "Yay! I get to pick dinner tonight.$1#$b#",
     "Kid.1.Sun.game": "How about pepper poppers?, We're having stir fry tonight., Can we have chowder?,  I want pizza with extra cheese!",
     "Kid.1.Sun.foreign": "I want poutine!, Can we have ramen?, How about sushi?, Let's have wonton soup.",
@@ -174,7 +174,7 @@
     "Kid.1.Sun.sweets": "That means chocolate cake!$1, I want milk and cookies!",
     "Kid.1.Sun.fish": "Let's have... uhmmm... tacos?$3#$b#Yeah! Tacos! Fish tacos!, I want tuna noodle casserole!#$b#I even got the tuna!$1.[130], I want fish and chips!, Do we have the stuff for surf and turf?, Let's have coconut shrimp!$1",
 	"Kid.1.Sun.meat": "I want a cheeseburger and potato wedges!, So let's have breadcrumb pork chops!#$b#And I'll help$1., Big juicy steaks it is!, Let's grill up some BBQ ribs!, We're having fried chicken!",	
-	
+
  "Kid.1.spring1": "${Happy new year Daddy.^Happy new year Mommy.^Happy new year Parpar.}$#$e#This year is going to be the bestest one yet!", 
  "Kid.1.spring13": "EGGS, EGGS, EGGS!#$b#I'm going to find all the eggs this year!",
  "Kid.1.spring14": "Next year I'll win the egg hunt for sure!$1",
@@ -293,8 +293,8 @@
 	"movies.Mysterium.kid1.during.2":" seems scared.",
 	"movies.Mysterium.kid1.after":"The shadow is coming for me!$2",
 	"movies.HITR.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
-	"movies.HITR.kid1.during.1":"",
-	"movies.HITR.kid1.during.2":" is covering their ears",//child name 
+	"movies.HITR.kid1.during.1":"", //child name 
+	"movies.HITR.kid1.during.2":" is covering their ears",
 	"movies.HITR.kid1.after":"It was raining the entire movie.$2",
 	"movies.MACR.kid1.before":"MOVIE! MOVIE! MOVIE!$1",
 	"movies.MACR.kid1.during":" ...",

@@ -1,16 +1,13 @@
-{
-  "Name": "LittleNPC - The Farmer's Children",
+{  "Name": "LittleNPC The Farmer's Children Art Deluxe",
   "Author": "xiddav",
-  "Description": "A LittleNPCs content pack made by Xiddav over the past 5 years.",
-  "Version": "5.0.4",
-  "UniqueID": "xiddav.NPCChildren",
-  "UpdateKeys": [ "Nexus:5436@FarmersChildren" ],
-  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
+  "Description": "A LittleNPCs mod. The Art Part! Seasonal and can look like Parent.",
+  "Version": "4.4.1",
+  "UniqueID": "xiddav.NPCChildrenART",
+  "UpdateKeys": [ "Nexus:5436@Deluxe" ],
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher",
+   "MinimumVersion": "2.7.0" },
   "Dependencies": [
 {"UniqueID": "Candidus42.LittleNPCs",
-	"IsRequired": true},
-{"UniqueID": "FlashShifter.StardewValleyExpandedCP",
-   "IsRequired": false},
-{"UniqueID": "Rafseazz.RSVCP",
-   "IsRequired": false}
+	  "IsRequired": true,
+   "MinimumVersion": "2.1.0"},
 ]}

@@ -1,7 +1,7 @@
 {  "Name": "LittleNPC The Farmer's Children Art Deluxe",
   "Author": "xiddav",
   "Description": "A LittleNPCs mod. The Art Part! Seasonal and can look like Parent.",
-  "Version": "4.4.1",
+  "Version": "5.0.0-ArtDeluxe",
   "UniqueID": "xiddav.NPCChildrenART",
   "UpdateKeys": [ "Nexus:5436@Deluxe" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher",

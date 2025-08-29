@@ -1,0 +1,7 @@
+{  "Changes":  [ 	 
+{"Action": "EditData",
+"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+	"Entries": {  
+		"Tue2": "{{i18n:Kid.1.Shane.Tue.1}}",
+	}},
+]}

@@ -2,5 +2,7 @@
 	
 {"Action": "EditData",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-	"Entries": { "AcceptGift_book_item": "{{i18n:kid.2.Penny.Books}}", }},
+	"Entries": { "AcceptGift_book_item": "{{i18n:kid.2.Penny.Books}}", 
+	"Wed2": "{{Random:{{i18n:Kid.2.Wed.1}}, {{i18n:Kid.2.Wed.2}}, {{i18n:Kid.2.Wed.3}}, {{i18n:Kid.2.Wed.4}}, {{i18n:Kid.2.Wed.5}}, {{i18n:Kid.2.Penny.Wed.6}}}}",
+	}},
 ]}

@@ -232,6 +232,8 @@
 	"Kid.2.Wed.2": "Ms.Marnie smells a lot like a cow.$5",
 	"Kid.2.Wed.3": "Mr.Willy stinks of fish. Yuck!$5",
 	"Kid.2.Wed.4": "%pet got sprayed by a skunk and needs a bath.$5",
+	"Kid.2.Wed.5": "Jas and the Wizard look really similar.$3",
+	"Kid.2.Wed.6": "Ms. Pam smells like the floor of the Saloon.$5",
 	
 	"Kid.2.Thu.1.1": "I love living on %farm farm.#$b#It's really quiet.#$b#Except for", //siblings name in the middle
 	"Kid.2.Thu.1.2": "of course.",
@@ -367,6 +369,8 @@
 	//Shane
  "Kid.1.wintergiftShane":"a baby blue chick.",
 	"kid.2.summer11Shane":"Aunt Marnie said when I'm bigger, she'll let me stir the potion.#$b#I mean soup.$3",
+	"Kid.1.Shane.Tue.1": "~Baa baa black sheep have you any wool?~#$b#~Yes sir yes sir three bags full~, ~Mary had a little lamb little lamb little lamb~#$b#~Mary had a little lamb whose fleece was white as snow.~#$e#~And everywhere that Mary went Mary went Mary went~#$b#~And everywhere that Mary went the lamb was sure to go., ~Old Aunt Marnie had a farm E I E I O. And on her farm she had a cow E I E I O~, ~The farmer's in his den. The farmer's in his den~, ~The sheep’s in the meadow. The cow’s in the corn.~",
+	"Kid.2.Shane.Wed.2": "Aunt Marnie smells a lot like a cow.$5",
 		
 	//Abigail	
 	"Kid.1.spring13Abigail":"I'm going to find more eggs then you and Mommy.",
@@ -403,4 +407,5 @@
   "Kid.1.Penny.school.002": "How many books are there?$3#$e#When I finish one, Mommy just gives me another.$4",
   "Kid.1.Penny.school.004": "If I fall asleep in class, Mommy will give me more homework.$4",
 	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made use practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpoles., Mom gave me extra homework because I fell asleep.$5",
+"Kid.2.Penny.Wed.6": "Grandma smells like the floor of the Saloon.$5",
 	}

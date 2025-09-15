@@ -1,6 +1,5 @@
-{  "Format": "2.6.0",
+{  "Format": "2.8.0",
   "Changes": [
-	  //Jas 
 {"Action": "EditImage",
       "Target": "Characters/Jas",
 "When": { "HasFile:{{FromFile}}": true},
@@ -111,7 +110,7 @@
 "When": { "HasFile:{{FromFile}}": true, "Candidus42.LittleNPCs/SecondLittleNPC:Name":"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}"},
       "FromFile": "assets/Jas3/Portraits_Beach.png"},
 
-//Vincent
+
 {"Action": "EditImage",
       "Target": "Characters/Vincent",
 "When": { "HasFile:{{FromFile}}": true},

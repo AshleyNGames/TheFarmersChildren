@@ -14,7 +14,7 @@
             "FromFile": "assets/2nd Child/Movies/Movies.json"},
 {"Action": "Include",
             "FromFile": "assets/2nd Child/Personality/Personality.json",
-		"When": { "HasFile:assets/2nd Child/Personality/{{spouse}}": false }}, 
+		"When": { "HasFile:{{FromFile}}": true, "HasFile:assets/2nd Child/Personality/{{spouse}}": false }}, 
 
 {"Action": "Include",
             "FromFile": "assets/2nd Child/Dialogue/{{spouse}}.json",

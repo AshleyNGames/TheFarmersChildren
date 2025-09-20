@@ -65,7 +65,7 @@
 },},
 
 //Community center done
-{"LogName": "Second Child cc Schedule edit",
+{
 "Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
 "Entries": { 	
@@ -74,30 +74,30 @@
 "summer_Sun": "740 CommunityCenter 27 9 0/1300 Town 26 30 2 child_ball/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"",
   "fall_Sun": "740 CommunityCenter 27 9 0/1300 Town 26 30 2 child_ball/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"", 
 "winter_Sun": "740 CommunityCenter 27 9 0/1030 CommunityCenter 23 9 1 child_read/1300 CommunityCenter 15 27 0/1620 Saloon 33 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"/1730 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\"", },
- "When": {  "HasSeenEvent": "191393"},},	
+ "When": {  "HasSeenEvent": "191393"}},	
 
 //doctor visits
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "winter_22": "a1030 Hospital 9 16 3/1330 Hospital 4 6 1/1610 Town 26 30 2 child_ball"
+"Entries": { "winter_22": "a1030 Hospital 9 16 3/1330 Hospital 4 5 1/1610 Town 26 30 2 child_ball"
 },
   "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:BirthSeason": "spring"}},
 
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "spring_22": "a1030 Hospital 9 16 3/1330 Hospital 4 6 1/1610 Town 26 30 2 child_ball"
+"Entries": { "spring_22": "a1030 Hospital 9 16 3/1330 Hospital 4 5 1/1610 Town 26 30 2 child_ball"
 },
   "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:BirthSeason": "summer"}},
 
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "summer_22": "a1030 Hospital 9 16 3/1330 Hospital 4 6 1/1610 Town 26 30 2 child_ball"
+"Entries": { "summer_22": "a1030 Hospital 9 16 3/1330 Hospital 4 5 1/1610 Town 26 30 2 child_ball"
 },
   "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:BirthSeason": "fall"}},
 
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
-"Entries": { "fall_22": "a1030 Hospital 9 16 3/1330 Hospital 4 6 1/1610 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\""
+"Entries": { "fall_22": "a1030 Hospital 9 16 3/1330 Hospital 4 5 1/1610 Saloon 35 18 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2gameing.000\""
 },
   "When": {  "Candidus42.LittleNPCs/SecondLittleNPC:BirthSeason": "winter"}},
 ]}

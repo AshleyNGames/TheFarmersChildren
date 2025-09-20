@@ -20,7 +20,7 @@
  
 {            "Action": "Include",
             "FromFile": "assets/1st Child/Personality/Personality.json",
-		"When": { "HasFile:assets/1st Child/Personality/{{spouse}}": false }}, 
+		"When": { "HasFile:{{FromFile}}": true, "HasFile:assets/1st Child/Personality/{{spouse}}": false }}, 
 
 {            "Action": "Include",
             "FromFile": "assets/1st Child/Dialogue/{{spouse}}.json",

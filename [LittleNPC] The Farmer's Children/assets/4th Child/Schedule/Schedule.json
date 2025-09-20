@@ -1,0 +1,14 @@
+{  "Changes":  [ 	 
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+"Entries": {
+	"rain": "800 Saloon ",
+"Mon": "800 Town 32 60 child_ball",
+"Tue": "GOTO Mon",
+"Wed": "GOTO Mon",
+"Thu": "GOTO Mon",
+"Fri": "GOTO Mon",
+"Sat": "GOTO Mon",
+"Sun": "GOTO Mon",
+"DesertFestival_3": "800 Desert 43 41 3"}},
+]}

@@ -1,0 +1,15 @@
+{  "Changes":  [ 	 
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
+"Entries": {
+	"rain": "800 Saloon ",
+"Mon": "800 Town 16 16 child_ball",
+"Tue": "GOTO Mon",
+"Wed": "GOTO Mon",
+"Thu": "GOTO Mon",
+"Fri": "GOTO Mon",
+"Sat": "GOTO Mon",
+"Sun_normal": "GOTO Mon",
+	"Sun":"MAIL saloonSportsRoom/GOTO Sun_normal/a1200 Saloon 36 6 3/1500 Town 16 16 child_ball",
+"DesertFestival_3": "800 Desert 43 40 3"}},
+]}

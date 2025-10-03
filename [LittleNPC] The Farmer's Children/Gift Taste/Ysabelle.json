@@ -1,0 +1,26 @@
+{     "Changes": [
+	
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	    	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
+         "Value": "Rafseazz.RSVCP_Zesty_Tuna 268 Rafseazz.RSVCP_Golden_Rose_Fin 636 Rafseazz.RSVCP_Summit_Iced_Tea",
+         "Delimiter": " "},  	  
+      { "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
+         "Value": "258",
+         "Delimiter": " "},    ],},
+
+{  "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "TextOperations": [	   
+      {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],
+         "Value": "Rafseazz.RSVCP_Zesty_Tuna 268 Rafseazz.RSVCP_Mountain_Arugula Rafseazz.RSVCP_Mountain_Hokkaido Rafseazz.RSVCP_Tropi_Ugli_Fruit Rafseazz.RSVCP_Apricot_Juice",
+         "Delimiter": " "},   	  
+	  {  "Operation": "Append",
+         "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
+         "Value": "258",
+         "Delimiter": " "},    ],},
+]}

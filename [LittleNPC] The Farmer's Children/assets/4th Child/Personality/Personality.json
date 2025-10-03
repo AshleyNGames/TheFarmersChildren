@@ -1,0 +1,21 @@
+{  "Changes":  [
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/FourthLittleNPC:DisplayName}}",
+		"Age": "2",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 36,
+            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteFrameDuration": 200,
+		"FriendsAndFamily":{
+		"Jas": "{{i18n:Friend.k}}" ,
+		"Vincent": "{{i18n:Friend.k}}",
+		"Penny": "{{i18n:Teacher.k}}"}}}}, 
+]}

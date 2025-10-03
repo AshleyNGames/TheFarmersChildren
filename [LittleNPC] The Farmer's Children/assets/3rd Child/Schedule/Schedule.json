@@ -2,7 +2,7 @@
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
 "Entries": {
-	"rain": "800 Saloon ",
+	"rain": "800 Saloon 34 20 0",
 "Mon": "800 Town 16 16 child_ball",
 "Tue": "GOTO Mon",
 "Wed": "GOTO Mon",

@@ -1,0 +1,23 @@
+{  "Changes":  [ 	 
+  {  "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/ThirdLittleNPC:DisplayName}}",	
+		"Age": "2",
+		"Manner": "Neutral",
+		"SocialAnxiety": "Outgoing",
+		"Optimism": "Positive",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 16,
+            "HiddenProfileEmoteFrameCount": 4,
+            "HiddenProfileEmoteFrameDuration": 200,
+		"FriendsAndFamily":{
+			"Jas": "{{i18n:Friend.k}}" ,
+			"Vincent": "{{i18n:Friend.k}}" ,
+			"Penny": "{{i18n:Teacher.k}}" ,	
+		"Ysabelle":"{{i18n:Mom.k2}}",
+		"Richard": "{{i18n:GreatGrandpa.k}}"}}}},
+]}

@@ -3,8 +3,8 @@
   {  "Action": "EditData",
     "Target": "Data/Characters",
     "Entries": {
-	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {	
-		"DisplayName":"{{Candidus42.LittleNPCs/ThirdLittleNPC:DisplayName}}",	
+	"{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/FourthLittleNPC:DisplayName}}",	
 		"Age": "2",
 		"Manner": "Neutral",
 		"SocialAnxiety": "Outgoing",
@@ -19,6 +19,6 @@
 			"Jas": "{{i18n:Friend.k}}" ,
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
-			"Teren": "{{i18n:Dad.k2}}",
+			"Teren": "{{i18n:Dad.k3}}",
 		}}}},
 ]}

@@ -4,7 +4,7 @@
 "Entries": {
 	"rain": "800 ArchaeologyHouse 18 18 0",
 "Mon": "800 Town 32 60 child_ball",
-"Tue": "800 ArchaeologyHouse 18 18 0",
+"Tue": "a1050 ArchaeologyHouse 18 18 0/1350 Town 32 60 child_ball",
 "Wed": "GOTO Tue",
 "Thu": "GOTO Mon",
 "Fri": "GOTO Tue",

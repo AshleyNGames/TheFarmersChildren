@@ -25,11 +25,11 @@
  {  "Name": "BiologicalChildren",	"Value": "false",				"When":{"PlayerGender":"Female", "spouse": "Abigail, Aideen, Alissa, Blair, Cirrus, Claire, Corine, Daia, Emily, Faye, Flor, Haley, Irene, Juliet, Kataryna, Kiarra, Leah, Maddie, Maru, Olivia, Paula, Penny, Scarlett, Sophia, Ysabelle"}},
 {"Name": "Art Style","Value":""},
 {"Name": "Art Style","Value":"Nyapu","When":{"Art": "Nyapu"}},
-{"Name": "Art Style","Value":"Custom","When":{"Art": "Custom"}},
- ],
+{"Name": "Art Style","Value":"Custom","When":{"Art": "Custom"}},	
+],
  
- "ConfigSchema": 		{  
-	"LookLikeParent": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
+ "ConfigSchema": 		{  	
+	 "LookLikeParent": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
  	"LookLikeParent2": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
  	"LookLikeParent3": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
  	"LookLikeParent4": 	{	"AllowValues": "true, false, Dynamic, Select",  "Default": "true"},
@@ -42,6 +42,7 @@
 	"Glasses2":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
 	"Glasses3":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
 	"Glasses4":			{	"AllowValues": "Black, Brown, Sun, Rose, Custom, False",  "Default": "False"},
+	
 	"SpringShirt1": 	{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Green"},
 	"SpringShirt2": 	{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Blue"},
 	"SpringShirt3": 	{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Red"},
@@ -58,6 +59,7 @@
 	"SpringOveralls2": 	{	"AllowValues": "Blue, Green, Orange, Purple, Red, Yellow, Custom",  "Default": "Blue"},
 	"SpringOveralls3": 	{	"AllowValues": "Blue, Green, Orange, Purple, Red, Yellow, Custom",  "Default": "Red"},
 	"SpringOveralls4": 	{	"AllowValues": "Blue, Green, Orange, Purple, Red, Yellow, Custom",  "Default": "Purple"},
+	
 	"SummerDress1": 	{	"AllowValues": "Blue, Green, Red, White, Custom",  "Default": "Blue"},
 	"SummerDress2": 	{	"AllowValues": "Blue, Green, Red, White, Custom",  "Default": "White"},
 	"SummerDress3": 	{	"AllowValues": "Blue, Green, Red, White, Custom",  "Default": "Green"},
@@ -74,6 +76,7 @@
 	"SummerShirt2": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom, none",  "Default": "none"},
 	"SummerShirt3": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom, none",  "Default": "none"},
 	"SummerShirt4": 	{	"AllowValues": "Black, Blue, Green, Orange, Purple, Red, White, Yellow, Custom, none",  "Default": "none"},
+	
 	"FallShirt1": 		{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Red"},
 	"FallShirt2": 		{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Yellow"},
 	"FallShirt3": 		{	"AllowValues": "Black, Blue, Green, Lime, Orange, Pink, Purple, Red, White, Yellow, Custom",  "Default": "Pink"},
@@ -94,6 +97,7 @@
 	"Jacket2": 			{	"AllowValues": "Black, Blue, Brown, Green, Light Blue, Orange, Purple, Red, Yellow, Custom",  "Default": "Black"},
 	"Jacket3": 			{	"AllowValues": "Black, Blue, Brown, Green, Light Blue, Orange, Purple, Red, Yellow, Custom",  "Default": "Red"},
 	"Jacket4": 			{	"AllowValues": "Black, Blue, Brown, Green, Light Blue, Orange, Purple, Red, Yellow, Custom",  "Default": "Green"},
+	
 	"WinterDress1": 	{	"AllowValues": "Aqua, Blue, Green, Orange, Pink, Purple, Red, Custom",  "Default": "Green"},
 	"WinterDress2": 	{	"AllowValues": "Aqua, Blue, Green, Orange, Pink, Purple, Red, Custom",  "Default": "Red"},
 	"WinterDress3": 	{	"AllowValues": "Aqua, Blue, Green, Orange, Pink, Purple, Red, Custom",  "Default": "Aqua"},
@@ -130,6 +134,7 @@
 	"Boots2": 			{	"AllowValues": "Black, Brown, Light Brown, Custom",  "Default": "Light Brown"},
 	"Boots3": 			{	"AllowValues": "Black, Brown, Light Brown, Custom",  "Default": "Brown"},
 	"Boots4": 			{	"AllowValues": "Black, Brown, Light Brown, Custom",  "Default": "Black"},
+	
 	"EggFestival Style":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"EggFestival Style2":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"EggFestival Style3":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
@@ -162,6 +167,7 @@
 	"WinterStar Style2":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"WinterStar Style3":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
 	"WinterStar Style4":			{	"AllowValues": "Vanilla, Custom",  "Default": "Vanilla"},
+	
 	"Adoption Skin1": 	{	"Default": "0"},
 	"Adoption Skin2": 	{	"Default": "0"},
 	"Adoption Skin3": 	{	"Default": "0"},

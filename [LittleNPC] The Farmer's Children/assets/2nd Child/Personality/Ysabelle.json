@@ -1,8 +1,7 @@
 {  "Changes":  [ 	 	
-	 
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -23,11 +22,10 @@
 		"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}" ,
 		"Ysabelle": "{{i18n:Mom.k2}}" ,
 		"Richard": "{{i18n:GreatGrandpa.k}}"}}}},
-		
-	  
+
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",

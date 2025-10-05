@@ -2,7 +2,7 @@
 	 
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -25,7 +25,7 @@
  
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",

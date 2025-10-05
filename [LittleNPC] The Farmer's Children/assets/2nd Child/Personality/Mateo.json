@@ -1,8 +1,7 @@
-{  "Changes":  [ 	 	
-	 
+{  "Changes":  [ 	 		 
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -21,12 +20,11 @@
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
 			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}",	
-		"Mateo": "{{i18n:Parent.K}}" ,
-		}}}},
+		"Mateo": "{{i18n:Parent.K}}" }}}},
  
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -45,5 +43,4 @@
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
 			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Brother.k1}}",	
-		"Mateo": "{{i18n:Parent.K}}" ,
-		}}}},]}
+		"Mateo": "{{i18n:Parent.K}}" }}}},]}

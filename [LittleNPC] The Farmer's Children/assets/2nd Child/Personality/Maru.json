@@ -1,8 +1,7 @@
 {  "Changes":  [ 	 	
-	 
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"female"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -22,14 +21,13 @@
 			"Penny": "{{i18n:Teacher.k}}" ,
 			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Sister.k1}}",		
 			"Maru": "{{i18n:Mom.k2}}",
-		"Sebastian": "{{i18n:Uncle.k1}}",
+		"Sebastian": "{{i18n:Uncle.k}}",
 			"Robin": "{{i18n:Grandma.k}}", 
-			"Demetrius": "{{i18n:Grandpa.k}}"
-		}}}},
+			"Demetrius": "{{i18n:Grandpa.k}}"}}}},
  
  {  "Action": "EditData",
     "Target": "Data/Characters",
-	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male",},
+	 "When": {"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"male"},
     "Entries": {
 	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {		
 		"DisplayName":"{{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}",
@@ -49,8 +47,7 @@
 			"Penny": "{{i18n:Teacher.k}}" ,
 			"{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Brother.k1}}",		
 			"Maru": "{{i18n:Mom.k2}}",
-		"Sebastian": "{{i18n:Uncle.k1}}",
+		"Sebastian": "{{i18n:Uncle.k}}",
 			"Robin": "{{i18n:Grandma.k}}", 
-			"Demetrius": "{{i18n:Grandpa.k}}"
-		}}}},
+			"Demetrius": "{{i18n:Grandpa.k}}"}}}},
 ]}

@@ -9,7 +9,7 @@
 		"SocialAnxiety": "Outgoing",
 		"Optimism": "Positive",
 		"HomeRegion":"Town",
-		 "HiddenProfileEmoteSound": null,
+		 "HiddenProfileEmoteSound": "detector",
             "HiddenProfileEmoteDuration": -1,
             "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,

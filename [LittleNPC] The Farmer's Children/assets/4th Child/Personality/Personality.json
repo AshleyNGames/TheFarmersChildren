@@ -9,10 +9,10 @@
 		"SocialAnxiety": "Shy",
 		"Optimism": "Neutral",
 		"HomeRegion":"Town",
-		 "HiddenProfileEmoteSound": null,
+		 "HiddenProfileEmoteSound": "detector",
             "HiddenProfileEmoteDuration": -1,
-            "HiddenProfileEmoteStartFrame": 36,
-            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteStartFrame": 16,
+            "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
 		"FriendsAndFamily":{
 		"Jas": "{{i18n:Friend.k}}" ,

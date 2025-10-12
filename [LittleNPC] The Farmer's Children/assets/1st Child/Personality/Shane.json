@@ -16,9 +16,9 @@
 			"Candidus42.LittleNPCs/SecondLittleNPC:Name":"",
 			"Candidus42.LittleNPCs/ThirdLittleNPC:Name":"",
 			"Candidus42.LittleNPCs/FourthLittleNPC:Name":"",
-			"Jas": "" ,
+			"Jas": "{{i18n:Aunt.k}}" ,
 			"Vincent": "" ,
 			"Penny": "{{i18n:Teacher.k}}",	
 		"Shane": "{{i18n:Dad.k1}}", 
-		"Marnie": "{{i18n:GreatAunt.k}}",}}}},
+		"Marnie": "{{i18n:GreatAunt.k}}"}}}}
 ]}

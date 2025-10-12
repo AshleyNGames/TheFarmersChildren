@@ -1,5 +1,4 @@
 {  "Changes":  [ 	 
-
   {  "Action": "EditData",
     "Target": "Data/Characters",
     "Entries": {
@@ -16,13 +15,14 @@
             "HiddenProfileEmoteFrameCount": 4,
             "HiddenProfileEmoteFrameDuration": 200,
 		"FriendsAndFamily":{
-			"Jas": "{{i18n:Friend.k}}" ,
-			"Vincent": "{{i18n:Friend.k}}" ,
-			"Penny": "{{i18n:Teacher.k}}" ,
+			"Candidus42.LittleNPCs/FirstLittleNPC:Name":"",
+			"Candidus42.LittleNPCs/SecondLittleNPC:Name":"",
+			"Candidus42.LittleNPCs/ThirdLittleNPC:Name":"",
+			"Jas": "",
+			"Vincent": "",
+			"Penny": "{{i18n:Teacher.k}}",
 			"Kiarra": "{{i18n:Mom.k3}}", 
 			"Anton": "{{i18n:Uncle.k}}", 
 			"Lorenzo": "{{i18n:Uncle.k}}", 
-			"Shanice": "{{i18n:Aunt.k}}"
-		}}}},
-  
+			"Shanice": "{{i18n:Aunt.k}}"}}}}  
 ]}

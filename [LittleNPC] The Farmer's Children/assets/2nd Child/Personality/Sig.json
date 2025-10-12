@@ -15,8 +15,11 @@
             "HiddenProfileEmoteFrameCount": 1,
             "HiddenProfileEmoteFrameDuration": 200,
 		"FriendsAndFamily":{
-			"Vincent": "{{i18n:Friend.k}}" ,
-			"Jas": "{{i18n:Friend.k}}" ,
+			"Candidus42.LittleNPCs/FirstLittleNPC:Name":"",
+			"Candidus42.LittleNPCs/ThirdLittleNPC:Name":"",
+			"Candidus42.LittleNPCs/FourthLittleNPC:Name":"",
+			"Jas": "" ,
+			"Vincent": "" ,
 			"Penny": "{{i18n:Teacher.k}}" ,
 			"Sig": "{{i18n:Dad.k2}}" ,
 			"Gudrun": "{{i18n:Aunt.k}}" ,

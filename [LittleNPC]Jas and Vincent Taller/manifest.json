@@ -8,4 +8,6 @@
   "Dependencies": [  	 
    {"UniqueID": "Candidus42.LittleNPCs",
       "IsRequired": true},
+   {"UniqueID": "DSVTeam.DiverseStardewValley",
+      "IsRequired": false},
   ],}

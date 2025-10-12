@@ -9,7 +9,7 @@
 		"SocialAnxiety": "Shy",
 		"Optimism": "Neutral",
 		"HomeRegion":"Town",
-		 "HiddenProfileEmoteSound": null,
+		 "HiddenProfileEmoteSound": "book_read",
             "HiddenProfileEmoteDuration": -1,
             "HiddenProfileEmoteStartFrame": 36,
             "HiddenProfileEmoteFrameCount": 1,
@@ -17,5 +17,5 @@
 		"FriendsAndFamily":{
 		"Jas": "{{i18n:Friend.k}}" ,
 		"Vincent": "{{i18n:Friend.k}}" ,
-		"Penny": "{{i18n:Teacher.k}}" }}}},
+		"Penny": "{{i18n:Teacher.k}}"}}}}
 ]}

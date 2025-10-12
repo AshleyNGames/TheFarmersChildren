@@ -1,5 +1,4 @@
-{  "Changes":  [ 	 	
-	 
+{  "Changes":  [
   {  "Action": "EditData",
     "Target": "Data/Characters",
     "Entries": {
@@ -21,5 +20,5 @@
 			"Penny": "{{i18n:Teacher.k}}" ,
 		"Abigail":"{{i18n:Mom.k3}}",
 		"Caroline": "{{i18n:Grandma.k}}",
-		"Pierre": "{{i18n:Grandpa.k}}"}}}},
+		"Pierre": "{{i18n:Grandpa.k}}"}}}}
 ]}

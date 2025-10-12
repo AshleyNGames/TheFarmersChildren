@@ -1,5 +1,4 @@
-{  "Changes":  [ 	 
-
+{  "Changes":  [
   {  "Action": "EditData",
     "Target": "Data/Characters",
     "Entries": {
@@ -12,13 +11,13 @@
 		"HomeRegion":"Town",
 		 "HiddenProfileEmoteSound": null,
             "HiddenProfileEmoteDuration": -1,
-            "HiddenProfileEmoteStartFrame": 24,
+            "HiddenProfileEmoteStartFrame": 16,
             "HiddenProfileEmoteFrameCount": 4,
-            "HiddenProfileEmoteFrameDuration": 150,
+            "HiddenProfileEmoteFrameDuration": 200,
 		"FriendsAndFamily":{
 			"Jas": "{{i18n:Aunt.k}}" ,
 			"Vincent": "{{i18n:Friend.k}}" ,
 			"Penny": "{{i18n:Teacher.k}}" ,	
 		"Shane": "{{i18n:Dad.k3}}", 
-		"Marnie": "{{i18n:GreatAunt.k}}",}}}},
+		"Marnie": "{{i18n:GreatAunt.k}}"}}}}
 ]}

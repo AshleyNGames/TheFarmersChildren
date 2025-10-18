@@ -1,0 +1,27 @@
+{     "Changes": [
+{"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"Entries": {  "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}": "{{i18n:Kid.4.spring.13.y1}}",
+			  "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}_y2": "{{i18n:Kid.4.spring.13.y2}}"}},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {    "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 33 62 3",
+  "Delimiter": "/"},
+  {  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 25 64 1",
+  "Delimiter": "/"},
+  
+   {    "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 33 62 3",
+  "Delimiter": "/"},
+  {  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 25 64 1",
+  "Delimiter": "/"}]},
+]}

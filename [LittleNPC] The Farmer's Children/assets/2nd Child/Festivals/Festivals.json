@@ -47,7 +47,7 @@
   {
    "Operation": "Append",
     "Target": ["Fields", "mainEvent", 47],
-    "Value": "/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} false 2 0 0 -1 12 0 10 0 0 8 19 0 0 6 -5 0 0 -2 -7 0 9 0 0 2 4 0 0 7 -4 0 0 3 -5 0", },  
+    "Value": "/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} false 2 0 0 -1 12 0 10 0 0 8 19 0 0 6 -5 0 0 -2 -7 0 9 0 0 2 4 0 0 7 -4 0 0 3 -5 0"},  
   {
    "Operation": "Append",
     "Target": ["Fields", "mainEvent_y2", 15],

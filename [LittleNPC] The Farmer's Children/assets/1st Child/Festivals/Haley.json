@@ -1,6 +1,5 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {"Action": "EditData",
 "Target": "Data/Festivals/spring24",
-"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.spring24Haley}}"},},
+"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.spring24Haley}}"}},
 ]}

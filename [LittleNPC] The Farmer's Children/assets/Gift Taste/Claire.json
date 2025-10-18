@@ -1,5 +1,4 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
@@ -22,7 +21,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
          "Value": "342 FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
-         "Delimiter": " "},   ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -46,5 +45,5 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
          "Value": "342 FlashShifter.StardewValleyExpandedCP_Frog",
-         "Delimiter": " "},   ],},
+         "Delimiter": " "}]},
 ]}

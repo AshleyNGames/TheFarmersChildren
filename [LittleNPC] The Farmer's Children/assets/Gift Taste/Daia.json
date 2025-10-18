@@ -1,5 +1,4 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
 	 "When": {  "Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female"},
@@ -11,7 +10,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
          "Value": "207 304",
-         "Delimiter": " "},    ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -24,7 +23,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
          "Value": "207 304",
-         "Delimiter": " "},    ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -37,7 +36,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 7],
          "Value": "207 304",
-         "Delimiter": " "},    ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -50,5 +49,5 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
          "Value": "207 304",
-         "Delimiter": " "},    ],},
+         "Delimiter": " "}]},
 ]}

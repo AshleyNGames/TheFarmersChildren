@@ -1,12 +1,11 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
          "Value": "Rafseazz.RSVCP_Ridge_Azorean_Flower Rafseazz.RSVCP_Springtime_Primetime 733",
-         "Delimiter": " "},],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -18,5 +17,5 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 7],
          "Value": "198",
-         "Delimiter": " "},],},
+         "Delimiter": " "}]},
 ]}

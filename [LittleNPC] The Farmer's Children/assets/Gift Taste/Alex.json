@@ -1,5 +1,4 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
@@ -14,12 +13,12 @@
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 5],
          "Value": "book_item",
-         "Delimiter": " "       },  ],},
+         "Delimiter": " "}]},
 
  { "Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
        "Entries": {	 
-                "AcceptGift_(O)223": "{{i18n:kid.1.Alex_AcceptGift_(O)Cookies}}",	}},
+                "AcceptGift_(O)223": "{{i18n:kid.1.Alex_AcceptGift_(O)Cookies}}"}},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -35,10 +34,10 @@
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 9],
          "Value": "FrogEgg",
-         "Delimiter": " "       },   ],},
+         "Delimiter": " "}]},
 
  { "Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
        "Entries": {	 
-                "AcceptGift_(O)223": "{{i18n:kid.2.Alex_AcceptGift_(O)Cookies}}",	}},
+                "AcceptGift_(O)223": "{{i18n:kid.2.Alex_AcceptGift_(O)Cookies}}"}},
 ]}

@@ -1,16 +1,15 @@
-{     "Changes": [
-	
+{     "Changes": [	
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
    "TextOperations": [	    	  
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
          "Value": "440 428 ",
-         "Delimiter": " "       },  	  
+         "Delimiter": " "},
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 3],
          "Value": "80 Rafseazz.RSVCP_Apricot_Juice",
-         "Delimiter": " "       },   ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -19,7 +18,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
          "Value": "62",
-         "Delimiter": " "       },     ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -28,7 +27,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}", 1],		 
          "Value": "	64",
-         "Delimiter": " "       },    ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -40,7 +39,7 @@
 	  {  "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 3],
          "Value": "80 Rafseazz.RSVCP_Apricot_Juice",
-         "Delimiter": " "       },     ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -49,7 +48,7 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],		 
          "Value": "62",
-         "Delimiter": " "       },    ],},
+         "Delimiter": " "}]},
 
 {  "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
@@ -58,4 +57,4 @@
       { "Operation": "Append",
          "Target": ["Fields", "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}", 1],		 
          "Value": "	64",
-         "Delimiter": " "       },   ],},]}
+         "Delimiter": " "}]}]}

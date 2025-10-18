@@ -1,8 +1,8 @@
-{     "Changes": [	
+{     "Changes": [
 {"Action": "EditData",
 "Target": "Data/Festivals/spring13",
-"Entries": {  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.1.spring.13.y1}}",
-			  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.1.spring.13.y2}}"}},
+"Entries": {  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.3.spring.13.y1}}",
+			  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.3.spring.13.y2}}"}},
 
 { "Action": "EditData",
   "Target": "Data/Festivals/spring13",
@@ -10,29 +10,24 @@
   {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 12 69 1",
-  "Delimiter": "/"  },
+  "Delimiter": "/"},
   {  "Operation": "Append",
   "Target": ["Entries", "MainEvent_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 25 63 1",
-  "Delimiter": "/"  },
+  "Delimiter": "/"},
    {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 14 69 3",
-  "Delimiter": "/"  },
+  "Delimiter": "/"},
   {  "Operation": "Append",
   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 32 63 3",
-  "Delimiter": "/"  }]    }, 
-
-
-
-
-
+  "Delimiter": "/"}]},
 
 {"Action": "EditData",
 "Target": "Data/Festivals/spring24",
-"Entries": {  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.1.spring.24.y1}}",
-			  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.1.spring.24.y2}}"}},
+"Entries": {  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.3.spring.24.y1}}",
+			  "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.3.spring.24.y2}}"}},
 
 { "Action": "EditData",
   "Target": "Data/Festivals/spring24",
@@ -40,11 +35,10 @@
   {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 13 34 2",
-  "Delimiter": "/"  },
+  "Delimiter": "/"},
  
    {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
   "Value": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 13 34 2",
-  "Delimiter": "/" }]}, 
-
+  "Delimiter": "/" }]},
 ]}

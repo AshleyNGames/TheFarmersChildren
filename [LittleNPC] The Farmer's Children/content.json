@@ -25,6 +25,13 @@
 {"Action": "Load",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
 "FromFile": "assets/Loads/schedule.json"},
+
+{"Action": "Include",
+	"When":{"HasMod|contains=Rafseazz.RSVCP": false, "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false},
+"FromFile": "assets/Festivals/spring13.json"},
+{"Action": "Include",
+	"When":{"HasMod|contains=Rafseazz.RSVCP": false, "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false},
+"FromFile": "assets/Festivals/spring24.json"},
   
 {"Action": "Include",
 "FromFile": "assets/1st Child/Load.json"},
@@ -57,5 +64,9 @@
 	    "child_twirl": "0/0 0 0 0 0 0 4 4 4 4 4 4 8 8 8 8 8 8 12 12 12 12/12",
 	    "child_ball": "26/26 25 24 25 26 27 29 28 25 24 26 28 30 32 34 35 33 31 28 25 24 25 26 25 24 25 27 29 31 30 28 26 25 24 25/26",
 	    "child_read": "20 21 22 23/36/23",
-	    "child_fish": "8/38 38 38 38 38 39 39 38 38 39 39 38/8",}}, 
+	    "child_read2": "12/37/12",
+	    "child_fish": "8/38 38 38 38 38 39 39 38 38 39 39 38/8",
+	    "child_girl_dance":"40/40 40 41 41 42 42 43 43 44 45 46 46 47 47/40",
+		"child_paint":"8/28 28 29 29 30 30 29 29"
+	  }},
 ]}

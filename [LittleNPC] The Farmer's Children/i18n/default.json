@@ -1,10 +1,11 @@
-{   "Kid.1.Girl.gift.love": "Thank you, thank you, thank you, thank you, thank you!#$b#I love it so much!",
+{   //Gifts
+	"Kid.1.Girl.gift.love": "Thank you, thank you, thank you, thank you, thank you!#$b#I love it so much!",
     "Kid.1.Girl.gift.like": "${Thank you Daddy.^Thank you Mommy.^Thank you Parpar.}$",
     "Kid.1.Girl.gift.dislike": "Ewwwwww...$5",
     "Kid.1.Girl.gift.hate": "Am I in trouble?$2",
     "Kid.1.Girl.gift.neutral": "Thank you.$3",
 
-	"Kid.1.Boy.gift.love": "Wow, thank you so much!#$b#${You're the best Daddy!^You're the best Mommy!You're the best Parpar!}$",
+	"Kid.1.Boy.gift.love": "Wow, thank you so much!#$b#${You're the best Daddy!^You're the best Mommy!^You're the best Parpar!}$",
     "Kid.1.Boy.gift.like": "${Thank you Daddy.^Thank you Mommy.^Thank you Parpar.}$",
     "Kid.1.Boy.gift.dislike": "Yuck!$5",
     "Kid.1.Boy.gift.hate": "Did I do something wrong?$2",
@@ -22,32 +23,44 @@
     "Kid.2.Boy.gift.hate": "NO!$5",
     "Kid.2.Boy.gift.neutral": "Thanks... I guess.$3",
 	
-	"Kid.3.gift.love": "It's so Pretty!$1#$b#${Thank you Dada.^Thank you Mama.^Thank you Parpar.}$",
-    "Kid.3.like": "This is really nice",
-    "Kid.3.gift.dislike": "...Oh.$5",
-    "Kid.3.gift.hate": "...$2",
-    "Kid.3.gift.neutral": "Thank you.$3",
+	"Kid.3.gift.love": "It's so pretty!$1#$b#${Thank you Dada.^Thank you Mama.^Thank you Parpar.}$",
+    "Kid.3.like": "It's pretty.",
+    "Kid.3.gift.dislike": "...This isn't pretty.$5",
+    "Kid.3.gift.hate": "It's so ugly, I'm gonna be sick!$2",
+    "Kid.3.gift.neutral": "It's not pretty, but it's not ugly either.$3",
 	
 	"Kid.4.gift.love": "I love it!$1",
-    "Kid.4.like": "This is really nice",
-    "Kid.4.gift.dislike": "...Oh.$5",
+    "Kid.4.like": "This is great.$1",
+    "Kid.4.gift.dislike": "EW!$5",
     "Kid.4.gift.hate": "I HATE YOU!$2",
     "Kid.4.gift.neutral": "Thank you?$3",
 
 	"Kid.1_AcceptGift_(O)StardropTea":"It smells so good!$1",
 	"Kid.2_AcceptGift_(O)StardropTea":"I've never smelled anything like this before.$3#$b#I love it.$1",
+	"Kid.3_AcceptGift_(O)StardropTea":"Purple Tea?$3#$b#Pretty!$1",
+	"Kid.4_AcceptGift_(O)StardropTea":"Tea?$3",
+	
 	"Kid.1_AcceptGift_(O)Cookies": "COOKIES!$1",
 	"Kid.2_AcceptGift_(O)Cookies": "Cookies are the best snack ever.$1",
+	"Kid.3_AcceptGift_(O)Cookies": "I Love cookies!$1",
+	"Kid.4_AcceptGift_(O)Cookies": "YAY COOKIES!$1",
+	
+	"Kid.1_AcceptGift_alcohol_item": "YUCK!$5#$e#I feel sick.$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",
+	"Kid.2_AcceptGift_alcohol_item": "Is this what I think it is?$5#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",	
+	"Kid.3_AcceptGift_alcohol_item": "Did you mean to give this to me?$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",
+	"Kid.4_AcceptGift_alcohol_item": "You Are The Worst!$5#$e#I Hate You!$5#$e#That wasn't funny!$5#$e#Leave me alone!$5#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",
+	
+	"Kid.1_AcceptGift_(O)74": "I don't want this any where near me.$2 [74]",
+	"Kid.2_AcceptGift_(O)74": "The wizard said shards like these contain trasformation magic. [74]$3#$b#It is harmful to children.$5",
+	"Kid.3_AcceptGift_(O)74": "It's looks so pretty, but feels really ugly.$2 [74]",
+	"Kid.4_AcceptGift_(O)74": "I Hate You! [74]$5#$e#Leave me alone!$5",
+	
 	"Kid.1_AcceptGift_(TR)FrogEgg": "A frog egg?$3#$b#I'm going to have my very own pet frog!$1",
-	"Kid.1_AcceptGift_alcohol_item": "YUCK!$5#$e#I feel sick.$2",
-	"Kid.2_AcceptGift_alcohol_item": "Is this what I think it is?$5",
-	"Kid.1_AcceptGift_(O)74": "It pretty, but something about it is really scary.$2",
-	"Kid.2_AcceptGift_(O)74": "The wizard said shards like these contain trasformation magic.$3#$b#It is harmful to children.$5",
-	"Kid.3_AcceptGift_(O)74": "I don't know why, but really don't like this.$5",
-	"Kid.4_AcceptGift_(O)74": "...$2#$b#I Hate You!$5#$e#Leave me alone.$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",
-	"Kid.3_AcceptGift_alcohol_item": "Did you mean to give this to me?$2",
-	"Kid.4_AcceptGift_alcohol_item": "You Are The Worst!$5#$e#I Hate You!$5#$e#That wasn't funny!$5#$e#Leave me alone!$5#$e#I Hate You!$5#$b#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2#$e#...$2",
+	"Kid.2_AcceptGift_(TR)IceRod": "This is awesome!#$b#A real magic rod of my own!$1",
+	"Kid.3_AcceptGift_(TR)FairyBox": "There's a real live fairy in this box?$2#$b#I'm going to name her Glitter!$1",
+	"Kid.4_AcceptGift_(TR)": "future update",
 
+//friends and family
 	"Friend.k": "friend",
 	"Teacher.k": "teacher",
 	"Parent.k": "Parent",
@@ -72,10 +85,10 @@
 	"Brother.k2": "little brother",
 
 //festivals
-	"Kid.1.spring.13.y1": "${I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.^I'm going to find more eggs than you Parpar.}$#$b#Just you watch.$1",
-		"Kid.1.spring.13.y2": "This year I'm going to win for sure!",
+	"Kid.1.spring.13.y1": "I saw an egg role into the river.",
+		"Kid.1.spring.13.y2": "${I'm going to find more eggs than you Daddy.^I'm going to find more eggs than you Mommy.^I'm going to find more eggs than you Parpar.}$#$b#Just you watch.$1",
     "Kid.1.spring.24.y1": "I tried convincing Jas to ask Vincent to dance, but she got really quiet.#$e#Guess she's too shy to do it.",
-   		"Kid.1.spring.24.y2": "If I'm the best dancer, the flowers will make me their queen.$1",
+   		"Kid.1.spring.24.y2": "What kind of fish can I catch here?",
     "Kid.1.summer.11.y1": "I love this song!$1",
     	"Kid.1.summer.11.y2": "I love this song!$1",
     "Kid.1.summer.28.y1": "${Can you catch a Jellie Daddy?^Can you catch a Jellie Mommy?^Can you catch a Jellie Parpar?}$#$e#Then we could see them all year instead of just one night.",
@@ -109,17 +122,57 @@
     "Kid.2.winter.25.y1": "It's so cold!$4#$b#Is there any hot coco?$3",
     	"Kid.2.winter.25.y2": "It's so cold!$4#$b#Is there any hot coco?$3",
 	
+	"Kid.3.spring.13.y1": "I wanted to paint the eggs, but Ms.Emily already did them all.",
+		"Kid.3.spring.13.y2": "Last night I painted a bunch of eggs.#$e#I'm going to use them to win.$4#$b#That way I can take a nap instead.$4#$e#What do you mean that's cheating?$3",
+	"Kid.3.spring.24.y1": "All these flowers are so pretty.",
+	 	"Kid.3.spring.24.y2": "If I'm the best dancer, the flowers will make me their queen.$1",
+	"Kid.3.summer.11.y1": "future update",
+	 	"Kid.3.summer.11.y2": "future update",
+	"Kid.3.summer.28.y1": "future update",
+	 	"Kid.3.summer.28.y2": "future update",
+	"Kid.3.fall.16.y1": "future update",
+	 	"Kid.3.fall.16.y2": "future update",
+	"Kid.3.fall.27.y1": "future update",
+	 	"Kid.3.fall.27.y2": "future update",
+	"Kid.3.winter.8.y1": "future update",
+	 	"Kid.3.winter.8.y2": "future update",
+	"Kid.3.winter.25.y1": "future update",
+	 	"Kid.3.winter.25.y2": "future update",
+	
+	"Kid.4.spring.13.y1": "Don't drink the punch. It's nasty.$2",
+		"Kid.4.spring.13.y2": "There's not enough hidden eggs with how many hunters there are.",
+	"Kid.4.spring.24.y1": "future update",
+	 	"Kid.4.spring.24.y2": "future update",
+	"Kid.4.summer.11.y1": "future update",
+	 	"Kid.4.summer.11.y2": "future update",
+	"Kid.4.summer.28.y1": "future update",
+	 	"Kid.4.summer.28.y2": "future update",
+	"Kid.4.fall.16.y1": "future update",
+	 	"Kid.4.fall.16.y2": "future update",
+	"Kid.4.fall.27.y1": "future update",
+	 	"Kid.4.fall.27.y2": "future update",
+	"Kid.4.winter.8.y1": "future update",
+	 	"Kid.4.winter.8.y2": "future update",
+	"Kid.4.winter.25.y1": "future update",
+	 	"Kid.4.winter.25.y2": "future update",
+	
 //rain			
 	"Kid.1.storm": "EEK!$3#$b#I don't like lightning!$s, The storm is so loud.$s, Yoba sounds angry.$s",	
 	"Kid.1.rain": "~It's raining it's pouring the old man is snoring~#$b#~He bumped his head then went to bed and didn't get up til morning~$0, ~Rain rain go away~$0#$b#~Come again another day~, ~Doo-doo-doot doo~#$b#~Just singin' in the rain~, ~The itsy bitsy spider went up the waterspout~#$b#~Down came the rain and washed the spider out~#$e#~Out came the sun and dried up all the rain~#$b#~And the itsy bitsy spider climbed up the spout again~",	
 	"Kid.2.rain.sister": "doesn't like the sound of rain, so she tries to sing louder then it.$3#$b#I'd rather hear the rain then her singing.",
-	"Kid.2.rain.brother": "doesn't like the sound of rain, so he tries to sing louder then it.$3#$b#I'd rather hear the rain then him singing.",
+	"Kid.2.rain.brother": "doesn't like the sound of rain, so he tries to sing louder then it.$3#$b#I'd rather hear the rain then his singing.",
+	"Kid.3.rain": "future update",
+	"Kid.4.rain": "future update",
 	"Kid.1.GreenRain":"Normally rain is bad, but it's different today.$3#$b#It just feels better.",
 	"Kid.2.GreenRain":"Why is the rain green?$3#$b#Does it have anything to do with crabs?$3",
+	"Kid.3.GreenRain": "future update",
+	"Kid.4.GreenRain": "future update",
 	
 //Events
 	"Kid.1.StartingSchool":"${Bye Daddy.^Bye Mommy.^Bye Parpar.}$#$b#I'm off to school now.",
 	"Kid.2.StartingSchool":"${See you later Dad.^See you later Mom.^See you later Par.}$#$b#I'm finally big enough to go to school.$1",
+	"Kid.3.StartingSchool": "future update",
+	"Kid.4.StartingSchool": "future update",
 	
 //schedule
   "Kid.1.school.000": "It's not fare.$5#$b#The weather is so nice.$5#$b#Why do we have to study when we could be playing?$5",
@@ -148,7 +201,7 @@
   "Kid.2.gameing.000": " ",//second childs name in the middle
   "Kid.2.gameing.001": "is pretending to play, but it's just the video on loop.",
   "Kid.2.mountain.000": "I'm not doing anything.$2#$b#Those rocks were already on the tent, I swear.$2",
-  "Kid.2.school.000": "${Not now Dad, I'm studying.$5^Not now Mom, I'm studying.$5^Not now Par, I'm studying.$5}$",	
+  "Kid.2.school.000": "${Not now Dad, I'm studying.$5^Not now Mom, I'm studying.$5^Not now Par, I'm studying.$5}$",
   "Kid.2.school.001": "What book should I read today?",
   "Kid.2.school.002": "This story is about a princess fighting a lich., This book has a bunch of short stories.#$b#Most of them are fantasy., I'm reading the third book in the Adventure Boy series., This book is actually a magic tomb.",
   "Kid.2.springseed.000": "Hmmm... potatoes or kale?$3",
@@ -159,6 +212,13 @@
   "Kid.2.Resort.1": "Can I go to the dig site?$3",
   "Kid.2.Resort.2": "Is the volcano going to erupt?$2",
   "Kid.2.Resort.3": "If I can't leave the resort then what's the point of comming here?$3#$e#It's just another beach.#$e#We already live by a beach.",
+	
+"Kid.3.school.000": "future update",
+"Kid.3.Paint.000": "future update",
+"Kid.3.Resort": "future update",
+
+"Kid.4.school.000": "future update",
+"Kid.4.Resort": "future update",
 
 //kid 1
 "Kid.1.Introduction": "Hi!$1",
@@ -288,10 +348,36 @@
  "Kid.2.winter8": "${Good luck fishing out on the ice Dad.$3^Good luck fishing out on the ice Mom.$3^Good luck fishing out on the ice Par.$3}$#$b#I'll cheer you on from solid ground.",
  "Kid.2.winter25": "${Thank you Dad.^Thank you Mom.^Thank you Par.}$#$b#",		
 	"Kid.2.wintergiftrandom": "I love my new ball., I can't wait to play all my new games., The potion making set is perfect., The magic wand I got is so cool., The dragon plushie is awesome.",
+	
+//kid 3
+"Kid.3.Introduction": "...Hello?$3",
+"Kid.3.ZeroHearts":"You're not pretty.$3",
+	"Kid.3.Mon":"future update",
+	"Kid.3.Tue":"future update",
+	"Kid.3.Wed":"future update",
+	"Kid.3.Thu":"future update",
+	"Kid.3.Fri":"future update",
+	"Kid.3.Sat":"future update",
+	"Kid.3.Sun":"future update",
+	"Kid.3.923":"future update",
+	
+//kid 4
+"Kid.4.Introduction": "...Hello?$3",
+"Kid.4.ZeroHearts":"You're not pretty.$3",
+	"Kid.4.Mon":"future update",
+	"Kid.4.Tue":"future update",
+	"Kid.4.Wed":"future update",
+	"Kid.4.Thu":"future update",
+	"Kid.4.Fri":"future update",
+	"Kid.4.Sat":"future update",
+	"Kid.4.Sun":"future update",
+	"Kid.4.923":"future update",
 		
 //Movies Still being worked on	  I need to actually see the movies
   "MovieInvite1": "This is going to be so much fun!$1#$b#I wonder what's playing.",
   "MovieInvite2": "You're taking me to the movies?$#b#Sounds fun.$1",
+	"MovieInvite3": "future update",
+	"MovieInvite4": "future update",
 	
 	"movies.BLS.kid1.before": "MOVIE! MOVIE! MOVIE!$1",
 	"movies.BLS.kid1.during.1":"", //child name is coded between this line and the next. This is so translations that need the childs name not at the begining can have it.
@@ -366,7 +452,7 @@
 	//Elliott
  "Kid.1.wintergiftElliott":"a story about a little explorer., a story about a knight., a story about pirates., a space story.",
  	"Kid.2.Elliott.summer11":"Did Dad really live in that old shack?",
- 	"Kid.2.Elliott.winter8": "Why are you and Dad are competing against each other?$3",
+ 	"Kid.2.Elliott.winter8": "Why are you and Dad competing against each other?$3",
 	
 	//Harvey
  "Kid.1.wintergiftHarvey":"a model plane., a doctor playset.",
@@ -383,7 +469,7 @@
 	"kid.2.Sebastian.Rain":"Grandpa Demetrius asked me to collect rain water from the farm for him.#$e#I wonder what he's doing with it?$3",
 	
 	//Shane
- "Kid.1.wintergiftShane":"a baby blue chick.",
+ "Kid.1.wintergiftShane":"a baby blue chick., a baby blue chick.",
 	"kid.2.summer11Shane":"Aunt Marnie said when I'm bigger, she'll let me stir the potion.#$b#I mean soup.$3",
 		
 	//Abigail	
@@ -392,10 +478,10 @@
  "Kid.1.wintergiftAbigail":"a wooden sword., a video game.",
    	
 	//Emily		
-	"Kid.1.spring13Emily":"I spent all morning helping Mommy color eggs.$4",
  "Kid.1.wintergiftEmily":"healing crystals., new clothes.",
 	  "kid.1.Emily.923.1": "The parrot isn't Mommies pet, but her friend.#$e#And I'm not allowed to pet friends.$4",
 	  "kid.2.Emily.923.1": "Mom has a lot of crystals, but they're not magical.$3",
+	"Kid.3.spring13Emily": "I got up really early to color eggs with Mama.$4",
 	
 	//Haley
 	"Kid.1.spring24Haley":"Mommy looks really pretty today.",
@@ -408,7 +494,6 @@
  "Kid.1.wintergiftLeah":"a coloring book., a bunch of paints and a canvas., a wooden toy car., a funny looking wood carving.",
 	"kid.1.Leah_AcceptGift_(O)Muffin": "YAY! A muffin!$1#$e#Mommy really loves muffins to.",
 
-
 	//Maru
  "Kid.1.wintergiftMaru":"a little robot., a chemistry kit.",
 	"kid.1.Maru.Rain":"Grandma's Spaghetti is super yummy.$1",
@@ -420,5 +505,6 @@
   "Kid.1.Penny.school.000": "Mommy said I can't go outside until after class.$4",
   "Kid.1.Penny.school.002": "How many books are there?$3#$e#When I finish one, Mommy just gives me another.$4",
   "Kid.1.Penny.school.004": "If I fall asleep in class, Mommy will give me more homework.$4",
-	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made use practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., Frogs!$1#$b#They lay eggs just like chickens and the babies are called tadpoles., Mom gave me extra homework because I fell asleep.$5",
+	 "Kid.1.Penny.Fri.1": "Mommy made us do math problems.$4, We read a story about a princess knight that slayed an evil lich.$1, Mommy made us practice our writing skills.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., We're learning Spanish. Uno dos tres means one two three., I learnt rainbows are made of light not candy., We learnt a bunch of animal facts.#$b#Bears sleep all winter because not enough food grows in the cold., We learnt a bunch of animal facts.#$b#Frogs lay eggs just like chickens and the babies are called tadpoles., We learnt a bunch of animal facts.#$b#Cheetas are the fastest land animals." ,
+	"Kid.4.spring13Penny": "Grandma wont let me have any punch.$2"
 	}

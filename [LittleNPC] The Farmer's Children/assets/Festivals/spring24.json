@@ -16,15 +16,15 @@
   "TextOperations": [
 {"Operation": "Append",
  		 "Target": ["Entries", "Set-Up_additionalCharacters"],
- 		 "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 19 25 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 7 34 2/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 13 34 2/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 15 34 3",
+ 		 "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 4 30 1/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 7 34 2/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 9 20 3/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 19 31 2",
   "Delimiter": "/"},
 {"Operation": "Append",
  		 "Target": ["Entries", "MainEvent_additionalCharacters"],
- 		 "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 21 24 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 9 30 0",
+ 		 "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 21 24 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 7 30 0/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 5 32 3/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 22 34 3",
   "Delimiter": "/"},
 {"Operation": "Append",
        "Target": ["Fields", "set-up", 5],
-       "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 0 0 1 1 2 2 3 3 4 8 8 9 9 10 10 11 11 12 16 17 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 17 16 16 16",
+       "Value": "/animate {{Candidus42.LittleNPCs/FourthLittleNPC:Name}} false true 100 0 0 1 1 2 2 3 3 4 8 8 9 9 10 10 11 11 12 16 17 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 17 16 16 16",
   "Delimiter": "/"},
 
 {"Operation": "Append",

@@ -39,7 +39,7 @@
 
 {"Action": "EditData",
 "Target": "Data/NPCGiftTastes",
-"Entries": {"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.3.gift.love}}/608 223 233 243 612 FairyBox FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Highland_Butterwort Rafseazz.RSVCP_Forest_Halva/{{i18n:Kid.3.gift.like}}/-80 206 211 224 731/{{i18n:Kid.3.gift.dislike}}/-2 -79 342/{{i18n:Kid.3.gift.hate}}/alcohol_item -20 -19 -81 -75 614 446 74 Rafseazz.RSVCP_Matcha_Latte FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Kid.3.gift.neutral}}/-8 -6 -5 -7 428 432 -4 167/"},},
+"Entries": {"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.3.gift.love}}/564 608 223 233 243 612 FairyBox FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Highland_Butterwort Rafseazz.RSVCP_Forest_Halva/{{i18n:Kid.3.gift.like}}/-80 206 211 224 731/{{i18n:Kid.3.gift.dislike}}/-2 -79 342/{{i18n:Kid.3.gift.hate}}/alcohol_item -20 -19 -81 -75 614 446 74 Rafseazz.RSVCP_Matcha_Latte FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Kid.3.gift.neutral}}/-8 -6 -5 -7 428 432 -4 167/"},},
 
  {"Action": "EditData",
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",

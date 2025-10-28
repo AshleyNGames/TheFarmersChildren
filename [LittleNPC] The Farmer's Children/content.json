@@ -27,11 +27,12 @@
 "FromFile": "assets/Loads/schedule.json"},
 
 {"Action": "Include",
-	"When":{"HasMod|contains=Rafseazz.RSVCP": false, "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false},
+	"When":{"HasMod|contains=Rafseazz.RSVCP": false},
 "FromFile": "assets/Festivals/spring13.json"},
 {"Action": "Include",
-	"When":{"HasMod|contains=Rafseazz.RSVCP": false, "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false},
 "FromFile": "assets/Festivals/spring24.json"},
+{"Action": "Include",
+"FromFile": "assets/Festivals/summer11.json"},
   
 {"Action": "Include",
 "FromFile": "assets/1st Child/Load.json"},

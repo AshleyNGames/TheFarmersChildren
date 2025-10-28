@@ -1,5 +1,4 @@
-{  "Changes":  [ 	 
-	
+{  "Changes":  [
 {"Action": "EditData",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
 	"Entries": {  
@@ -9,6 +8,5 @@
 		"Sun4": "{{i18n:kid.1.Alex.Sun}}",
 		"Sun6": "{{i18n:kid.1.Alex.Sun}}",
 		"Sun8": "{{i18n:kid.1.Alex.Sun}}",
-		"Sun10": "{{i18n:kid.1.Alex.Sun}}",
-	}},
+		"Sun10": "{{i18n:kid.1.Alex.Sun}}"	}}
 ]}

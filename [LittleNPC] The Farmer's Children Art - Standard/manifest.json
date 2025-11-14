@@ -1,7 +1,7 @@
 { "Name": "NPC The Farmer's Children Art Standard Edition",
   "Author": "xiddav",
   "Description": "A LittleNPCs mod. The Art Part! Standard edition. Not seasonal. Do not take after parents.",
-  "Version": "5.0.0-ArtStandard",
+  "Version": "5.1.0-ArtStandard",
   "UniqueID": "xiddav.NPCChildrenART",
   "UpdateKeys": [ "Nexus:5436@Standard" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
@@ -9,5 +9,5 @@
   "Dependencies": [
 {"UniqueID": "Candidus42.LittleNPCs",
 	"IsRequired": true,
-   "MinimumVersion": "2.1.0"},
+   "MinimumVersion": "2.2-Beta"},
   ]}

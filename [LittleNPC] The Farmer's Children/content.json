@@ -33,6 +33,8 @@
 "FromFile": "assets/Festivals/spring24.json"},
 {"Action": "Include",
 "FromFile": "assets/Festivals/summer11.json"},
+{"Action": "Include",
+"FromFile": "assets/Festivals/summer28.json"},
   
 {"Action": "Include",
 "FromFile": "assets/1st Child/Load.json"},

@@ -360,18 +360,21 @@
 	"Kid.3.Sat":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.3.Sun":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.3.923":"{Hi Dad.^Hi Mom.^Hi Par.}",
+	"Kid.3.Resort":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	
 //kid 4
 "Kid.4.Introduction": "...Hello?$3",
 "Kid.4.ZeroHearts":"Huh?$3",
-	"Kid.4.Mon":"{Hi Dad.^Hi Mom.^Hi Par.}",
+	"Kid.4.Mon":"{Hi Dad.^Hi Mom.^Hi Par.}",	
 	"Kid.4.Tue":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.4.Wed":"{Hi Dad.^Hi Mom.^Hi Par.}",
-	"Kid.4.Thu":"{Hi Dad.^Hi Mom.^Hi Par.}",
+	"Kid.4.Thu":"{Hi Dad.^Hi Mom.^Hi Par.}",	
+		"Kid.4.Thu.1": "I found this in the woods. You can have it.",
 	"Kid.4.Fri":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.4.Sat":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.4.Sun":"{Hi Dad.^Hi Mom.^Hi Par.}",
 	"Kid.4.923":"{Hi Dad.^Hi Mom.^Hi Par.}",
+	"Kid.4.Resort":"{Hi Dad.^Hi Mom.^Hi Par.}",
 		
 //Movies Still being worked on	  I need to actually see the movies
   "MovieInvite1": "This is going to be so much fun!$1#$b#I wonder what's playing.",

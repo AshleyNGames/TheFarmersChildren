@@ -1,10 +1,9 @@
-{  "Changes":  [ 	 
+{  "Changes":  [
 {"Action": "EditData",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
-	"Entries": {  
-		"Introduction":	"{{i18n:Kid.3.Introduction}}",
-"Sun": "{{i18n:Kid.3.ZeroHearts}}",
-		"Sun2": "{{i18n:Kid.3.Sun}}",
+	"Entries": {
+		"Introduction":	"{{i18n:Kid.3.Introduction}}",		
+"Resort": "{{i18n:Kid.3.Resort}}",
 "Mon": "{{i18n:Kid.3.ZeroHearts}}",
  		"Mon2": "{{i18n:Kid.3.Mon}}",
 "Tue": "{{i18n:Kid.3.ZeroHearts}}",
@@ -17,6 +16,7 @@
  		"Fri2": "{{i18n:Kid.3.Fri}}",
 "Sat": "{{i18n:Kid.3.ZeroHearts}}",
 		"Sat2": "{{i18n:Kid.3.Sat}}",
-"Resort": "{{i18n:Kid.3.Resort}}",
+"Sun": "{{i18n:Kid.3.ZeroHearts}}",
+		"Sun2": "{{i18n:Kid.3.Sun}}",
 }},
 ]}

@@ -2,7 +2,8 @@
 {"Action": "EditData",
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
 	"Entries": {
-		"Introduction":	"{{i18n:Kid.4.Introduction}}",
+		"Introduction":	"{{i18n:Kid.4.Introduction}}",	
+		"GreenRain":"{{i18n:Kid.4.GreenRain}}",	
 "Resort": "{{i18n:Kid.4.Resort}}",
 "Mon": "{{i18n:Kid.4.ZeroHearts}}",
  		"Mon2": "{{i18n:Kid.4.Mon}}",

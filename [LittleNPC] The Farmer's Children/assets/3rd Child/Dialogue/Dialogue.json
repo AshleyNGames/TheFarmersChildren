@@ -3,6 +3,7 @@
 "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
 	"Entries": {
 		"Introduction":	"{{i18n:Kid.3.Introduction}}",		
+		"GreenRain":"{{i18n:Kid.3.GreenRain}}",	
 "Resort": "{{i18n:Kid.3.Resort}}",
 "Mon": "{{i18n:Kid.3.ZeroHearts}}",
  		"Mon2": "{{i18n:Kid.3.Mon}}",

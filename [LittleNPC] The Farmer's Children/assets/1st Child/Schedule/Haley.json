@@ -1,5 +1,5 @@
 {  "Changes":  [  
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
-"Entries": { "rain2": "a1200 HaleyHouse 5 7 0 square_5_5 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Maru.Rain\"/1510 Saloon 23 20 0 square_3_3"}},
+"Entries": { "rain2": "a1200 HaleyHouse 5 7 0 square_5_5 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Haley.Rain\"/1510 Saloon 23 20 0 square_3_3"}},
 ]}

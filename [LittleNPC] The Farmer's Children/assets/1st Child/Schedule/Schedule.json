@@ -75,7 +75,7 @@
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
   "When": {  "HasSeenEvent": "8357109"},
-"Entries": {"9": "630 Mountain 63 21 child_fish/1330 JojaMart 23 8 2 wave_arms/1430 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\"/1720 Town 63 16 2 wave_arms"}},
+"Entries": {"9": "630 Mountain 63 21 child_fish/1330 JojaMart 23 8 2 wave_arms/1600 JojaMart 22 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Joja.000\""}},
 
 //First child Community Center Finished
 {"Action": "EditData",

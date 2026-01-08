@@ -10,7 +10,7 @@
 	"winter_Sun":"MAIL saloonSportsRoom/GOTO winter_Sun_normal/740 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1110 Saloon 31 6 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Alex.000\"/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
 	"summer_Sun":"GOTO Sun",	
 	"Sun_normal": "730 Town 37 68 2 child_ball/1010 Seedshop 37 22 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Alex.001\"/1400 Town 63 16 2 wave_arms",
-	"winter_Sun_normal": "730 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1010 Seedshop 37 22 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Alex.001\"/1400 Town 63 16 2 wave_arms",},},		
+	"winter_Sun_normal": "730 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1010 Seedshop 37 22 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Kid.1.Alex.001\"/1400 Town 63 16 2 wave_arms"}},		
 
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",

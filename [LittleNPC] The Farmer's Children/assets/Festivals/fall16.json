@@ -27,7 +27,7 @@
   "TextOperations": [
   {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 20 31 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 57 69 1/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 24 79 0/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 25 79 0",
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 20 31 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 57 69 1/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 38 79 3/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 38 78 3",
   "Delimiter": "/"  } ,
   {   "Operation": "Append",
    "Target": ["Fields", "set-up_y2", 5],

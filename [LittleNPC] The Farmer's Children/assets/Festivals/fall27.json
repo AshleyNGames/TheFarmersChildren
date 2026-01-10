@@ -1,0 +1,25 @@
+{     "Changes": [
+{"Action": "EditData",
+"Target": "Data/Festivals/fall27",
+"Entries": {  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": "{{i18n:Kid.1.fall.27.y1}}",
+			  "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_y2": "{{i18n:Kid.1.fall.27.y2}}",
+			"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.fall.27.y1}}",
+             "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_y2": "{{i18n:Kid.2.fall.27.y2}}",
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:Kid.3.fall.27.y1}}",
+             "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.3.fall.27.y2}}",
+	"{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}": "{{i18n:Kid.4.fall.27.y1}}",
+             "{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}_y2": "{{i18n:Kid.4.fall.27.y2}}"}},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/fall27",
+  "TextOperations": [
+{  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 37 14 0/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 26 63 2/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 25 53 2/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 31 32 1",
+  "Delimiter": "/"  },
+{  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+  "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 18 41 1/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 17 66 0/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 28 54 1/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 10 66 0",
+  "Delimiter": "/"  },
+  ]}
+]}

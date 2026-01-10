@@ -3,6 +3,7 @@
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
 "Entries": {
 	"rain": "800 Saloon 34 20 0",
+	"Greenrain": "GOTO rain",
 "Mon": "730 Town 16 16 child_ball",
 "Tue": "700 Town 16 16 child_ball/a1120 ArchaeologyHouse 16 11 child_read/1410 Town 16 16 child_ball",
 "Wed": "GOTO Tue",

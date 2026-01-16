@@ -1,0 +1,5 @@
+{     "Changes": [
+{"Action": "EditData",
+"Target": "Data/Festivals/winter8",
+"Entries": {"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_y2": "{{i18n:Kid.3.winter.8.y2.Leah}}"}},
+]}

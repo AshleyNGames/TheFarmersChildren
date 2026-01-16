@@ -39,6 +39,10 @@
 "FromFile": "assets/Festivals/fall16.json"},
 {"Action": "Include",
 "FromFile": "assets/Festivals/fall27.json"},
+{"Action": "Include",
+"FromFile": "assets/Festivals/winter8.json"},
+{"Action": "Include",
+"FromFile": "assets/Festivals/winter25.json"},
   
 {"Action": "Include",
             "FromFile": "assets/1st Child/Dialogue/Dialogue.json"}, 

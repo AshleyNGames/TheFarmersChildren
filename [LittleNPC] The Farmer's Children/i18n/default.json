@@ -97,7 +97,7 @@
 		"Kid.1.fall.16.y2": "I'm going to pet all the animals.$1#$b#The fish tent is next.",    
     "Kid.1.fall.27.y1": "Here kitty kitty. I got ham for you.",
 		"Kid.1.fall.27.y2": "The maze is really confusing.$3",
-    "Kid.1.winter.8.y1": "Why can't I enter the competition to?$3", 
+    "Kid.1.winter.8.y1": "Mayor Lewis said I can join the contest.$1",
     	"Kid.1.winter.8.y2": "So many fishies!#$b#I want to catch them all!$1",    
     "Kid.1.winter.25.y1": "I love all the things you got me, but a secret gift giver is so exciting.#$b#I wonder who it is?",
    		"Kid.1.winter.25.y2": "There are so many presents!$1",
@@ -117,8 +117,8 @@
     	"Kid.2.fall.16.y2": "I ate so many ribs.$4#$b#My belly hurts, but I want more.$2",
 	"Kid.2.fall.27.y1": "Everyone keeps giving me candy.$3#$b#This is the best festival ever, of all time.$h",
 		"Kid.2.fall.27.y2": "...Monsters.$s",
-    "Kid.2.winter.8.y1": "We're building a snowman.#$b#I got the head.",
-    	"Kid.2.winter.8.y2": "The ice mermaid is so cool.#$e#How do they do it?$3",
+    "Kid.2.winter.8.y1": "This is my friend Snowy.$1",
+    	"Kid.2.winter.8.y2": "It warmer inside then you'd think.$2",
     "Kid.2.winter.25.y1": "It's so cold!$4#$b#Is there any hot coco?$3",
     	"Kid.2.winter.25.y2": "It's so cold!$4#$b#Is there any hot coco?$3",
 	
@@ -134,8 +134,8 @@
 	 	"Kid.3.fall.16.y2": "future update",
 	"Kid.3.fall.27.y1": "future update",
 	 	"Kid.3.fall.27.y2": "I helped carve some of the jack-o-lanterns.",
-	"Kid.3.winter.8.y1": "future update",
-	 	"Kid.3.winter.8.y2": "future update",
+	"Kid.3.winter.8.y1": "The ice sculptures are so pretty!$1",
+	 	"Kid.3.winter.8.y2": "Mrs.Robin and Ms.Leah both said I'm to little for ice art.",
 	"Kid.3.winter.25.y1": "future update",
 	 	"Kid.3.winter.25.y2": "future update",
 	
@@ -151,8 +151,8 @@
 	 	"Kid.4.fall.16.y2": "future update",
 	"Kid.4.fall.27.y1": "future update",
 	 	"Kid.4.fall.27.y2": "future update",
-	"Kid.4.winter.8.y1": "future update",
-	 	"Kid.4.winter.8.y2": "future update",
+	"Kid.4.winter.8.y1": "We're building a snowman.#$b#I got the head.",
+	 	"Kid.4.winter.8.y2": "I want to build a giant snowman!$1",
 	"Kid.4.winter.25.y1": "future update",
 	 	"Kid.4.winter.25.y2": "future update",
 	
@@ -229,8 +229,8 @@
 "Kid.1.Tue.1": "~Baa baa black sheep have you any wool?~#$b#~Yes sir yes sir three bags full~, ~Mary had a little lamb little lamb little lamb~#$b#~Mary had a little lamb whose fleece was white as snow.~#$e#~And everywhere that Mary went Mary went Mary went~#$b#~And everywhere that Mary went the lamb was sure to go., ~Old Ms. Marnie had a farm E I E I O. And on her farm she had a cow E I E I O~, ~The farmer's in his den. The farmer's in his den~, ~The sheep’s in the meadow. The cow’s in the corn.~",
   "Kid.1.923":"I don't have school today.$1",
 "Kid.1.Wed.1": "I saw a mouse wearing a hat., I saw a unicorn in the forest!$1, I saw a UFO last night!, I saw a mermaid on the beach!$1, I saw a dragon in the distance!$1, I saw a witch flying over the mountains!, I saw a leprechaun on a train!$1, I saw a fairy near the crops!$1, I saw a pink sheep!$1, I saw a doggy in town!$1, I saw something moving in the sewers!$2, There was a really big hairy man in the the forest!$2, I saw someone throwing rocks at the tent in the mountains.$5", 
-"Kid.1.Thu.0": "${Hi Daddy!$1^Hi Mommy!$1^Hi Parpar!$1}",
-	"Kid.1.Thu.1": "${Hi Daddy!$1^Hi Mommy!$1^Hi Parpar!$1}#$b#Fishing is so much fun.$1",
+"Kid.1.Thu.0": "${Hi Daddy!$1^Hi Mommy!$1^Hi Parpar!$1}$",
+	"Kid.1.Thu.1": "${Hi Daddy!$1^Hi Mommy!$1^Hi Parpar!$1}$#$b#Fishing is so much fun.$1",
 "Kid.1.Fri.0": "%What did you do at school this week",
 	 "Kid.1.Fri.1": "We did lots of math problems.$3, We read a story about a princess knight that slayed an evil lich.$1, We practiced writing.$4, I played with Jas and Vincent the whole time., We learned about the planets in the solar system., Nothing really. I was bored the whole time.$3, We're learning Spanish. Uno dos tres means one two three., I don't know.#$b#I wasn't paying attention., I learnt rainbows are made of light not candy., We learnt a bunch of animal facts.#$b#Bears sleep all winter because not enough food grows in the cold., We learnt a bunch of animal facts.#$b#Frogs lay eggs just like chickens and the babies are called tadpoles., We learnt a bunch of animal facts.#$b#Cheetas are the fastest land animals." ,
 "Kid.1.Sat.0": "Saturday morning cartoons are the best.#$b#",
@@ -364,7 +364,7 @@
 	"Kid.4.Mon":"${Hi Dad.^Hi Mom.^Hi Par.}$",	
 	"Kid.4.Tue":"${Hi Dad.^Hi Mom.^Hi Par.}$",
 	"Kid.4.Wed":"${Hi Dad.^Hi Mom.^Hi Par.}$",
-	"Kid.4.Thu":"${Hi Dad.^Hi Mom.^Hi Par.}$",	
+	"Kid.4.Thu.0":"${Hi Dad.^Hi Mom.^Hi Par.}$",
 		"Kid.4.Thu.1": "I found this in the woods. You can have it.",
 	"Kid.4.Fri":"${Hi Dad.^Hi Mom.^Hi Par.}$",
 	"Kid.4.Sat":"${Hi Dad.^Hi Mom.^Hi Par.}$",
@@ -492,11 +492,13 @@
 	//Leah
  "Kid.1.wintergiftLeah":"a coloring book., a bunch of paints and a canvas., a wooden toy car., a funny looking wood carving.",
 	"kid.1.Leah_AcceptGift_(O)Muffin": "YAY! A muffin!$1#$e#Mommy really loves muffins to.",
+	"Kid.3.winter.8.y2.Leah": "Mom said I'm too little too carve ice blocks.$2",
 
 	//Maru
  "Kid.1.wintergiftMaru":"a little robot., a chemistry kit.",
 	"kid.1.Maru.Rain":"Grandma's Spaghetti is super yummy.$1",
 	"kid.2.Maru.Rain":"Grandpa asked me to collect rain water from the farm for him.#$e#I wonder what he's doing with it?$3",
+	"Kid.3.winter.8.y2.Maru.or.Sebastian": "Grandma said I'm too little too carve ice blocks.$2",
 
 	//Penny	
  "Kid.1.wintergiftPenny":"a book., a book., a book.",

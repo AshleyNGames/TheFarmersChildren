@@ -58,6 +58,7 @@
        "Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
        "Entries": {	 
 		   		"AcceptGift_(O)StardropTea": "{{i18n:Kid.4_AcceptGift_(O)StardropTea}}",
+		   		"AcceptGift_(O)BasiliskPaw": "{{i18n:Kid.4_AcceptGift_(O)BasiliskPaw}}",
                 "AcceptGift_(O)223": "{{i18n:Kid.4_AcceptGift_(O)Cookies}}",
 	    "AcceptGift_alcohol_item": "{{i18n:Kid.4_AcceptGift_alcohol_item}}",
                 "AcceptGift_(O)74": "{{i18n:Kid.4_AcceptGift_(O)74}}"}},

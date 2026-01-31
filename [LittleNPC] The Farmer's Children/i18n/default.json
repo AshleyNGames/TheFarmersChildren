@@ -58,7 +58,7 @@
 	"Kid.1_AcceptGift_(TR)FrogEgg": "A frog egg?$3#$b#I'm going to have my very own pet frog!$1",
 	"Kid.2_AcceptGift_(TR)IceRod": "This is awesome!#$b#A real magic rod of my own!$1",
 	"Kid.3_AcceptGift_(TR)FairyBox": "There's a real live fairy in this box?$2#$b#I'm going to name her Glitter!$1",
-	"Kid.4_AcceptGift_(TR)": "future update",
+	"Kid.4_AcceptGift_(TR)BasiliskPaw": "That's so creepy.$1",
 
 //friends and family
 	"Friend.k": "friend",
@@ -207,7 +207,6 @@
   "Kid.2.springseed.000": "Hmmm... potatoes or kale?$3",
   "Kid.2.summerseed.000": "Corn crops live a lot longer than most other plants.",
   "Kid.2.fallseed.000": "Bees love Fairy Rose.#$b#So does Jas and Granny.",
-	"Kid.2.magic.000": "I'm learning lots from the Wizard.#$b#See?$6",
   "Kid.2.town.002": "Can I have an ice cream please?#$b#With sprinkles.$1",
   "Kid.2.Resort.1": "Can I go to the dig site?$3",
   "Kid.2.Resort.2": "Is the volcano going to erupt?$2",
@@ -275,6 +274,7 @@
 //kid 2
 "Kid.2.Introduction": "...Hi?$3",
 "Kid.2.ZeroHearts":"...$3",
+	"Kid.2.WizardTower": "I'm learning lots from the Wizard.#$b#See?$6, Magic is so cool., The Wizard said I can't learn offensive spells until I've mastered barrier magic first.",
 	
  	 "Kid.2.Mon.1": "${Hey Dad?^Hey Mom?^Hey Par?}$#$b#How do you keep bees?",
  	 "Kid.2.Mon.2": "${Hey Dad?^Hey Mom?^Hey Par?}$#$b#Can you teach me how to plant crops?",

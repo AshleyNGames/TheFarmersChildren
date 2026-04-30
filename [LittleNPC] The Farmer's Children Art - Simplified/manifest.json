@@ -1,0 +1,13 @@
+{
+  "Name": "NPC The Farmer's Children Art Simple Edition",
+  "Author": "xiddav",
+  "Description": "Art for the four NPC children created by LittleNPC.",
+  "Version": "5.1.0-Art",
+  "UniqueID": "xiddav.NPCChildrenART",
+  "UpdateKeys": [ "Nexus:5436@Simple" ],
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+{"UniqueID": "Candidus42.LittleNPCs",
+	"IsRequired": true,
+   "MinimumVersion": "2.2-Beta"},
+]}

@@ -68,8 +68,8 @@
 "Sat": "830 Town 36 89 2 child_fidget/1200 Town 19 16 2 child_ball \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Ball.000\"/1530 Town 16 19 2 square_4_4/1700 Town 29 90 3",
 "Sun_normal": "740 Town 37 68 2 child_ball \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Ball.000\"/1030 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"/1600 Town 63 16 2 wave_arms",
 	"Sun":"MAIL saloonSportsRoom/GOTO Sun_normal/730 Town 37 68 2 child_ball \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Ball.000\"/1120 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl",
-	"summer_Sun": "MAIL saloonSportsRoom/GOTO summer_Mon/730 Town 37 68 2 child_ball \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Ball.000\"/1120 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl",
-	"winter_Sun":"MAIL saloonSportsRoom/GOTO winter_Mon/740 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1110 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
+	"summer_Sun": "MAIL saloonSportsRoom/GOTO Mon/730 Town 37 68 2 child_ball \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:Ball.000\"/1120 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl",
+	"winter_Sun":"MAIL saloonSportsRoom/GOTO winter_9/740 Town 32 78 1 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:winter.001\"/1110 Saloon 31 6 1/1500 Saloon 34 17 2 child_fidget/1650 Town 56 69 0 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:town.003\"",
 "DesertFestival_1": "800 Desert 43 31 3"}},
 
 {"Action": "EditData",

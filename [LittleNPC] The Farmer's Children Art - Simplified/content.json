@@ -1,0 +1,71 @@
+{ "Format": "2.9.0",
+	 "ConfigSchema":{
+		 "Skin":{	"Default": "Default", "AllowValues": "Default, Dark, Custom"},
+		 "Stlye":{"Default":"Vanilla", "AllowValues": "Vanilla, Nyapu, custom"}
+	 },
+"Changes":  [ 	
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Portraits/1st/{{Style}}{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}_{{Skin}}.png"},
+	
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Portraits/2nd/{{Style}}{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}_{{Skin}}.png"},
+
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Portraits/3rd/{{Style}}{{Candidus42.LittleNPCs/ThirdLittleNPC:Gender}}_{{Skin}}.png"},
+
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Portraits/4th/{{Style}}{{Candidus42.LittleNPCs/FourthLittleNPC:Gender}}_{{Skin}}.png"},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Characters/1st/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}_{{Skin}}.png"},
+	
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Characters/2nd/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}_{{Skin}}.png"},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Characters/3rd/{{Candidus42.LittleNPCs/ThirdLittleNPC:Gender}}_{{Skin}}.png"},
+	
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}, Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Beach", 
+      "FromFile": "assets/Characters/4th/{{Candidus42.LittleNPCs/FourthLittleNPC:Gender}}_{{Skin}}.png"},
+
+//Winter
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Portraits/1st/{{Style}}{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+	
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Portraits/2nd/{{Style}}{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Portraits/3rd/{{Style}}{{Candidus42.LittleNPCs/ThirdLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+
+{      "Action": "Load",
+      "Target": "Portraits/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Portraits/4th/{{Style}}{{Candidus42.LittleNPCs/FourthLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Characters/1st/{{Candidus42.LittleNPCs/FirstLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+	
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Characters/2nd/{{Candidus42.LittleNPCs/SecondLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Characters/3rd/{{Candidus42.LittleNPCs/ThirdLittleNPC:Gender}}_{{Skin}}_Winter.png"},
+	
+{      "Action": "Load",
+      "Target": "Characters/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}_Winter", 
+      "FromFile": "assets/Characters/4th/{{Candidus42.LittleNPCs/FourthLittleNPC:Gender}}_{{Skin}}_Winter.png"}
+ ]}

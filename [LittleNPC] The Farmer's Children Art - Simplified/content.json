@@ -1,7 +1,7 @@
 { "Format": "2.9.0",
 	 "ConfigSchema":{
 		 "Skin":{	"Default": "Default", "AllowValues": "Default, Dark, Custom"},
-		 "Stlye":{"Default":"Vanilla", "AllowValues": "Vanilla, Nyapu, custom"}
+		 "Style":{"Default":"Vanilla", "AllowValues": "Vanilla, Nyapu, custom"}
 	 },
 "Changes":  [ 	
 {      "Action": "Load",

@@ -1,15 +1,15 @@
 {
   "Name": "LittleNPC - The Farmer's Children",
   "Author": "xiddav",
-  "Description": "A LittleNPCs content pack made by Xiddav over the past 5 years.",
-  "Version": "5.1.0-beta",
+  "Description": "A LittleNPCs content pack made by xiddav",
+  "Version": "5.1.0-beta.1",
   "UniqueID": "xiddav.NPCChildren",
   "UpdateKeys": [ "Nexus:5436@FarmersChildren" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
   "Dependencies": [
 {"UniqueID": "Candidus42.LittleNPCs",
 	  "IsRequired": true,
-   "MinimumVersion": "2.2-beta"},
+   "MinimumVersion": "2.2.1"},
 {"UniqueID": "FlashShifter.StardewValleyExpandedCP",
    "IsRequired": false},
 {"UniqueID": "Rafseazz.RSVCP",

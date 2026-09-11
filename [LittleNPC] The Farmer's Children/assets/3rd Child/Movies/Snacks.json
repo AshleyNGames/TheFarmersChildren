@@ -7,12 +7,11 @@
   "Name": "{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}",
   "LovedTags":   ["Candy", "Sweet", "Salty" ] ,
   "LikedTags":[ "Joja", "Gourmet"  ]  ,
-  "DislikedTags":[ "Healthy"  ]  ,  },},},
+  "DislikedTags":[ "Healthy"  ] }}},
 
 {  "Action": "EditData",
    "Target": "Strings/Characters",
    "Entries": { 
   "MovieInvite_{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": "{{i18n:MovieInvite1}}"},},
-
 
 ]}

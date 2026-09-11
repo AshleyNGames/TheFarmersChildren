@@ -90,7 +90,7 @@
                                "DuringMovie": {
                                     "ResponsePoint": null, 
                                     "Script": "/message \"{{i18n:movies.Mysterium.kid1.during.1}}{{Candidus42.LittleNPCs/ThirdLittleNPC:DisplayName}}{{i18n:movies.Mysterium.kid1.during.2}}\"",
-                                    "Text": ""  },
+                                    "Text": "/shake"  },
                                "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",

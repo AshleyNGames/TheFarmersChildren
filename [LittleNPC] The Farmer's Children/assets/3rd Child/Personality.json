@@ -1,0 +1,460 @@
+{  "Changes":  [
+ {  "Action": "EditData",
+    "Target": "Data/Characters",
+    "Entries": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {	
+		"DisplayName":"{{Candidus42.LittleNPCs/ThirdLittleNPC:DisplayName}}",
+		"Age": "2",
+		"Manner": "Rude",
+		"SocialAnxiety": "Shy",
+		"Optimism": "Neutral",
+		"HomeRegion":"Town",
+		 "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": -1,
+            "HiddenProfileEmoteStartFrame": 36,
+            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteFrameDuration": 200,
+		"FriendsAndFamily":{
+			"Jas": "[LocalizedText Strings\\Characters:Relative_Friend_Jas]",
+			"Vincent": "[LocalizedText Strings\\Characters:Relative_Friend_Vincent]",
+			"Penny": "[LocalizedText Strings\\Characters:Teacher]"}}}},
+
+ 
+ //1st
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Male"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/FirstLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_BigBrother]"
+		}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/FirstLittleNPC:Gender":"Female"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/FirstLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_BigSister]"
+		}}}},
+//2nd
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Male"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/SecondLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_BigBrother]"
+		}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/SecondLittleNPC:Gender":"Female"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/SecondLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_BigSister]"
+		}}}},
+
+//4th
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/FourthLittleNPC:Gender":"Male"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/FourthLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_LittleBrother]"
+		}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"Candidus42.LittleNPCs/FourthLittleNPC:Gender":"Female"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Candidus42.LittleNPCs/FourthLittleNPC:Name":"[LocalizedText Strings\\Characters:Relative_LittleSister]"
+		}}}},
+
+//alex
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Alex"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Alex": "[LocalizedText Strings\\Characters:Relative_Dad]" ,
+		"George": "[LocalizedText Strings\\Characters:Relative_GreatGrandpa]",
+		"Evelyn": "[LocalizedText Strings\\Characters:Relative_GreatGrandma]"}}}},
+
+{  "Action": "EditData",
+	"When":{"spouse":"Alex", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Target": "Data/Characters",
+    "Fields": {
+	"Alex": {			
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},
+	"Evelyn":{
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatGranddaughter]"}},
+	"George":{
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatGranddaughter]"}}}},
+
+{  "Action": "EditData",
+	"When":{"spouse":"Alex", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Target": "Data/Characters",
+    "Fields": {
+	"Alex": {			
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},
+	"Evelyn":{
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatGrandson]"}},
+	"George":{
+		"FriendsAndFamily":{"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatGrandson]"}}}},
+
+//elliott
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Elliott"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Elliott":"[LocalizedText Strings\\Characters:Relative_Dad]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Elliott", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Elliott": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Elliott", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Elliott": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}}}},
+
+//Emily
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Emily"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Emily": "[LocalizedText Strings\\Characters:Relative_Mom]",
+			"Haley": "[LocalizedText Strings\\Characters:Relative_Aunt]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Emily", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Emily": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},	
+	"Haley": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Niece]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Emily", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Emily": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},	
+	"Haley": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Nephew]"}}}},
+
+//Haley
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Haley"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Emily": "[LocalizedText Strings\\Characters:Relative_Aunt]",
+			"Haley": "[LocalizedText Strings\\Characters:Relative_Mom]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Haley", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Haley": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},	
+	"Emily": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Niece]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Haley", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Haley": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},	
+	"Emily": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Nephew]"}}}},
+
+//Harvey
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Harvey"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Harvey":"[LocalizedText Strings\\Characters:Relative_Dad]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Harvey", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Harvey": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Harvey", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Harvey": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}}}},
+
+//Leah
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Leah"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Leah":"[LocalizedText Strings\\Characters:Relative_Mom]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Leah", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Leah": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Leah", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Leah": {				
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}}}},
+
+//Maru
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Maru"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Maru":"[LocalizedText Strings\\Characters:Relative_Mom]",
+		"Robin": "[LocalizedText Strings\\Characters:Relative_Grandma]",
+		"Demetrius": "[LocalizedText Strings\\Characters:Relative_Grandpa]",
+			"Sebastian": "[LocalizedText Strings\\Characters:Relative_Uncle]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Maru", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Maru": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},
+	"Robin": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Demetrius": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Sebastian": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Niece]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Maru", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Maru": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},
+	"Robin": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Demetrius": {
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Sebastian": {
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Nephew]"}}}},
+
+//Penny
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Penny"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Penny":"[LocalizedText Strings\\Characters:Relative_Mom]",
+		"Pam": "[LocalizedText Strings\\Characters:Relative_Grandma]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Penny", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Penny": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},
+	"Pam": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Penny", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Penny": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},
+	"Pam": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}}}},
+
+//Sam
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sam"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+			"Vincent": "[LocalizedText Strings\\Characters:Relative_Uncle]",
+		"Sam":"[LocalizedText Strings\\Characters:Relative_Dad]",
+		"Jodi": "[LocalizedText Strings\\Characters:Relative_Grandma]",
+		"Kent": "[LocalizedText Strings\\Characters:Relative_Grandpa]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sam", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Sam": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}},
+	"Jodi": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Kent": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Vincent": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Niece]"}}
+	}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sam", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Sam": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}},
+	"Jodi": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Kent": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Vincent": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Nephew]"}}}},
+
+//Sebastian
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sebastian"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Sebastian": "[LocalizedText Strings\\Characters:Relative_Dad]", 
+		"Robin": "[LocalizedText Strings\\Characters:Relative_Grandma]",
+		"Maru": "[LocalizedText Strings\\Characters:Relative_Aunt]",
+		"Demetrius": "[LocalizedText Strings\\Characters:Relative_Grandpa]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sebastian", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Maru": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Niece]"}},
+	"Robin": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Demetrius": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Granddaughter]"}},
+	"Sebastian": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Sebastian", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Maru": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Nephew]"}},
+	"Robin": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Demetrius": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Grandson]"}},
+	"Sebastian": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}}}},
+
+//Shane
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Shane"},
+    "Fields": {
+	"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}": {			
+		"FriendsAndFamily":{
+		"Shane": "[LocalizedText Strings\\Characters:Relative_Dad]", 
+		"Marnie": "[LocalizedText Strings\\Characters:Relative_GreatAunt]",
+		"Jas": "[LocalizedText Strings\\Characters:Relative_Cousin]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Shane", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Female"},
+    "Fields": {
+	"Marnie": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatNiece]"}},
+	"Jas": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Cousin]"}},
+	"Shane": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Daughter]"}}}},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+	"When":{"spouse":"Shane", "Candidus42.LittleNPCs/ThirdLittleNPC:Gender":"Male"},
+    "Fields": {
+	"Marnie": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_GreatNephew]"}},
+	"Jas": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Cousin]"}},
+	"Shane": {			
+		"FriendsAndFamily":{
+		"{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}}":"[LocalizedText Strings\\Characters:Relative_Son]"}}}}
+]}

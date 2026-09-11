@@ -95,13 +95,13 @@
 {"Action": "EditImage",
       "Target": "Characters/Vincent",
 "Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
-      "FromFile": "assets/Vincent3/Characters.png"},
+      "FromFile": "assets/Vincent2/Characters.png"},
 
 {"Action": "EditImage",
 	"When": {"SEASON":"Winter"},
       "Target": "Characters/Vincent_Winter, Characters/Vincent",
 				"Condition": "PLAYER_HAS_CHILDREN Any 2",
-      "FromFile": "assets/Vincent3/Characters_Winter.png"},
+      "FromFile": "assets/Vincent2/Characters_Winter.png"},
 
 {  "Action": "EditData",
     "Target": "Data/Characters",

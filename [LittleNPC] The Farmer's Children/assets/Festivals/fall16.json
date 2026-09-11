@@ -49,7 +49,7 @@
   "TextOperations": [
   {    "Operation": "Append",
   "Target": ["Entries", "Set-Up_additionalCharacters"],
-  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 48 91 0/{{Candidus42.LittleNPCs/ThirdLittleNPC:Name}} 24 79 0/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}} 38 35 2",
+  "Value": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 48 91 0",
   "Delimiter": "/"  }]},	
 
 { "Action": "EditData",

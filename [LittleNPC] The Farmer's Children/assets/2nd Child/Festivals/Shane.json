@@ -2,7 +2,8 @@
 		
 {"Action": "EditData",
 "Target": "Data/Festivals/summer11",
-"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.summer11Shane}}"},},
+"Entries": { "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": "{{i18n:Kid.2.summer11Shane}}",
+	"{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}_2": "{{i18n:Kid.2.summer11Shane}}"}},
 		
 {"Action": "EditData",
 "Target": "Data/Festivals/spring24",
